@@ -1,2 +1,2 @@
 IMPORTANT: Do not move or open the .pbip file alone.
-It must remain inside this folder alongside the ".Report" and ".Dataset" folders to work correctly.
+It must remain inside this folder alongside the "Brazilian E-commerce overview.Report" and "E-commerce overview.SemanticModel" folders to work correctly.
