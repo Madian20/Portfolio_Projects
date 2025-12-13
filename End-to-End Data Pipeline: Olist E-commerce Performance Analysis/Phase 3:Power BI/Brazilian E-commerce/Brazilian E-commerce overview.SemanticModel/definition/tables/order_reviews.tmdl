@@ -1,0 +1,86 @@
+table order_reviews
+	lineageTag: a880efe9-7178-49ad-9a9e-2d767910cd14
+
+	column review_id
+		dataType: string
+		lineageTag: 91052918-3e21-4ad4-bfc4-c46f10d59394
+		summarizeBy: none
+		sourceColumn: review_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column order_id
+		dataType: string
+		lineageTag: 9663c1f7-dc38-47a7-a4b1-8f41c06ee5d5
+		summarizeBy: none
+		sourceColumn: order_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column review_score
+		dataType: int64
+		formatString: 0
+		lineageTag: fa9a48fb-710a-466a-9a2f-7c6f7f1d332b
+		summarizeBy: sum
+		sourceColumn: review_score
+
+		annotation SummarizationSetBy = Automatic
+
+	column review_comment_title
+		dataType: string
+		lineageTag: f79ab266-c07a-4474-ab73-e51ac68805c6
+		summarizeBy: none
+		sourceColumn: review_comment_title
+
+		annotation SummarizationSetBy = Automatic
+
+	column review_comment_message
+		dataType: string
+		lineageTag: 1d9022d6-8733-4d97-8c83-7d282f9c1e5c
+		summarizeBy: none
+		sourceColumn: review_comment_message
+
+		annotation SummarizationSetBy = Automatic
+
+	column review_creation_date
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 8962329e-97c1-4840-bf33-cef4b6177820
+		summarizeBy: none
+		sourceColumn: review_creation_date
+
+		variation Variation
+			isDefault
+			relationship: b2c035d2-3090-4c08-847b-60ff0f39000a
+			defaultHierarchy: LocalDateTable_73b17d3e-ac61-4b7e-b207-bb9ade1ffe3c.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column review_answer_timestamp
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: c50ec87c-1b11-4550-92af-cd5ace8370c5
+		summarizeBy: none
+		sourceColumn: review_answer_timestamp
+
+		variation Variation
+			isDefault
+			relationship: 0f9c64be-fd94-4207-8ef9-b0745048d172
+			defaultHierarchy: LocalDateTable_03f8e8c1-b783-4950-a723-15b3e69fce19.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	partition order_reviews = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("D:\Full Projects\project4\2\olist_order_reviews_dataset.csv"),[Delimiter=",", Columns=7, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"review_id", type text}, {"order_id", type text}, {"review_score", Int64.Type}, {"review_comment_title", type text}, {"review_comment_message", type text}, {"review_creation_date", type datetime}, {"review_answer_timestamp", type datetime}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

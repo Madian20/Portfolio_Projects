@@ -1,0 +1,64 @@
+table '''measures'''
+	lineageTag: db1df794-e198-4950-bcd9-a9cb2fc1cc0f
+
+	measure 'Total Revenue' = SUM(order_items[price])
+		formatString: "R$"#,0.00;-"R$"#,0.00;"R$"#,0.00
+		lineageTag: 61512a8f-818b-4e48-a91c-45caae3fbee3
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-BR"}
+
+	measure 'Total Orders' = DISTINCTCOUNT(orders[order_id])
+		formatString: "R$"#,0;-"R$"#,0;"R$"#,0
+		lineageTag: 5c4eebda-b4db-4ac3-afca-139b3fba9aca
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-BR"}
+
+	measure 'Star Rating Visual' = ```
+			
+			VAR Score = ROUND(AVERAGE(order_reviews[review_score]), 0)
+			VAR MaxStars = 5
+			RETURN 
+			    REPT("★", Score) & REPT("☆", MaxStars - Score) 
+			    & " (" & FORMAT(AVERAGE(order_reviews[review_score]), "0.0") & ")"
+			```
+		lineageTag: 4480cb5c-9ad5-4a95-9f1a-c5c46014d34a
+
+	measure 'On-Time Delivery %' = ```
+			
+			VAR TotalDelivered = 
+			    CALCULATE(
+			        COUNTROWS('orders'), 
+			        'orders'[order_status] = "delivered"
+			    )
+			
+			VAR OnTimeOrders = 
+			    CALCULATE(
+			        COUNTROWS('orders'), 
+			        'orders'[order_status] = "delivered",
+			        'orders'[order_delivered_customer_date] <= 'orders'[order_estimated_delivery_date]
+			    )
+			
+			RETURN 
+			    DIVIDE(OnTimeOrders, TotalDelivered, 0)
+			```
+		lineageTag: 03371994-65b8-41e5-8530-89b377bfb94d
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Column
+		formatString: 0
+		lineageTag: 15515c27-4f94-4f83-8713-471f190d04ac
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Column]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition '''measures''' = calculated
+		mode: import
+		source = Row("Column", BLANK())
+
+	annotation PBI_Id = 65d3923184674cb19a0862535026beaf
+
+	annotation 436ba87b-9c83-4389-a31b-ebd06a36be98 = {"Expression":""}
+

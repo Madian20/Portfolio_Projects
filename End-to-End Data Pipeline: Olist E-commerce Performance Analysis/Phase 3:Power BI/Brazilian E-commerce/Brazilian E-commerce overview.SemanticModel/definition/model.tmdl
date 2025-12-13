@@ -1,0 +1,35 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: ar-EG
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["customers","geolocation","order_items","order_payments","order_reviews","orders","products","sellers"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table customers
+ref table geolocation
+ref table order_items
+ref table DateTableTemplate_de1e8b6e-f268-47b7-a1c2-619c15b78459
+ref table LocalDateTable_adff14b1-6310-4c66-860b-07737992a06b
+ref table order_payments
+ref table order_reviews
+ref table LocalDateTable_73b17d3e-ac61-4b7e-b207-bb9ade1ffe3c
+ref table LocalDateTable_03f8e8c1-b783-4950-a723-15b3e69fce19
+ref table orders
+ref table LocalDateTable_04a0cfa0-bc47-4a02-9f65-a73c25ba3d6d
+ref table LocalDateTable_6dc79256-cdf3-41a5-b4c9-d8e6bd2381de
+ref table LocalDateTable_132884c3-82fd-4fbf-b5d2-950da6d40013
+ref table LocalDateTable_98c47e8f-f7b4-47fc-9cd9-6421d38e6e77
+ref table LocalDateTable_8a1539e1-676e-405a-a04d-030e7cd59aa3
+ref table products
+ref table sellers
+ref table '''measures'''
+
+ref cultureInfo en-US
+

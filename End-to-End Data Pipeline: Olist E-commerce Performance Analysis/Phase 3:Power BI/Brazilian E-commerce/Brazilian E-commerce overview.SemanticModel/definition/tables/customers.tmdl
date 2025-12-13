@@ -1,0 +1,59 @@
+table customers
+	lineageTag: 98893ab2-ce25-4d2e-afdf-1990507c83d3
+
+	column customer_id
+		dataType: string
+		lineageTag: 384a3891-7768-448c-a8cf-348d93bf5765
+		summarizeBy: none
+		sourceColumn: customer_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column customer_unique_id
+		dataType: string
+		lineageTag: a2189fc5-441e-4df1-a8c8-3f56189b5841
+		summarizeBy: none
+		sourceColumn: customer_unique_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column zip_code_prefix
+		dataType: int64
+		formatString: 0
+		lineageTag: e6cb428e-a272-4041-a204-89877dd3d61d
+		summarizeBy: none
+		sourceColumn: zip_code_prefix
+
+		annotation SummarizationSetBy = Automatic
+
+	column customer_city
+		dataType: string
+		lineageTag: 10938a6f-142f-46a8-b6c1-7657e18a2f2b
+		summarizeBy: none
+		sourceColumn: customer_city
+
+		annotation SummarizationSetBy = Automatic
+
+	column customer_state
+		dataType: string
+		lineageTag: 3fda4ab7-4aee-47ab-aca3-b3eb32f16626
+		summarizeBy: none
+		sourceColumn: customer_state
+
+		annotation SummarizationSetBy = Automatic
+
+	partition customers = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("D:\Full Projects\project4\2\olist_customers_dataset.csv"),[Delimiter=",", Columns=5, Encoding=1256, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"customer_id", type text}, {"customer_unique_id", type text}, {"customer_zip_code_prefix", Int64.Type}, {"customer_city", type text}, {"customer_state", type text}}),
+				    #"Renamed Columns" = Table.RenameColumns(#"Changed Type",{{"customer_zip_code_prefix", "zip_code_prefix"}})
+				in
+				    #"Renamed Columns"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

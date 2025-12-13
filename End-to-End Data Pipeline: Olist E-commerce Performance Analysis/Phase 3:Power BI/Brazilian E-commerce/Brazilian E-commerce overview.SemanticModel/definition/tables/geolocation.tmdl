@@ -1,0 +1,63 @@
+table geolocation
+	lineageTag: aa5046a4-7cb7-4f7c-b0f8-f41557c8935c
+
+	column zip_code_prefix
+		dataType: int64
+		formatString: 0
+		lineageTag: 75a36950-233c-4c84-8068-c49b44d08b8c
+		summarizeBy: none
+		sourceColumn: zip_code_prefix
+
+		annotation SummarizationSetBy = Automatic
+
+	column geolocation_lat
+		dataType: double
+		lineageTag: 586f5760-a77e-447c-aa10-9ee7f82b8742
+		summarizeBy: sum
+		sourceColumn: geolocation_lat
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column geolocation_lng
+		dataType: double
+		lineageTag: c610c332-4b42-4559-8e0f-bfb51e77c87d
+		summarizeBy: sum
+		sourceColumn: geolocation_lng
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column geolocation_city
+		dataType: string
+		lineageTag: 08db851d-f255-4d0b-887e-f425aca9779a
+		summarizeBy: none
+		sourceColumn: geolocation_city
+
+		annotation SummarizationSetBy = Automatic
+
+	column geolocation_state
+		dataType: string
+		lineageTag: 16a1c566-ff41-4f30-9422-d71ee2e9e8dc
+		summarizeBy: none
+		sourceColumn: geolocation_state
+
+		annotation SummarizationSetBy = Automatic
+
+	partition geolocation = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("D:\Full Projects\project4\2\olist_geolocation_dataset.csv"),[Delimiter=",", Columns=5, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"geolocation_zip_code_prefix", Int64.Type}, {"geolocation_lat", type number}, {"geolocation_lng", type number}, {"geolocation_city", type text}, {"geolocation_state", type text}}),
+				    #"Renamed Columns" = Table.RenameColumns(#"Changed Type",{{"geolocation_zip_code_prefix", "zip_code_prefix"}})
+				in
+				    #"Renamed Columns"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

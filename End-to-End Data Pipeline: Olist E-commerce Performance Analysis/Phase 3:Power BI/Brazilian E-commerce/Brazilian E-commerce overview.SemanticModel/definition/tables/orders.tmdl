@@ -1,0 +1,112 @@
+table orders
+	lineageTag: 84516d07-378e-4a12-b76d-ffa4c2e9cc97
+
+	column order_id
+		dataType: string
+		lineageTag: 86adbfa6-a7c4-4f89-9470-399ecadf4897
+		summarizeBy: none
+		sourceColumn: order_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column customer_id
+		dataType: string
+		lineageTag: 7ff16f70-2bf1-4d03-a1a2-8c5186703886
+		summarizeBy: none
+		sourceColumn: customer_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column order_status
+		dataType: string
+		lineageTag: 80d17f32-4701-4254-b096-6449d6af1ff1
+		summarizeBy: none
+		sourceColumn: order_status
+
+		annotation SummarizationSetBy = Automatic
+
+	column order_purchase_timestamp
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: fd08301b-74d8-413e-b191-0fed2f9a08f4
+		summarizeBy: none
+		sourceColumn: order_purchase_timestamp
+
+		variation Variation
+			isDefault
+			relationship: 2a1fab68-c5e2-44e8-9bb8-9f68668fa308
+			defaultHierarchy: LocalDateTable_04a0cfa0-bc47-4a02-9f65-a73c25ba3d6d.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column order_approved_at
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 127b5f00-3527-4615-ac56-ac7a576bd94f
+		summarizeBy: none
+		sourceColumn: order_approved_at
+
+		variation Variation
+			isDefault
+			relationship: 98e78c51-125f-4c9f-a2d9-ba2416937b20
+			defaultHierarchy: LocalDateTable_6dc79256-cdf3-41a5-b4c9-d8e6bd2381de.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column order_delivered_carrier_date
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 896c7092-6c2b-4715-9197-181a9eb489b4
+		summarizeBy: none
+		sourceColumn: order_delivered_carrier_date
+
+		variation Variation
+			isDefault
+			relationship: 990f8278-af91-4714-8f1a-769574417302
+			defaultHierarchy: LocalDateTable_132884c3-82fd-4fbf-b5d2-950da6d40013.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column order_delivered_customer_date
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: fc8f7fa4-04d7-4fd9-a147-713a712b4c7e
+		summarizeBy: none
+		sourceColumn: order_delivered_customer_date
+
+		variation Variation
+			isDefault
+			relationship: fb19f2e0-f875-44d7-a14a-8d2364bd243a
+			defaultHierarchy: LocalDateTable_98c47e8f-f7b4-47fc-9cd9-6421d38e6e77.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column order_estimated_delivery_date
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 315a7afa-0a47-43f2-8f7e-89b49aaea361
+		summarizeBy: none
+		sourceColumn: order_estimated_delivery_date
+
+		variation Variation
+			isDefault
+			relationship: b7645f9d-e97c-4bbf-9464-b15575344638
+			defaultHierarchy: LocalDateTable_8a1539e1-676e-405a-a04d-030e7cd59aa3.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	partition orders = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("D:\Full Projects\project4\2\olist_orders_dataset.csv"),[Delimiter=",", Columns=8, Encoding=1256, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"order_id", type text}, {"customer_id", type text}, {"order_status", type text}, {"order_purchase_timestamp", type datetime}, {"order_approved_at", type datetime}, {"order_delivered_carrier_date", type datetime}, {"order_delivered_customer_date", type datetime}, {"order_estimated_delivery_date", type datetime}}),
+				    #"Filtered Rows" = Table.SelectRows(#"Changed Type", each ([order_status] = "delivered"))
+				in
+				    #"Filtered Rows"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+
