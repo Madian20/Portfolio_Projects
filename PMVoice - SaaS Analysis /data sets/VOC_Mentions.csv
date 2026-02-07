@@ -1,0 +1,3001 @@
+MentionID,Date,SourceID,ThemeID,UserID,Segment,Type,SentimentScore,FrequencyWeight,PhraseText
+1,2024-03-23,5,3,USR_0133,Enterprise PMs,Pain,-0.62,3,
+2,2025-08-30,3,7,USR_0495,SMB PMs,Dream,-0.39,18,
+3,2025-03-12,1,17,USR_0194,SMB PMs,Phrase,0.9,1,slow down to speed up
+4,2024-03-13,4,6,USR_0475,SMB PMs,Pain,-0.11,4,C suite idiots
+5,2024-02-12,3,8,USR_0500,Mid-market PMs,Pain,-0.09,1,impacting users lives
+6,2025-03-14,3,10,USR_0411,Enterprise PMs,Dream,-0.39,1,
+7,2025-01-10,3,7,USR_0317,SMB PMs,Dream,-0.21,28,
+8,2025-12-20,1,13,USR_0089,Mid-market PMs,Pain,0.47,10,
+9,2025-05-12,4,11,USR_0367,Mid-market PMs,Pain,0.82,1,
+10,2025-12-20,4,13,USR_0079,Enterprise PMs,Pain,0.68,1,
+11,2025-06-02,1,18,USR_0497,SMB PMs,Phrase,0.59,1,
+12,2024-07-06,2,4,USR_0401,Enterprise PMs,Dream,-0.02,1,boulder uphill
+13,2025-09-26,3,14,USR_0377,Startup PMs,Phrase,0.83,1,impacting users lives
+14,2024-09-16,5,17,USR_0039,Startup PMs,Dream,0.9,1,
+15,2025-03-17,2,13,USR_0390,Startup PMs,Dream,0.68,3,boulder uphill
+16,2024-02-02,2,5,USR_0012,Mid-market PMs,Phrase,-0.55,1,
+17,2025-02-25,5,1,USR_0364,SMB PMs,Phrase,-0.19,1,
+18,2025-01-17,2,16,USR_0351,SMB PMs,Pain,1.0,1,
+19,2024-07-15,2,10,USR_0251,Enterprise PMs,Phrase,-0.55,2,slow down to speed up
+20,2025-08-11,5,3,USR_0392,SMB PMs,Phrase,-0.34,1,C suite idiots
+21,2024-07-13,1,14,USR_0333,Enterprise PMs,Pain,0.75,6,
+22,2024-01-12,1,17,USR_0188,SMB PMs,Pain,0.73,1,
+23,2024-05-13,5,11,USR_0025,SMB PMs,Phrase,0.52,2,CEO without power
+24,2025-04-12,4,1,USR_0068,Startup PMs,Phrase,-0.65,1,not psychic
+25,2024-09-25,5,18,USR_0367,Mid-market PMs,Phrase,0.7,1,
+26,2024-01-14,5,12,USR_0216,Enterprise PMs,Dream,0.22,11,C suite idiots
+27,2025-11-29,1,17,USR_0037,Enterprise PMs,Pain,0.4,1,
+28,2025-03-19,5,14,USR_0328,SMB PMs,Pain,0.71,1,
+29,2024-03-04,3,11,USR_0407,Enterprise PMs,Pain,0.76,1,sandbagging gatekeepers
+30,2024-10-29,3,10,USR_0135,Mid-market PMs,Dream,-0.37,7,
+31,2024-04-21,5,13,USR_0177,Startup PMs,Pain,0.5,1,
+32,2024-10-23,3,6,USR_0390,Startup PMs,Phrase,-0.55,1,
+33,2025-10-25,3,18,USR_0448,Startup PMs,Pain,0.05,2,
+34,2024-12-10,2,16,USR_0182,Enterprise PMs,Phrase,0.64,1,impacting users lives
+35,2024-02-17,3,7,USR_0287,SMB PMs,Dream,-0.19,1,
+36,2024-11-24,4,8,USR_0009,SMB PMs,Pain,-0.68,1,
+37,2025-09-12,2,9,USR_0008,Mid-market PMs,Phrase,-0.75,1,slow down to speed up
+38,2024-06-12,5,12,USR_0037,Enterprise PMs,Phrase,0.87,1,
+39,2024-07-15,1,18,USR_0276,SMB PMs,Dream,0.25,1,slow down to speed up
+40,2025-11-28,3,18,USR_0075,Startup PMs,Phrase,0.92,1,
+41,2024-08-04,4,3,USR_0183,Mid-market PMs,Phrase,-0.21,1,
+42,2024-05-23,3,8,USR_0210,Enterprise PMs,Pain,-0.15,10,
+43,2024-08-02,5,17,USR_0174,Enterprise PMs,Phrase,0.45,3,
+44,2025-08-24,5,7,USR_0222,SMB PMs,Pain,-0.16,8,
+45,2024-08-24,3,1,USR_0219,SMB PMs,Phrase,-0.58,1,not psychic
+46,2025-11-29,1,3,USR_0432,Startup PMs,Phrase,-0.61,8,
+47,2024-01-24,4,18,USR_0050,Enterprise PMs,Phrase,0.95,1,
+48,2025-12-02,5,9,USR_0354,Enterprise PMs,Pain,-0.53,1,boulder uphill
+49,2024-03-19,4,14,USR_0377,Startup PMs,Phrase,0.94,1,slow down to speed up
+50,2024-12-12,2,17,USR_0357,Enterprise PMs,Pain,0.85,1,
+51,2024-09-29,2,2,USR_0132,Enterprise PMs,Dream,0.03,3,
+52,2025-09-08,5,8,USR_0201,SMB PMs,Dream,-0.75,1,
+53,2024-04-06,1,4,USR_0260,Enterprise PMs,Dream,-0.42,6,
+54,2025-08-04,2,18,USR_0362,SMB PMs,Dream,0.59,1,
+55,2024-03-19,2,2,USR_0314,Mid-market PMs,Dream,-0.24,1,
+56,2025-03-06,4,10,USR_0435,Enterprise PMs,Phrase,-0.86,1,boulder uphill
+57,2024-08-28,1,15,USR_0455,Enterprise PMs,Dream,0.66,1,
+58,2025-09-01,1,16,USR_0402,Mid-market PMs,Dream,0.27,1,impacting users lives
+59,2025-07-22,4,2,USR_0291,Enterprise PMs,Phrase,-0.42,6,slow down to speed up
+60,2024-09-29,1,7,USR_0428,Mid-market PMs,Dream,-0.38,10,
+61,2024-03-21,5,12,USR_0326,Startup PMs,Pain,1.0,3,
+62,2024-07-16,3,18,USR_0390,Startup PMs,Phrase,0.47,1,
+63,2024-03-09,5,2,USR_0055,SMB PMs,Dream,-0.42,8,
+64,2025-02-16,2,1,USR_0169,Enterprise PMs,Phrase,0.02,8,
+65,2024-09-26,4,6,USR_0103,Enterprise PMs,Dream,-0.35,4,
+66,2025-12-20,1,15,USR_0062,Enterprise PMs,Dream,0.63,5,C suite idiots
+67,2024-03-14,1,5,USR_0176,Enterprise PMs,Pain,-0.11,1,
+68,2025-10-10,4,17,USR_0273,Mid-market PMs,Dream,0.59,1,
+69,2024-09-30,2,16,USR_0212,Startup PMs,Phrase,0.54,1,
+70,2025-01-10,3,12,USR_0265,Mid-market PMs,Pain,0.75,1,
+71,2024-04-01,1,18,USR_0480,SMB PMs,Pain,0.05,7,
+72,2024-11-03,4,7,USR_0046,Startup PMs,Pain,-0.2,9,
+73,2024-05-23,2,8,USR_0157,Startup PMs,Phrase,-0.24,3,
+74,2024-04-30,5,3,USR_0436,Startup PMs,Pain,-0.99,4,
+75,2024-10-08,5,16,USR_0484,SMB PMs,Phrase,0.78,1,boulder uphill
+76,2024-09-10,4,2,USR_0084,Enterprise PMs,Phrase,0.08,9,
+77,2024-01-18,4,8,USR_0071,Startup PMs,Phrase,-0.42,4,
+78,2024-07-10,3,5,USR_0023,Enterprise PMs,Dream,-0.48,1,impacting users lives
+79,2024-09-23,2,3,USR_0119,Mid-market PMs,Dream,-0.34,15,
+80,2025-05-30,2,13,USR_0354,Enterprise PMs,Dream,0.96,10,
+81,2025-01-26,5,11,USR_0447,Mid-market PMs,Dream,0.23,1,sandbagging gatekeepers
+82,2024-09-09,2,12,USR_0306,Mid-market PMs,Phrase,0.93,1,
+83,2024-10-20,3,10,USR_0120,SMB PMs,Pain,-0.53,17,
+84,2025-03-18,2,12,USR_0304,SMB PMs,Dream,0.52,5,
+85,2024-12-08,5,7,USR_0232,SMB PMs,Phrase,-0.53,14,sandbagging gatekeepers
+86,2025-02-05,5,12,USR_0309,Startup PMs,Pain,0.65,10,
+87,2024-10-01,2,16,USR_0321,SMB PMs,Pain,0.52,1,
+88,2024-12-04,5,3,USR_0090,SMB PMs,Dream,-0.64,6,
+89,2024-03-28,4,16,USR_0151,Mid-market PMs,Phrase,0.61,2,
+90,2024-12-31,2,15,USR_0362,SMB PMs,Phrase,1.0,1,impacting users lives
+91,2025-07-30,4,11,USR_0108,Startup PMs,Pain,0.53,2,boulder uphill
+92,2025-10-24,3,16,USR_0478,SMB PMs,Pain,0.5,2,boulder uphill
+93,2024-09-12,1,9,USR_0012,Mid-market PMs,Phrase,-0.03,2,
+94,2025-08-12,3,10,USR_0422,Startup PMs,Pain,-0.3,1,
+95,2025-02-02,5,10,USR_0396,Mid-market PMs,Pain,-0.43,2,sandbagging gatekeepers
+96,2025-09-24,2,9,USR_0462,SMB PMs,Pain,-0.49,2,
+97,2024-12-01,4,5,USR_0354,Enterprise PMs,Phrase,-0.72,2,
+98,2024-10-20,4,17,USR_0059,Enterprise PMs,Dream,0.58,1,
+99,2024-06-16,3,11,USR_0098,SMB PMs,Pain,0.57,1,
+100,2025-12-07,1,18,USR_0242,Mid-market PMs,Phrase,0.89,1,CEO without power
+101,2024-02-13,2,15,USR_0151,Mid-market PMs,Pain,0.6,1,
+102,2024-01-19,5,12,USR_0007,Enterprise PMs,Phrase,0.72,1,CEO without power
+103,2024-08-18,5,10,USR_0010,Startup PMs,Pain,-0.64,1,boulder uphill
+104,2025-07-27,4,8,USR_0166,Startup PMs,Dream,-0.15,3,impacting users lives
+105,2025-08-31,5,11,USR_0433,SMB PMs,Phrase,0.82,4,
+106,2025-04-30,1,5,USR_0120,SMB PMs,Pain,-0.9,15,
+107,2024-06-01,5,6,USR_0493,Enterprise PMs,Pain,-0.48,1,
+108,2025-05-11,1,17,USR_0322,Startup PMs,Phrase,0.64,2,
+109,2024-01-19,1,5,USR_0423,Enterprise PMs,Phrase,-0.29,10,
+110,2025-10-31,4,4,USR_0216,Enterprise PMs,Dream,-0.42,1,impacting users lives
+111,2025-10-02,4,9,USR_0271,Startup PMs,Pain,-0.42,3,
+112,2025-01-13,3,7,USR_0380,Enterprise PMs,Phrase,-0.44,3,
+113,2025-02-05,4,6,USR_0443,Enterprise PMs,Dream,-0.04,2,
+114,2025-08-16,5,14,USR_0220,Startup PMs,Dream,0.82,1,
+115,2024-11-06,4,15,USR_0088,SMB PMs,Phrase,0.72,1,
+116,2025-10-19,2,10,USR_0463,Startup PMs,Phrase,-0.33,1,
+117,2025-04-30,5,2,USR_0044,Mid-market PMs,Pain,-0.39,5,
+118,2025-05-23,4,16,USR_0145,Enterprise PMs,Pain,0.8,1,impacting users lives
+119,2025-12-31,5,6,USR_0004,SMB PMs,Pain,0.15,10,
+120,2024-10-22,5,4,USR_0302,SMB PMs,Phrase,-0.5,5,
+121,2024-06-19,3,15,USR_0107,SMB PMs,Dream,0.85,5,impacting users lives
+122,2025-11-23,5,12,USR_0013,Startup PMs,Pain,0.71,1,
+123,2024-06-10,3,8,USR_0031,SMB PMs,Dream,-0.01,1,
+124,2025-01-30,1,13,USR_0395,Enterprise PMs,Dream,0.47,2,
+125,2024-02-21,1,18,USR_0239,SMB PMs,Dream,0.38,1,
+126,2025-04-23,2,15,USR_0170,SMB PMs,Dream,0.53,2,
+127,2024-10-27,4,13,USR_0411,Enterprise PMs,Phrase,0.55,1,
+128,2025-04-15,4,2,USR_0053,Mid-market PMs,Pain,-0.27,1,
+129,2024-03-04,5,11,USR_0097,SMB PMs,Pain,0.8,18,CEO without power
+130,2024-04-20,2,1,USR_0447,Mid-market PMs,Dream,-0.31,20,
+131,2025-08-03,1,2,USR_0418,Enterprise PMs,Dream,-0.62,3,
+132,2024-03-25,1,15,USR_0326,Startup PMs,Phrase,0.86,4,
+133,2024-09-27,3,16,USR_0257,Mid-market PMs,Phrase,0.73,1,slow down to speed up
+134,2024-12-23,1,11,USR_0456,SMB PMs,Dream,0.61,1,
+135,2024-09-05,5,16,USR_0265,Mid-market PMs,Pain,0.89,1,
+136,2025-02-10,1,8,USR_0093,Startup PMs,Phrase,-0.08,1,
+137,2024-08-07,5,5,USR_0042,SMB PMs,Phrase,-0.33,1,
+138,2024-11-21,5,2,USR_0314,Mid-market PMs,Dream,-0.08,6,
+139,2024-04-26,4,13,USR_0478,SMB PMs,Pain,0.76,4,sandbagging gatekeepers
+140,2024-01-16,3,17,USR_0243,Mid-market PMs,Phrase,0.45,3,
+141,2024-04-12,1,10,USR_0178,Enterprise PMs,Dream,-0.8,12,impacting users lives
+142,2025-03-30,4,18,USR_0117,Startup PMs,Dream,0.64,1,C suite idiots
+143,2025-12-29,2,1,USR_0325,Mid-market PMs,Phrase,-0.3,1,slow down to speed up
+144,2025-06-17,2,4,USR_0384,Mid-market PMs,Pain,-0.72,1,boulder uphill
+145,2024-12-01,4,9,USR_0479,Mid-market PMs,Phrase,-0.13,19,
+146,2024-10-23,3,5,USR_0082,SMB PMs,Phrase,-0.02,2,
+147,2024-12-27,1,17,USR_0417,Enterprise PMs,Dream,0.26,1,
+148,2025-11-12,5,15,USR_0349,Enterprise PMs,Phrase,0.5,1,
+149,2025-12-22,2,16,USR_0473,Enterprise PMs,Phrase,0.14,4,CEO without power
+150,2025-01-08,5,13,USR_0137,SMB PMs,Pain,0.62,2,C suite idiots
+151,2025-05-29,4,13,USR_0231,Startup PMs,Pain,0.57,12,
+152,2024-06-20,4,15,USR_0130,SMB PMs,Dream,0.4,1,CEO without power
+153,2025-03-29,3,13,USR_0003,Startup PMs,Pain,0.34,1,
+154,2025-03-25,3,7,USR_0354,Enterprise PMs,Dream,-0.67,1,boulder uphill
+155,2025-05-05,5,8,USR_0098,SMB PMs,Pain,-0.46,1,
+156,2025-07-05,2,18,USR_0170,SMB PMs,Pain,0.81,1,
+157,2025-06-07,5,10,USR_0220,Startup PMs,Pain,-0.37,4,
+158,2024-05-23,5,7,USR_0417,Enterprise PMs,Dream,-0.58,3,
+159,2025-03-21,5,6,USR_0462,SMB PMs,Phrase,-0.03,2,
+160,2025-08-23,5,9,USR_0394,Startup PMs,Pain,-0.57,1,
+161,2025-09-23,3,6,USR_0247,SMB PMs,Phrase,-0.23,1,
+162,2025-08-28,4,5,USR_0129,Enterprise PMs,Dream,-0.14,11,CEO without power
+163,2024-01-24,3,4,USR_0139,Enterprise PMs,Phrase,-0.01,5,C suite idiots
+164,2024-07-10,3,2,USR_0152,Enterprise PMs,Pain,-0.47,1,
+165,2025-05-16,2,18,USR_0393,Enterprise PMs,Pain,0.67,2,slow down to speed up
+166,2025-06-23,5,17,USR_0127,Startup PMs,Dream,0.33,1,
+167,2025-01-27,5,11,USR_0069,Enterprise PMs,Phrase,1.0,3,boulder uphill
+168,2025-06-16,2,5,USR_0180,Enterprise PMs,Dream,-0.91,3,CEO without power
+169,2024-01-26,1,3,USR_0225,Enterprise PMs,Phrase,0.13,3,
+170,2024-07-23,1,15,USR_0438,Startup PMs,Dream,-0.17,4,slow down to speed up
+171,2024-09-12,4,9,USR_0488,Enterprise PMs,Dream,-0.53,4,
+172,2024-10-06,2,17,USR_0146,Enterprise PMs,Phrase,0.67,6,
+173,2024-07-04,5,7,USR_0440,Enterprise PMs,Dream,-0.5,3,
+174,2024-03-13,1,17,USR_0019,SMB PMs,Dream,0.78,1,
+175,2024-08-05,5,17,USR_0080,Enterprise PMs,Phrase,0.78,1,CEO without power
+176,2024-05-13,3,2,USR_0137,SMB PMs,Phrase,-0.31,6,boulder uphill
+177,2024-08-13,5,14,USR_0182,Enterprise PMs,Pain,0.71,1,C suite idiots
+178,2024-08-19,4,16,USR_0024,Enterprise PMs,Pain,0.49,8,
+179,2025-05-22,3,8,USR_0404,Startup PMs,Phrase,-0.35,1,not psychic
+180,2025-02-06,4,15,USR_0415,SMB PMs,Pain,1.0,3,C suite idiots
+181,2024-08-01,2,6,USR_0279,Startup PMs,Pain,-0.37,3,
+182,2025-07-15,2,3,USR_0393,Enterprise PMs,Phrase,-0.1,14,
+183,2025-02-15,3,7,USR_0281,Mid-market PMs,Dream,-0.18,1,
+184,2025-01-05,3,5,USR_0149,Enterprise PMs,Phrase,-0.16,1,CEO without power
+185,2024-04-04,2,6,USR_0214,Enterprise PMs,Phrase,-0.86,6,
+186,2024-06-06,1,14,USR_0326,Startup PMs,Dream,0.8,1,slow down to speed up
+187,2024-10-16,3,1,USR_0274,Mid-market PMs,Phrase,-0.51,1,
+188,2025-12-22,2,8,USR_0106,Enterprise PMs,Pain,-0.32,1,
+189,2024-10-19,2,7,USR_0127,Startup PMs,Phrase,-0.23,2,
+190,2025-04-30,4,10,USR_0466,Enterprise PMs,Phrase,-0.39,3,boulder uphill
+191,2025-04-15,5,7,USR_0366,Enterprise PMs,Pain,-0.96,1,
+192,2025-08-12,4,7,USR_0119,Mid-market PMs,Phrase,-0.64,1,
+193,2024-01-22,3,5,USR_0105,Mid-market PMs,Phrase,-0.17,1,
+194,2024-12-14,1,10,USR_0226,Enterprise PMs,Dream,-0.42,16,
+195,2025-05-24,5,17,USR_0382,Startup PMs,Pain,0.45,2,CEO without power
+196,2024-07-17,5,18,USR_0281,Mid-market PMs,Dream,0.85,3,
+197,2024-05-15,5,8,USR_0034,Mid-market PMs,Pain,-0.7,3,
+198,2025-03-19,1,13,USR_0405,Enterprise PMs,Pain,0.46,3,
+199,2024-08-20,3,11,USR_0012,Mid-market PMs,Pain,0.54,6,sandbagging gatekeepers
+200,2024-12-25,1,4,USR_0253,Mid-market PMs,Phrase,-0.65,5,
+201,2024-04-02,3,7,USR_0396,Mid-market PMs,Dream,-0.47,2,
+202,2025-02-18,5,18,USR_0284,Enterprise PMs,Dream,0.73,2,CEO without power
+203,2025-10-26,5,13,USR_0031,SMB PMs,Dream,0.9,8,CEO without power
+204,2025-11-09,5,18,USR_0086,Enterprise PMs,Phrase,0.6,1,
+205,2024-05-15,4,10,USR_0381,Enterprise PMs,Pain,-0.22,1,
+206,2025-09-08,4,12,USR_0444,Enterprise PMs,Pain,0.69,5,
+207,2024-08-11,2,12,USR_0427,SMB PMs,Pain,0.5,2,not psychic
+208,2025-02-18,3,10,USR_0184,Mid-market PMs,Dream,-0.62,3,CEO without power
+209,2025-11-21,5,18,USR_0162,SMB PMs,Phrase,0.81,10,
+210,2024-08-29,2,17,USR_0318,Enterprise PMs,Phrase,1.0,1,
+211,2024-02-13,4,17,USR_0315,Startup PMs,Dream,0.59,1,
+212,2025-11-02,2,11,USR_0358,SMB PMs,Pain,0.66,3,
+213,2024-07-31,3,3,USR_0082,SMB PMs,Phrase,-0.05,2,
+214,2025-11-22,3,7,USR_0177,Startup PMs,Pain,-0.47,6,sandbagging gatekeepers
+215,2024-08-21,1,7,USR_0225,Enterprise PMs,Pain,-0.44,20,
+216,2024-03-20,1,12,USR_0290,SMB PMs,Dream,0.63,4,
+217,2024-07-14,3,2,USR_0016,Enterprise PMs,Phrase,-0.24,6,
+218,2025-07-26,2,7,USR_0103,Enterprise PMs,Phrase,-0.33,10,
+219,2025-07-26,4,7,USR_0457,Enterprise PMs,Phrase,-0.37,3,slow down to speed up
+220,2025-12-18,3,17,USR_0439,Startup PMs,Dream,0.39,1,impacting users lives
+221,2024-06-01,2,5,USR_0260,Enterprise PMs,Pain,-0.06,4,
+222,2024-05-23,4,8,USR_0344,SMB PMs,Dream,0.13,12,
+223,2025-08-11,3,14,USR_0152,Enterprise PMs,Pain,0.61,3,
+224,2025-02-04,1,11,USR_0185,Enterprise PMs,Phrase,0.34,1,
+225,2024-09-05,5,5,USR_0134,Enterprise PMs,Pain,-0.38,5,
+226,2024-02-20,5,6,USR_0246,Mid-market PMs,Dream,-0.22,18,impacting users lives
+227,2024-05-20,2,9,USR_0314,Mid-market PMs,Dream,-0.42,4,sandbagging gatekeepers
+228,2024-02-25,3,15,USR_0109,Enterprise PMs,Phrase,0.41,6,
+229,2025-08-22,2,8,USR_0084,Enterprise PMs,Phrase,-0.78,1,slow down to speed up
+230,2025-04-15,5,4,USR_0383,SMB PMs,Pain,-0.53,13,
+231,2024-09-26,4,5,USR_0203,Enterprise PMs,Dream,-0.31,1,
+232,2025-11-28,2,11,USR_0387,Enterprise PMs,Dream,0.84,1,
+233,2025-01-05,1,10,USR_0130,SMB PMs,Phrase,-0.13,8,impacting users lives
+234,2024-05-25,4,10,USR_0299,SMB PMs,Dream,-0.47,1,slow down to speed up
+235,2025-01-05,5,7,USR_0211,SMB PMs,Dream,-0.05,1,
+236,2025-05-18,4,5,USR_0132,Enterprise PMs,Pain,-0.31,6,C suite idiots
+237,2025-09-28,2,1,USR_0042,SMB PMs,Phrase,-0.64,5,CEO without power
+238,2024-03-11,4,9,USR_0390,Startup PMs,Phrase,-0.65,1,slow down to speed up
+239,2025-06-03,2,4,USR_0048,SMB PMs,Dream,-0.64,3,
+240,2025-06-05,2,7,USR_0466,Enterprise PMs,Dream,-0.02,4,impacting users lives
+241,2024-11-12,2,1,USR_0333,Enterprise PMs,Pain,-0.93,1,
+242,2024-04-08,5,17,USR_0495,SMB PMs,Pain,0.89,9,
+243,2025-07-13,1,2,USR_0293,Startup PMs,Dream,-0.39,13,
+244,2024-05-09,2,10,USR_0400,Startup PMs,Dream,-0.57,5,
+245,2025-06-03,2,14,USR_0325,Mid-market PMs,Pain,0.5,2,slow down to speed up
+246,2025-07-07,4,6,USR_0334,Enterprise PMs,Phrase,-0.45,2,
+247,2025-02-17,1,8,USR_0075,Startup PMs,Dream,-0.12,5,CEO without power
+248,2025-06-08,1,2,USR_0194,SMB PMs,Pain,-0.27,3,CEO without power
+249,2024-04-05,2,5,USR_0105,Mid-market PMs,Phrase,-0.38,1,CEO without power
+250,2025-04-08,3,2,USR_0331,Enterprise PMs,Dream,-0.17,13,
+251,2025-02-17,1,8,USR_0220,Startup PMs,Phrase,-0.42,4,
+252,2025-11-07,3,3,USR_0053,Mid-market PMs,Dream,-0.61,2,
+253,2025-10-12,5,9,USR_0004,SMB PMs,Pain,-0.07,5,
+254,2025-03-17,4,2,USR_0266,Startup PMs,Pain,-0.15,7,
+255,2024-05-31,5,15,USR_0112,Enterprise PMs,Pain,0.43,7,not psychic
+256,2025-07-14,3,1,USR_0286,Enterprise PMs,Phrase,-0.21,15,
+257,2024-07-17,4,10,USR_0046,Startup PMs,Pain,0.07,9,impacting users lives
+258,2025-10-23,4,1,USR_0328,SMB PMs,Pain,-0.15,2,
+259,2025-09-19,5,15,USR_0193,Mid-market PMs,Pain,0.54,7,
+260,2025-09-16,5,7,USR_0083,Enterprise PMs,Phrase,-0.44,2,
+261,2024-05-01,1,7,USR_0410,Enterprise PMs,Phrase,-0.4,10,sandbagging gatekeepers
+262,2024-02-20,1,13,USR_0168,Enterprise PMs,Dream,0.25,1,CEO without power
+263,2024-05-27,1,13,USR_0364,SMB PMs,Pain,0.5,2,
+264,2025-09-19,1,14,USR_0257,Mid-market PMs,Phrase,0.56,5,
+265,2024-09-13,2,16,USR_0207,Enterprise PMs,Dream,0.33,2,
+266,2024-10-09,2,3,USR_0215,Startup PMs,Dream,-0.64,4,CEO without power
+267,2024-04-12,4,15,USR_0269,Enterprise PMs,Pain,0.11,1,
+268,2024-12-16,4,10,USR_0319,Enterprise PMs,Phrase,-0.0,1,
+269,2024-01-31,2,9,USR_0266,Startup PMs,Dream,-0.23,3,
+270,2024-10-25,5,5,USR_0056,Mid-market PMs,Phrase,-0.68,1,
+271,2024-08-05,1,16,USR_0278,SMB PMs,Phrase,0.3,1,
+272,2024-10-14,2,11,USR_0313,Enterprise PMs,Phrase,0.82,3,
+273,2024-04-05,5,1,USR_0288,SMB PMs,Phrase,-0.48,16,
+274,2025-04-12,2,6,USR_0026,Startup PMs,Phrase,-0.34,9,
+275,2024-07-04,5,13,USR_0299,SMB PMs,Dream,0.53,4,not psychic
+276,2024-09-29,4,12,USR_0493,Enterprise PMs,Dream,0.82,4,
+277,2025-12-12,3,18,USR_0182,Enterprise PMs,Pain,0.78,6,impacting users lives
+278,2024-12-24,2,6,USR_0334,Enterprise PMs,Pain,-0.25,12,impacting users lives
+279,2024-10-13,4,7,USR_0472,Mid-market PMs,Phrase,-0.47,1,not psychic
+280,2025-08-24,4,9,USR_0234,SMB PMs,Dream,-0.35,1,
+281,2025-06-26,4,3,USR_0374,Startup PMs,Phrase,-0.31,2,
+282,2024-07-25,2,1,USR_0376,Enterprise PMs,Phrase,-0.19,1,
+283,2025-09-14,2,16,USR_0021,SMB PMs,Dream,0.62,1,sandbagging gatekeepers
+284,2025-11-17,3,18,USR_0500,Mid-market PMs,Dream,0.05,1,
+285,2025-12-14,2,17,USR_0414,SMB PMs,Pain,0.54,1,
+286,2024-02-17,1,15,USR_0056,Mid-market PMs,Dream,0.66,5,
+287,2025-11-02,2,10,USR_0131,SMB PMs,Pain,-0.41,2,
+288,2025-03-09,3,11,USR_0057,Enterprise PMs,Pain,0.29,1,
+289,2025-09-28,2,1,USR_0088,SMB PMs,Phrase,-0.79,6,CEO without power
+290,2024-02-01,1,13,USR_0227,Mid-market PMs,Dream,1.0,2,
+291,2024-04-21,4,4,USR_0438,Startup PMs,Pain,-0.43,3,impacting users lives
+292,2025-09-16,3,4,USR_0336,Enterprise PMs,Phrase,0.09,3,slow down to speed up
+293,2025-10-29,1,12,USR_0356,SMB PMs,Pain,0.29,3,slow down to speed up
+294,2024-03-12,3,10,USR_0205,SMB PMs,Phrase,-0.51,1,CEO without power
+295,2025-09-07,2,2,USR_0178,Enterprise PMs,Dream,-0.77,11,boulder uphill
+296,2025-12-18,4,11,USR_0464,SMB PMs,Dream,0.8,1,
+297,2024-08-22,4,4,USR_0259,SMB PMs,Pain,-0.76,2,sandbagging gatekeepers
+298,2024-10-26,2,8,USR_0463,Startup PMs,Pain,0.07,5,
+299,2025-08-13,1,12,USR_0451,Startup PMs,Phrase,0.36,1,
+300,2024-10-11,1,1,USR_0100,Enterprise PMs,Phrase,-0.32,1,slow down to speed up
+301,2024-10-03,5,11,USR_0223,Enterprise PMs,Phrase,0.38,2,
+302,2025-03-24,4,14,USR_0433,SMB PMs,Pain,0.69,1,
+303,2025-11-03,5,5,USR_0198,Mid-market PMs,Dream,-0.13,1,boulder uphill
+304,2025-02-15,3,13,USR_0480,SMB PMs,Pain,0.5,1,
+305,2025-12-01,4,18,USR_0096,SMB PMs,Dream,0.5,3,
+306,2025-07-19,2,1,USR_0289,Enterprise PMs,Dream,-0.54,3,
+307,2025-10-04,4,9,USR_0106,Enterprise PMs,Dream,-0.56,4,
+308,2025-12-11,5,15,USR_0406,Mid-market PMs,Dream,0.91,3,
+309,2025-05-04,1,10,USR_0221,Startup PMs,Dream,-0.4,1,
+310,2024-09-20,1,5,USR_0493,Enterprise PMs,Dream,-0.28,1,
+311,2024-01-11,1,6,USR_0188,SMB PMs,Dream,0.09,1,
+312,2025-09-28,3,16,USR_0059,Enterprise PMs,Pain,0.85,1,boulder uphill
+313,2024-05-02,1,1,USR_0204,Mid-market PMs,Phrase,-0.1,1,
+314,2025-01-21,2,5,USR_0183,Mid-market PMs,Dream,-0.65,4,
+315,2025-10-08,3,16,USR_0345,Enterprise PMs,Pain,0.73,5,
+316,2025-11-26,5,12,USR_0169,Enterprise PMs,Pain,0.39,3,
+317,2024-02-25,2,14,USR_0067,Enterprise PMs,Phrase,0.92,5,
+318,2024-08-16,5,17,USR_0215,Startup PMs,Dream,0.49,1,
+319,2024-04-04,5,9,USR_0379,Startup PMs,Phrase,-0.16,9,
+320,2024-07-31,2,10,USR_0400,Startup PMs,Phrase,-0.04,1,
+321,2025-05-02,3,3,USR_0455,Enterprise PMs,Dream,-0.03,6,
+322,2024-05-26,3,4,USR_0299,SMB PMs,Phrase,0.13,13,
+323,2025-03-27,4,15,USR_0054,Mid-market PMs,Phrase,0.93,4,
+324,2025-05-17,4,14,USR_0310,Enterprise PMs,Dream,0.44,1,
+325,2024-01-22,5,2,USR_0040,SMB PMs,Pain,-0.37,1,
+326,2025-04-13,2,8,USR_0270,Enterprise PMs,Dream,-0.49,1,
+327,2025-05-06,5,2,USR_0298,Enterprise PMs,Dream,-0.64,5,not psychic
+328,2025-04-14,1,18,USR_0070,Mid-market PMs,Pain,0.71,2,boulder uphill
+329,2025-07-20,3,13,USR_0303,SMB PMs,Pain,0.5,5,impacting users lives
+330,2025-11-15,5,10,USR_0066,SMB PMs,Phrase,-0.92,5,impacting users lives
+331,2025-06-16,1,1,USR_0260,Enterprise PMs,Dream,-0.24,1,slow down to speed up
+332,2025-04-25,5,9,USR_0234,SMB PMs,Pain,-0.36,1,not psychic
+333,2025-01-11,1,18,USR_0225,Enterprise PMs,Phrase,0.06,2,
+334,2025-08-05,2,3,USR_0350,SMB PMs,Pain,-0.56,13,C suite idiots
+335,2024-06-14,5,15,USR_0001,Enterprise PMs,Pain,0.57,1,sandbagging gatekeepers
+336,2025-09-14,5,16,USR_0146,Enterprise PMs,Dream,0.91,1,boulder uphill
+337,2025-12-06,2,16,USR_0183,Mid-market PMs,Dream,0.47,1,CEO without power
+338,2025-10-07,4,12,USR_0202,Enterprise PMs,Pain,0.51,1,
+339,2025-01-04,4,4,USR_0244,Enterprise PMs,Dream,0.07,2,
+340,2024-07-25,3,18,USR_0367,Mid-market PMs,Phrase,1.0,5,impacting users lives
+341,2025-06-16,4,3,USR_0490,Mid-market PMs,Pain,-0.13,7,
+342,2025-04-08,3,6,USR_0139,Enterprise PMs,Pain,-0.57,3,CEO without power
+343,2025-04-25,4,17,USR_0036,Startup PMs,Dream,0.4,2,not psychic
+344,2025-03-14,3,13,USR_0029,SMB PMs,Phrase,0.67,18,
+345,2025-11-15,4,14,USR_0458,SMB PMs,Phrase,0.56,8,CEO without power
+346,2025-04-22,3,7,USR_0484,SMB PMs,Pain,-0.32,1,slow down to speed up
+347,2025-05-24,5,5,USR_0475,SMB PMs,Phrase,-0.45,1,boulder uphill
+348,2024-12-27,5,15,USR_0438,Startup PMs,Dream,0.45,3,sandbagging gatekeepers
+349,2025-04-14,5,12,USR_0267,Startup PMs,Phrase,0.42,1,C suite idiots
+350,2024-09-29,2,16,USR_0276,SMB PMs,Phrase,0.51,1,
+351,2024-08-28,5,4,USR_0163,SMB PMs,Dream,-1.0,1,
+352,2024-01-29,1,14,USR_0162,SMB PMs,Phrase,0.74,5,sandbagging gatekeepers
+353,2025-04-17,5,14,USR_0387,Enterprise PMs,Pain,0.77,1,
+354,2024-03-02,5,15,USR_0095,Startup PMs,Phrase,0.49,1,
+355,2025-08-26,1,6,USR_0136,Enterprise PMs,Dream,-0.43,4,
+356,2024-02-18,1,2,USR_0075,Startup PMs,Pain,-0.8,2,
+357,2024-02-11,5,17,USR_0444,Enterprise PMs,Pain,0.54,3,
+358,2024-08-08,2,11,USR_0344,SMB PMs,Dream,0.54,2,
+359,2024-04-24,1,4,USR_0322,Startup PMs,Dream,-0.73,4,
+360,2024-03-06,1,16,USR_0310,Enterprise PMs,Pain,0.14,2,not psychic
+361,2025-02-17,5,4,USR_0307,SMB PMs,Dream,-0.33,3,
+362,2024-09-09,1,10,USR_0208,Startup PMs,Pain,-0.31,5,
+363,2024-03-29,3,18,USR_0132,Enterprise PMs,Phrase,0.43,1,
+364,2025-08-04,3,14,USR_0272,Startup PMs,Pain,0.42,2,
+365,2024-12-14,3,1,USR_0068,Startup PMs,Phrase,0.26,5,C suite idiots
+366,2025-10-07,1,8,USR_0481,SMB PMs,Dream,-0.51,13,
+367,2024-11-01,5,18,USR_0446,Mid-market PMs,Pain,0.45,1,
+368,2025-04-24,3,3,USR_0289,Enterprise PMs,Pain,-0.44,5,sandbagging gatekeepers
+369,2024-09-22,4,7,USR_0312,Enterprise PMs,Pain,-0.25,13,
+370,2024-10-24,5,2,USR_0263,Enterprise PMs,Phrase,-0.59,1,
+371,2025-01-24,4,15,USR_0344,SMB PMs,Pain,0.29,1,
+372,2024-11-04,3,5,USR_0446,Mid-market PMs,Dream,-0.66,6,
+373,2025-03-22,3,18,USR_0378,Enterprise PMs,Dream,0.7,2,
+374,2025-10-08,1,8,USR_0128,Mid-market PMs,Phrase,-0.4,3,
+375,2024-08-20,4,14,USR_0203,Enterprise PMs,Pain,0.23,1,
+376,2024-12-18,2,13,USR_0472,Mid-market PMs,Dream,0.82,5,
+377,2024-04-01,5,5,USR_0253,Mid-market PMs,Pain,-0.84,9,
+378,2024-07-08,5,12,USR_0257,Mid-market PMs,Phrase,0.47,1,
+379,2024-05-01,4,3,USR_0311,SMB PMs,Phrase,-0.52,1,C suite idiots
+380,2024-04-03,5,16,USR_0152,Enterprise PMs,Pain,1.0,2,
+381,2024-12-06,1,11,USR_0304,SMB PMs,Phrase,0.54,2,C suite idiots
+382,2025-02-21,4,14,USR_0272,Startup PMs,Pain,0.7,1,
+383,2024-08-22,1,6,USR_0059,Enterprise PMs,Dream,-0.31,1,sandbagging gatekeepers
+384,2025-02-01,3,1,USR_0221,Startup PMs,Phrase,-0.5,2,
+385,2024-08-14,3,18,USR_0077,Startup PMs,Dream,0.72,5,impacting users lives
+386,2024-10-06,3,4,USR_0371,Enterprise PMs,Phrase,-0.23,4,
+387,2025-10-30,4,6,USR_0391,Mid-market PMs,Dream,-0.16,2,CEO without power
+388,2025-08-24,4,8,USR_0256,SMB PMs,Dream,-0.27,2,
+389,2025-04-28,3,5,USR_0077,Startup PMs,Phrase,-0.57,1,slow down to speed up
+390,2025-04-19,4,15,USR_0207,Enterprise PMs,Pain,0.59,1,C suite idiots
+391,2025-10-09,1,16,USR_0082,SMB PMs,Pain,0.41,3,
+392,2024-08-02,5,8,USR_0497,SMB PMs,Phrase,0.15,15,not psychic
+393,2024-01-12,4,13,USR_0192,Mid-market PMs,Dream,0.73,6,
+394,2024-03-17,4,9,USR_0024,Enterprise PMs,Pain,-0.36,7,not psychic
+395,2025-07-26,1,8,USR_0245,Enterprise PMs,Phrase,-0.71,1,
+396,2025-01-07,4,17,USR_0341,SMB PMs,Phrase,0.65,6,
+397,2024-04-08,4,15,USR_0325,Mid-market PMs,Phrase,0.59,4,
+398,2024-05-28,1,7,USR_0143,SMB PMs,Pain,-0.71,1,
+399,2025-12-09,3,8,USR_0007,Enterprise PMs,Phrase,-0.15,2,
+400,2024-08-21,4,9,USR_0309,Startup PMs,Pain,-0.36,2,
+401,2025-10-06,3,9,USR_0220,Startup PMs,Phrase,-0.79,1,impacting users lives
+402,2024-07-30,4,18,USR_0083,Enterprise PMs,Phrase,0.23,1,not psychic
+403,2024-01-15,3,3,USR_0102,SMB PMs,Pain,-0.2,6,
+404,2024-03-05,3,15,USR_0282,Enterprise PMs,Dream,0.55,2,
+405,2024-11-15,3,9,USR_0184,Mid-market PMs,Pain,-0.18,2,
+406,2024-09-27,5,1,USR_0060,Enterprise PMs,Dream,-0.4,9,boulder uphill
+407,2024-04-20,2,1,USR_0166,Startup PMs,Phrase,-0.73,2,impacting users lives
+408,2024-10-06,5,5,USR_0132,Enterprise PMs,Phrase,-0.33,2,
+409,2025-09-11,4,14,USR_0226,Enterprise PMs,Phrase,0.17,1,
+410,2024-07-05,5,8,USR_0462,SMB PMs,Dream,0.04,1,sandbagging gatekeepers
+411,2024-06-23,4,2,USR_0067,Enterprise PMs,Dream,-0.27,1,
+412,2024-11-28,3,11,USR_0432,Startup PMs,Dream,0.19,2,
+413,2024-05-09,3,10,USR_0342,SMB PMs,Phrase,-0.13,4,
+414,2024-08-01,4,5,USR_0461,Enterprise PMs,Dream,-0.39,1,
+415,2025-06-28,4,5,USR_0368,Mid-market PMs,Pain,-0.9,7,sandbagging gatekeepers
+416,2025-10-25,2,11,USR_0013,Startup PMs,Pain,0.59,1,
+417,2025-09-14,4,3,USR_0023,Enterprise PMs,Pain,-0.64,6,boulder uphill
+418,2025-08-01,1,15,USR_0339,SMB PMs,Dream,0.41,2,C suite idiots
+419,2025-09-23,1,16,USR_0423,Enterprise PMs,Pain,0.84,1,
+420,2024-02-16,5,7,USR_0059,Enterprise PMs,Phrase,-0.39,4,
+421,2025-03-22,2,13,USR_0029,SMB PMs,Pain,0.33,2,
+422,2025-06-11,1,6,USR_0250,Mid-market PMs,Dream,0.24,6,
+423,2024-08-19,4,7,USR_0050,Enterprise PMs,Pain,-0.0,1,sandbagging gatekeepers
+424,2024-07-17,3,14,USR_0078,Enterprise PMs,Pain,0.68,2,impacting users lives
+425,2025-12-26,2,16,USR_0203,Enterprise PMs,Phrase,0.77,5,
+426,2025-05-17,5,8,USR_0414,SMB PMs,Pain,-0.97,7,
+427,2025-05-31,3,10,USR_0274,Mid-market PMs,Dream,-0.39,3,slow down to speed up
+428,2025-06-14,4,14,USR_0233,SMB PMs,Dream,0.42,1,sandbagging gatekeepers
+429,2025-05-25,5,12,USR_0175,SMB PMs,Dream,0.48,1,
+430,2024-08-21,5,14,USR_0113,Mid-market PMs,Dream,0.62,1,boulder uphill
+431,2025-04-19,4,7,USR_0372,Enterprise PMs,Dream,-0.19,1,
+432,2024-03-18,5,8,USR_0140,Mid-market PMs,Dream,-0.05,4,
+433,2024-05-13,2,8,USR_0254,Enterprise PMs,Phrase,0.16,8,
+434,2024-01-25,1,6,USR_0427,SMB PMs,Phrase,0.01,1,not psychic
+435,2024-11-01,4,8,USR_0264,SMB PMs,Dream,0.01,11,
+436,2024-12-16,5,1,USR_0464,SMB PMs,Dream,-0.29,2,slow down to speed up
+437,2025-03-23,2,10,USR_0343,Enterprise PMs,Pain,-0.55,5,
+438,2024-05-29,3,17,USR_0068,Startup PMs,Dream,0.74,2,impacting users lives
+439,2025-05-06,4,13,USR_0135,Mid-market PMs,Dream,0.25,4,
+440,2025-01-07,1,3,USR_0385,Startup PMs,Phrase,-0.05,4,
+441,2025-04-24,5,18,USR_0079,Enterprise PMs,Phrase,0.87,1,
+442,2024-03-09,1,6,USR_0376,Enterprise PMs,Phrase,-0.57,1,sandbagging gatekeepers
+443,2024-02-20,3,4,USR_0084,Enterprise PMs,Dream,-0.46,1,
+444,2024-01-26,2,9,USR_0317,SMB PMs,Pain,0.04,1,
+445,2024-06-20,1,3,USR_0310,Enterprise PMs,Dream,-0.06,15,
+446,2024-03-21,5,18,USR_0352,Mid-market PMs,Phrase,0.12,1,sandbagging gatekeepers
+447,2024-01-16,2,13,USR_0108,Startup PMs,Phrase,0.68,1,
+448,2024-12-23,5,18,USR_0227,Mid-market PMs,Pain,0.72,4,
+449,2025-10-01,4,18,USR_0277,Startup PMs,Pain,1.0,2,
+450,2024-04-29,4,3,USR_0167,Enterprise PMs,Pain,-0.57,1,slow down to speed up
+451,2025-09-06,3,16,USR_0321,SMB PMs,Phrase,0.7,2,
+452,2025-01-03,5,1,USR_0166,Startup PMs,Pain,-0.42,4,
+453,2025-03-05,4,10,USR_0174,Enterprise PMs,Phrase,-0.28,4,
+454,2025-08-03,2,18,USR_0021,SMB PMs,Pain,0.45,1,
+455,2024-12-18,4,13,USR_0492,SMB PMs,Pain,0.99,1,
+456,2024-10-01,1,3,USR_0093,Startup PMs,Phrase,-0.33,2,slow down to speed up
+457,2024-01-03,5,15,USR_0307,SMB PMs,Phrase,0.16,8,boulder uphill
+458,2025-10-10,3,13,USR_0069,Enterprise PMs,Pain,0.57,2,
+459,2025-11-16,1,10,USR_0351,SMB PMs,Dream,-0.08,10,not psychic
+460,2025-01-31,3,11,USR_0112,Enterprise PMs,Dream,0.21,1,
+461,2025-12-17,4,11,USR_0147,SMB PMs,Pain,1.0,1,sandbagging gatekeepers
+462,2025-04-16,3,8,USR_0134,Enterprise PMs,Phrase,-0.34,4,
+463,2025-02-15,5,14,USR_0146,Enterprise PMs,Phrase,0.27,1,
+464,2025-04-23,4,15,USR_0030,Enterprise PMs,Phrase,0.54,1,sandbagging gatekeepers
+465,2024-09-15,2,15,USR_0120,SMB PMs,Dream,0.34,1,impacting users lives
+466,2025-09-08,4,4,USR_0048,SMB PMs,Dream,-0.64,3,boulder uphill
+467,2024-01-10,1,4,USR_0413,Mid-market PMs,Pain,-0.11,2,sandbagging gatekeepers
+468,2025-05-23,3,16,USR_0460,Enterprise PMs,Pain,0.53,2,
+469,2024-11-17,4,17,USR_0263,Enterprise PMs,Dream,0.48,1,impacting users lives
+470,2024-12-02,3,13,USR_0027,Enterprise PMs,Phrase,0.76,2,
+471,2024-09-19,2,14,USR_0422,Startup PMs,Pain,0.75,4,
+472,2024-08-08,4,6,USR_0386,Startup PMs,Pain,-0.16,5,
+473,2024-05-23,3,16,USR_0459,Enterprise PMs,Pain,0.83,1,
+474,2025-11-29,4,8,USR_0250,Mid-market PMs,Phrase,-0.35,8,
+475,2025-11-18,2,15,USR_0104,SMB PMs,Dream,1.0,6,CEO without power
+476,2024-02-18,3,9,USR_0167,Enterprise PMs,Phrase,-0.24,10,
+477,2025-08-25,1,17,USR_0004,SMB PMs,Phrase,0.49,3,impacting users lives
+478,2024-11-04,4,17,USR_0049,SMB PMs,Pain,0.6,1,
+479,2024-05-12,2,17,USR_0269,Enterprise PMs,Dream,0.79,1,
+480,2024-12-07,5,16,USR_0252,Enterprise PMs,Dream,0.48,1,
+481,2024-10-29,4,9,USR_0160,Startup PMs,Dream,-0.64,1,
+482,2024-09-09,4,10,USR_0409,Mid-market PMs,Pain,-0.1,8,
+483,2024-05-11,1,9,USR_0030,Enterprise PMs,Dream,-0.96,3,
+484,2024-04-16,5,16,USR_0263,Enterprise PMs,Pain,0.65,6,impacting users lives
+485,2024-08-26,5,13,USR_0006,Enterprise PMs,Pain,0.03,5,
+486,2025-08-16,4,17,USR_0165,Enterprise PMs,Dream,0.44,9,slow down to speed up
+487,2025-04-09,4,10,USR_0269,Enterprise PMs,Phrase,-0.37,4,
+488,2025-08-11,4,12,USR_0156,Enterprise PMs,Pain,0.48,3,
+489,2024-10-15,3,11,USR_0329,SMB PMs,Phrase,0.33,3,
+490,2025-03-30,4,12,USR_0254,Enterprise PMs,Dream,0.42,1,boulder uphill
+491,2025-01-16,2,5,USR_0093,Startup PMs,Dream,-0.48,5,impacting users lives
+492,2024-09-24,5,12,USR_0474,Mid-market PMs,Dream,0.81,2,
+493,2025-10-23,2,18,USR_0431,Enterprise PMs,Dream,0.67,4,CEO without power
+494,2025-06-13,2,4,USR_0278,SMB PMs,Dream,-0.22,2,sandbagging gatekeepers
+495,2025-01-10,3,13,USR_0076,Startup PMs,Pain,0.9,1,
+496,2025-01-23,2,4,USR_0051,Mid-market PMs,Pain,-0.55,9,
+497,2024-03-02,2,7,USR_0380,Enterprise PMs,Pain,-0.51,2,CEO without power
+498,2024-12-02,3,4,USR_0173,SMB PMs,Pain,-0.68,12,impacting users lives
+499,2024-12-09,1,8,USR_0202,Enterprise PMs,Dream,-0.14,1,
+500,2024-12-18,4,14,USR_0176,Enterprise PMs,Phrase,0.63,2,
+501,2025-12-28,1,14,USR_0426,SMB PMs,Pain,0.84,1,
+502,2024-03-11,4,18,USR_0095,Startup PMs,Pain,0.49,1,
+503,2025-08-24,1,3,USR_0014,Enterprise PMs,Dream,-0.4,5,
+504,2025-05-09,1,7,USR_0373,Enterprise PMs,Dream,0.12,12,
+505,2025-10-10,1,6,USR_0128,Mid-market PMs,Pain,-0.38,1,
+506,2024-11-22,4,11,USR_0300,Enterprise PMs,Dream,0.55,3,
+507,2025-06-21,4,4,USR_0268,Startup PMs,Dream,-0.01,1,
+508,2024-09-11,3,8,USR_0038,Enterprise PMs,Phrase,-0.68,5,
+509,2024-08-14,2,12,USR_0451,Startup PMs,Dream,0.82,1,impacting users lives
+510,2024-01-09,1,9,USR_0059,Enterprise PMs,Phrase,-0.26,7,
+511,2024-05-26,2,8,USR_0398,SMB PMs,Phrase,-0.71,26,
+512,2024-02-19,4,9,USR_0420,Startup PMs,Pain,-0.42,5,boulder uphill
+513,2024-10-27,2,13,USR_0265,Mid-market PMs,Phrase,1.0,7,
+514,2024-07-19,4,18,USR_0462,SMB PMs,Phrase,0.73,1,
+515,2025-05-18,2,8,USR_0224,Enterprise PMs,Phrase,-0.2,3,
+516,2025-03-10,2,12,USR_0016,Enterprise PMs,Dream,0.81,2,
+517,2024-03-26,3,15,USR_0186,Startup PMs,Phrase,0.36,1,
+518,2024-03-21,1,18,USR_0220,Startup PMs,Phrase,0.65,1,
+519,2025-05-19,1,9,USR_0262,Mid-market PMs,Pain,-0.39,8,
+520,2025-06-13,1,6,USR_0288,SMB PMs,Phrase,-0.53,3,
+521,2025-12-26,5,16,USR_0296,SMB PMs,Phrase,0.41,3,
+522,2025-02-14,4,18,USR_0080,Enterprise PMs,Pain,0.24,5,
+523,2025-07-22,4,16,USR_0318,Enterprise PMs,Pain,0.69,1,
+524,2025-10-31,1,2,USR_0078,Enterprise PMs,Pain,-0.47,1,
+525,2025-06-11,4,2,USR_0111,Enterprise PMs,Pain,-0.49,5,
+526,2024-05-30,4,15,USR_0218,Startup PMs,Pain,1.0,6,
+527,2024-10-06,4,13,USR_0404,Startup PMs,Dream,0.52,1,
+528,2024-02-16,2,10,USR_0092,Startup PMs,Pain,-0.87,6,
+529,2025-10-07,2,2,USR_0280,Startup PMs,Pain,-0.55,3,
+530,2024-02-28,2,15,USR_0231,Startup PMs,Dream,0.76,1,
+531,2025-11-24,1,16,USR_0163,SMB PMs,Dream,0.72,1,impacting users lives
+532,2025-10-18,2,15,USR_0029,SMB PMs,Phrase,0.71,1,sandbagging gatekeepers
+533,2025-08-17,1,6,USR_0337,Mid-market PMs,Pain,-0.59,2,CEO without power
+534,2025-01-29,5,14,USR_0094,SMB PMs,Phrase,0.96,8,
+535,2025-02-09,1,17,USR_0411,Enterprise PMs,Pain,0.75,6,
+536,2024-01-08,5,17,USR_0108,Startup PMs,Phrase,0.46,1,
+537,2024-10-02,4,2,USR_0378,Enterprise PMs,Dream,0.17,2,
+538,2024-03-12,3,15,USR_0173,SMB PMs,Phrase,0.93,4,
+539,2025-03-14,4,2,USR_0283,Enterprise PMs,Dream,-0.12,4,impacting users lives
+540,2025-11-24,1,18,USR_0276,SMB PMs,Pain,0.4,1,slow down to speed up
+541,2025-07-14,4,17,USR_0210,Enterprise PMs,Pain,0.78,10,
+542,2024-04-14,3,3,USR_0290,SMB PMs,Phrase,-0.53,1,
+543,2024-10-03,4,2,USR_0353,Startup PMs,Phrase,-0.58,5,
+544,2024-01-28,2,9,USR_0375,Enterprise PMs,Pain,-0.13,3,boulder uphill
+545,2025-03-15,2,13,USR_0438,Startup PMs,Pain,0.44,6,
+546,2024-02-21,4,16,USR_0252,Enterprise PMs,Pain,0.55,1,
+547,2025-01-13,1,15,USR_0385,Startup PMs,Pain,0.86,1,boulder uphill
+548,2025-01-12,3,8,USR_0294,Enterprise PMs,Phrase,-0.44,6,
+549,2024-02-16,4,9,USR_0013,Startup PMs,Pain,-0.76,1,
+550,2025-03-10,3,3,USR_0104,SMB PMs,Pain,-0.16,1,
+551,2025-03-11,1,6,USR_0303,SMB PMs,Dream,-0.35,11,
+552,2024-05-10,5,13,USR_0264,SMB PMs,Pain,0.35,1,
+553,2024-10-19,3,15,USR_0123,Enterprise PMs,Pain,0.72,1,
+554,2025-09-09,5,12,USR_0107,SMB PMs,Phrase,0.59,1,impacting users lives
+555,2024-06-03,5,9,USR_0384,Mid-market PMs,Dream,-0.45,13,
+556,2025-08-15,4,13,USR_0327,SMB PMs,Phrase,0.72,2,
+557,2025-01-30,4,10,USR_0339,SMB PMs,Pain,-0.41,4,
+558,2024-03-17,1,8,USR_0325,Mid-market PMs,Phrase,-0.51,5,
+559,2024-08-07,3,3,USR_0286,Enterprise PMs,Dream,-0.36,30,impacting users lives
+560,2024-12-16,5,12,USR_0396,Mid-market PMs,Phrase,0.73,1,
+561,2025-07-19,5,17,USR_0462,SMB PMs,Dream,0.54,9,boulder uphill
+562,2025-10-22,2,13,USR_0408,Enterprise PMs,Dream,0.54,1,
+563,2024-10-23,1,4,USR_0320,Enterprise PMs,Dream,-0.42,18,
+564,2025-01-13,1,3,USR_0325,Mid-market PMs,Dream,-0.54,1,
+565,2024-02-07,2,14,USR_0100,Enterprise PMs,Phrase,0.92,2,
+566,2024-04-08,2,4,USR_0154,SMB PMs,Phrase,-0.3,2,
+567,2024-07-31,4,12,USR_0480,SMB PMs,Pain,0.83,1,
+568,2024-05-31,1,6,USR_0044,Mid-market PMs,Dream,-0.77,5,
+569,2025-04-10,1,15,USR_0487,Enterprise PMs,Pain,1.0,4,sandbagging gatekeepers
+570,2024-12-24,3,4,USR_0202,Enterprise PMs,Phrase,-0.13,9,
+571,2024-06-01,3,2,USR_0214,Enterprise PMs,Phrase,-0.57,2,impacting users lives
+572,2024-04-05,2,8,USR_0350,SMB PMs,Pain,-0.59,5,
+573,2024-04-18,1,10,USR_0222,SMB PMs,Dream,-0.02,1,impacting users lives
+574,2024-03-13,3,15,USR_0232,SMB PMs,Phrase,0.89,2,
+575,2024-03-21,4,16,USR_0500,Mid-market PMs,Phrase,0.46,3,
+576,2025-11-12,4,10,USR_0013,Startup PMs,Pain,-0.68,1,sandbagging gatekeepers
+577,2025-05-02,3,17,USR_0324,Enterprise PMs,Phrase,0.4,1,
+578,2025-04-13,1,14,USR_0055,SMB PMs,Pain,0.45,1,
+579,2024-01-09,4,6,USR_0412,Mid-market PMs,Phrase,-0.35,1,
+580,2024-01-30,5,6,USR_0341,SMB PMs,Dream,-0.51,4,
+581,2025-03-19,5,17,USR_0489,Mid-market PMs,Phrase,0.63,1,not psychic
+582,2025-12-13,1,3,USR_0255,Enterprise PMs,Dream,-0.61,15,
+583,2024-12-31,4,7,USR_0356,SMB PMs,Dream,-0.64,9,
+584,2025-03-04,1,9,USR_0500,Mid-market PMs,Dream,-0.45,13,
+585,2025-09-23,4,14,USR_0236,Startup PMs,Pain,0.64,1,
+586,2024-10-19,2,12,USR_0465,Mid-market PMs,Phrase,0.56,1,sandbagging gatekeepers
+587,2024-06-27,5,3,USR_0186,Startup PMs,Dream,-0.25,6,
+588,2025-05-04,2,9,USR_0382,Startup PMs,Dream,-0.5,2,
+589,2025-09-04,5,11,USR_0092,Startup PMs,Dream,0.7,2,
+590,2024-06-15,2,8,USR_0472,Mid-market PMs,Dream,-0.15,3,C suite idiots
+591,2024-08-31,4,9,USR_0182,Enterprise PMs,Phrase,-0.29,7,
+592,2025-05-27,1,16,USR_0378,Enterprise PMs,Phrase,0.66,1,
+593,2024-01-17,5,14,USR_0258,Startup PMs,Phrase,0.89,3,
+594,2024-01-09,1,17,USR_0084,Enterprise PMs,Phrase,0.78,1,
+595,2024-12-07,1,17,USR_0368,Mid-market PMs,Pain,0.4,1,
+596,2025-12-06,3,14,USR_0304,SMB PMs,Dream,0.64,10,
+597,2024-02-17,5,7,USR_0366,Enterprise PMs,Dream,-0.35,3,
+598,2024-03-22,2,1,USR_0106,Enterprise PMs,Phrase,-0.44,3,
+599,2025-08-05,1,16,USR_0389,Startup PMs,Pain,0.34,4,
+600,2024-12-05,1,10,USR_0352,Mid-market PMs,Phrase,-0.32,3,
+601,2024-02-11,2,10,USR_0244,Enterprise PMs,Dream,-0.37,5,slow down to speed up
+602,2025-06-14,5,17,USR_0430,Enterprise PMs,Phrase,0.57,3,sandbagging gatekeepers
+603,2025-07-02,1,6,USR_0154,SMB PMs,Dream,-0.54,1,
+604,2024-05-22,5,16,USR_0020,Enterprise PMs,Phrase,0.45,9,
+605,2024-03-24,3,10,USR_0406,Mid-market PMs,Pain,-0.25,3,
+606,2025-09-06,4,14,USR_0261,SMB PMs,Dream,0.53,5,CEO without power
+607,2025-02-25,3,2,USR_0308,Enterprise PMs,Phrase,-0.58,5,
+608,2025-03-14,3,3,USR_0223,Enterprise PMs,Dream,-0.64,2,
+609,2025-03-27,1,13,USR_0041,Enterprise PMs,Phrase,0.76,1,
+610,2025-05-12,1,15,USR_0263,Enterprise PMs,Pain,0.68,1,
+611,2025-01-20,2,9,USR_0014,Enterprise PMs,Pain,-0.09,1,
+612,2024-01-17,2,18,USR_0499,Mid-market PMs,Dream,0.74,5,
+613,2024-03-23,5,12,USR_0483,SMB PMs,Phrase,0.31,1,
+614,2024-06-20,3,4,USR_0225,Enterprise PMs,Pain,-0.51,4,slow down to speed up
+615,2024-06-17,2,4,USR_0486,Mid-market PMs,Phrase,-0.14,1,slow down to speed up
+616,2024-07-06,1,18,USR_0115,SMB PMs,Dream,1.0,1,
+617,2025-06-30,2,1,USR_0230,SMB PMs,Phrase,-0.43,1,sandbagging gatekeepers
+618,2024-05-07,5,7,USR_0258,Startup PMs,Pain,-0.02,1,
+619,2024-11-26,4,11,USR_0467,Enterprise PMs,Dream,0.89,5,
+620,2024-10-02,2,11,USR_0062,Enterprise PMs,Dream,0.32,7,not psychic
+621,2025-04-11,1,4,USR_0096,SMB PMs,Phrase,-0.5,1,
+622,2025-07-26,2,8,USR_0184,Mid-market PMs,Pain,-0.3,5,
+623,2025-01-05,5,7,USR_0134,Enterprise PMs,Pain,-0.2,4,
+624,2024-03-27,3,3,USR_0146,Enterprise PMs,Phrase,-0.35,5,
+625,2025-07-12,2,4,USR_0372,Enterprise PMs,Phrase,-0.35,1,
+626,2025-12-23,5,12,USR_0012,Mid-market PMs,Dream,0.5,4,
+627,2025-07-17,5,9,USR_0162,SMB PMs,Pain,-0.88,3,
+628,2025-06-28,5,18,USR_0496,Enterprise PMs,Pain,0.5,13,
+629,2024-12-13,5,15,USR_0357,Enterprise PMs,Dream,0.3,1,
+630,2025-06-10,4,2,USR_0420,Startup PMs,Phrase,0.01,1,CEO without power
+631,2025-01-07,3,2,USR_0019,SMB PMs,Pain,-0.32,2,
+632,2024-11-02,4,14,USR_0008,Mid-market PMs,Pain,0.57,10,
+633,2024-10-15,4,3,USR_0453,SMB PMs,Pain,-0.5,2,C suite idiots
+634,2025-01-16,5,6,USR_0073,Enterprise PMs,Dream,-0.38,2,
+635,2024-01-06,4,2,USR_0218,Startup PMs,Phrase,-0.33,21,
+636,2024-03-18,5,17,USR_0034,Mid-market PMs,Phrase,0.76,1,boulder uphill
+637,2024-07-25,5,11,USR_0463,Startup PMs,Phrase,0.73,3,sandbagging gatekeepers
+638,2025-12-25,3,16,USR_0463,Startup PMs,Phrase,0.34,1,
+639,2024-09-23,5,9,USR_0239,SMB PMs,Dream,-0.66,5,
+640,2025-09-25,2,12,USR_0304,SMB PMs,Pain,0.64,1,
+641,2024-09-17,1,18,USR_0430,Enterprise PMs,Pain,0.45,1,
+642,2024-12-30,3,17,USR_0273,Mid-market PMs,Dream,0.47,1,
+643,2024-06-04,2,13,USR_0200,Startup PMs,Phrase,0.95,2,not psychic
+644,2025-04-27,3,5,USR_0137,SMB PMs,Phrase,-0.47,1,
+645,2024-08-20,5,17,USR_0248,Mid-market PMs,Pain,0.29,1,
+646,2025-08-03,3,8,USR_0369,Enterprise PMs,Phrase,-0.9,1,
+647,2024-05-01,4,7,USR_0368,Mid-market PMs,Pain,-0.26,1,
+648,2025-06-02,2,14,USR_0114,Startup PMs,Pain,0.42,3,
+649,2024-05-16,1,7,USR_0425,Enterprise PMs,Dream,-0.89,2,
+650,2025-05-12,3,14,USR_0148,SMB PMs,Phrase,0.67,13,
+651,2024-01-16,2,8,USR_0361,Enterprise PMs,Phrase,-0.43,7,
+652,2025-09-07,2,17,USR_0242,Mid-market PMs,Dream,0.35,4,CEO without power
+653,2025-10-29,2,8,USR_0418,Enterprise PMs,Phrase,-0.3,1,
+654,2024-11-05,5,1,USR_0426,SMB PMs,Phrase,-0.48,1,impacting users lives
+655,2025-08-16,4,15,USR_0235,Enterprise PMs,Phrase,0.72,1,sandbagging gatekeepers
+656,2025-03-24,5,17,USR_0026,Startup PMs,Pain,0.7,1,
+657,2024-03-22,4,2,USR_0258,Startup PMs,Pain,-0.64,1,
+658,2025-04-02,5,15,USR_0410,Enterprise PMs,Dream,0.32,2,slow down to speed up
+659,2024-09-10,1,7,USR_0297,Startup PMs,Dream,-0.1,2,not psychic
+660,2025-02-04,5,7,USR_0329,SMB PMs,Dream,-0.06,3,
+661,2024-09-18,2,8,USR_0353,Startup PMs,Pain,-0.56,4,
+662,2025-09-16,1,1,USR_0246,Mid-market PMs,Phrase,-0.45,2,
+663,2024-02-08,3,17,USR_0318,Enterprise PMs,Phrase,0.84,2,
+664,2024-03-27,1,5,USR_0244,Enterprise PMs,Phrase,-0.84,11,
+665,2025-10-10,4,17,USR_0117,Startup PMs,Dream,0.43,1,
+666,2025-08-05,4,6,USR_0013,Startup PMs,Phrase,-0.75,8,
+667,2025-04-19,2,13,USR_0340,Enterprise PMs,Phrase,0.78,1,
+668,2024-10-04,5,1,USR_0497,SMB PMs,Phrase,-0.41,10,
+669,2024-10-05,3,2,USR_0194,SMB PMs,Phrase,-0.49,6,
+670,2025-06-11,2,18,USR_0193,Mid-market PMs,Phrase,0.86,1,
+671,2025-08-04,5,2,USR_0224,Enterprise PMs,Phrase,-0.56,5,
+672,2025-03-09,1,16,USR_0133,Enterprise PMs,Pain,0.3,8,
+673,2025-07-20,1,15,USR_0037,Enterprise PMs,Pain,0.66,1,
+674,2025-05-06,5,14,USR_0058,Enterprise PMs,Dream,1.0,1,boulder uphill
+675,2025-03-21,4,14,USR_0419,Startup PMs,Phrase,0.64,1,sandbagging gatekeepers
+676,2024-03-03,5,4,USR_0091,Enterprise PMs,Pain,-0.48,11,
+677,2024-05-22,5,16,USR_0111,Enterprise PMs,Dream,1.0,5,
+678,2024-09-15,5,3,USR_0390,Startup PMs,Dream,-0.34,8,
+679,2025-08-21,1,4,USR_0152,Enterprise PMs,Pain,-0.34,1,not psychic
+680,2024-01-18,2,16,USR_0247,SMB PMs,Pain,0.71,1,
+681,2024-07-09,3,14,USR_0216,Enterprise PMs,Dream,0.58,2,
+682,2025-05-15,2,17,USR_0266,Startup PMs,Phrase,0.93,1,
+683,2024-02-21,1,3,USR_0270,Enterprise PMs,Pain,-0.45,2,slow down to speed up
+684,2024-12-02,3,2,USR_0040,SMB PMs,Pain,-0.54,1,
+685,2025-12-02,4,5,USR_0272,Startup PMs,Pain,-0.52,1,
+686,2024-01-19,4,11,USR_0283,Enterprise PMs,Dream,0.36,1,slow down to speed up
+687,2025-10-18,4,14,USR_0162,SMB PMs,Pain,0.6,1,C suite idiots
+688,2025-05-20,5,3,USR_0084,Enterprise PMs,Phrase,0.04,2,C suite idiots
+689,2024-06-29,5,18,USR_0021,SMB PMs,Pain,1.0,4,impacting users lives
+690,2024-09-13,1,15,USR_0050,Enterprise PMs,Dream,0.98,2,
+691,2024-12-28,5,11,USR_0051,Mid-market PMs,Phrase,0.49,3,
+692,2025-05-22,1,11,USR_0325,Mid-market PMs,Dream,0.53,1,slow down to speed up
+693,2025-09-11,1,5,USR_0152,Enterprise PMs,Dream,-0.32,6,
+694,2024-07-13,1,12,USR_0416,SMB PMs,Pain,0.57,1,
+695,2025-11-16,5,4,USR_0422,Startup PMs,Pain,-0.78,1,
+696,2025-12-17,1,16,USR_0100,Enterprise PMs,Phrase,0.44,1,
+697,2025-03-30,2,18,USR_0106,Enterprise PMs,Pain,0.75,3,
+698,2025-02-19,1,6,USR_0335,Enterprise PMs,Phrase,-0.3,5,
+699,2025-11-22,2,13,USR_0024,Enterprise PMs,Dream,0.61,2,
+700,2024-09-13,1,2,USR_0382,Startup PMs,Phrase,0.24,22,
+701,2025-07-23,4,12,USR_0443,Enterprise PMs,Pain,0.44,4,
+702,2024-06-17,4,4,USR_0205,SMB PMs,Pain,-0.66,9,
+703,2024-06-01,1,17,USR_0149,Enterprise PMs,Phrase,0.58,1,CEO without power
+704,2025-09-28,4,10,USR_0295,Enterprise PMs,Pain,-0.62,1,
+705,2024-07-05,3,5,USR_0048,SMB PMs,Dream,-0.21,4,sandbagging gatekeepers
+706,2025-01-31,2,17,USR_0334,Enterprise PMs,Pain,0.59,1,
+707,2024-12-21,2,10,USR_0365,Mid-market PMs,Dream,-0.5,1,
+708,2025-09-28,5,7,USR_0361,Enterprise PMs,Dream,-0.71,3,
+709,2025-01-23,2,2,USR_0460,Enterprise PMs,Phrase,-0.64,3,
+710,2025-03-25,1,4,USR_0179,Mid-market PMs,Dream,-0.55,1,
+711,2024-03-25,1,8,USR_0223,Enterprise PMs,Dream,-0.64,2,
+712,2024-05-04,2,13,USR_0118,Enterprise PMs,Phrase,0.62,11,boulder uphill
+713,2025-12-05,2,3,USR_0168,Enterprise PMs,Phrase,-0.43,10,
+714,2024-06-02,2,16,USR_0137,SMB PMs,Dream,0.39,1,
+715,2024-01-16,5,12,USR_0203,Enterprise PMs,Dream,0.43,2,
+716,2024-01-12,3,2,USR_0135,Mid-market PMs,Phrase,-0.44,4,
+717,2025-12-02,2,9,USR_0302,SMB PMs,Pain,-0.46,3,
+718,2025-06-21,5,3,USR_0450,Enterprise PMs,Phrase,-0.45,1,
+719,2025-09-18,3,9,USR_0227,Mid-market PMs,Dream,-0.46,12,
+720,2024-09-29,2,2,USR_0483,SMB PMs,Dream,-0.18,4,
+721,2024-07-15,1,11,USR_0202,Enterprise PMs,Dream,0.39,1,not psychic
+722,2024-09-13,4,15,USR_0100,Enterprise PMs,Pain,0.52,1,
+723,2025-08-06,3,10,USR_0398,SMB PMs,Dream,-0.18,1,
+724,2025-12-02,2,4,USR_0185,Enterprise PMs,Phrase,-0.54,1,not psychic
+725,2024-03-07,1,5,USR_0362,SMB PMs,Pain,-0.38,1,
+726,2024-06-08,1,8,USR_0021,SMB PMs,Phrase,-0.55,1,
+727,2024-03-01,4,13,USR_0272,Startup PMs,Dream,0.7,2,
+728,2025-01-10,1,13,USR_0428,Mid-market PMs,Phrase,0.75,1,
+729,2024-10-19,1,3,USR_0275,SMB PMs,Pain,-0.35,8,CEO without power
+730,2024-06-13,5,13,USR_0218,Startup PMs,Pain,0.6,1,
+731,2025-05-07,1,2,USR_0063,Startup PMs,Phrase,-0.27,2,sandbagging gatekeepers
+732,2025-07-21,1,10,USR_0061,Enterprise PMs,Dream,-0.27,2,slow down to speed up
+733,2024-03-07,1,16,USR_0392,SMB PMs,Pain,1.0,1,sandbagging gatekeepers
+734,2025-04-17,3,4,USR_0373,Enterprise PMs,Dream,-0.43,17,
+735,2025-06-09,1,9,USR_0004,SMB PMs,Pain,-0.77,10,
+736,2024-08-19,1,3,USR_0065,Enterprise PMs,Dream,-0.54,1,
+737,2025-04-07,2,3,USR_0375,Enterprise PMs,Phrase,-0.49,1,slow down to speed up
+738,2024-04-16,1,7,USR_0152,Enterprise PMs,Phrase,-0.26,5,sandbagging gatekeepers
+739,2024-06-15,4,4,USR_0192,Mid-market PMs,Dream,-0.36,7,impacting users lives
+740,2024-09-29,3,18,USR_0371,Enterprise PMs,Phrase,0.52,1,
+741,2024-11-04,2,8,USR_0278,SMB PMs,Dream,-0.85,5,
+742,2024-01-05,2,8,USR_0479,Mid-market PMs,Phrase,-0.55,1,
+743,2025-11-24,4,1,USR_0391,Mid-market PMs,Phrase,-0.35,5,
+744,2024-07-29,1,1,USR_0255,Enterprise PMs,Pain,-0.06,1,
+745,2024-05-26,1,10,USR_0354,Enterprise PMs,Pain,-0.77,8,
+746,2024-05-06,1,8,USR_0252,Enterprise PMs,Pain,-0.35,1,
+747,2024-12-06,4,17,USR_0432,Startup PMs,Pain,0.65,1,
+748,2024-09-18,2,17,USR_0092,Startup PMs,Pain,0.68,4,
+749,2024-07-10,5,12,USR_0239,SMB PMs,Phrase,0.67,2,
+750,2025-07-07,5,11,USR_0039,Startup PMs,Phrase,0.53,10,slow down to speed up
+751,2025-10-19,5,13,USR_0005,Enterprise PMs,Pain,0.57,3,
+752,2024-05-27,5,10,USR_0217,Enterprise PMs,Dream,-0.92,1,sandbagging gatekeepers
+753,2024-07-27,1,1,USR_0367,Mid-market PMs,Dream,-0.45,31,
+754,2024-05-22,2,14,USR_0131,SMB PMs,Phrase,0.46,10,
+755,2024-01-01,3,7,USR_0420,Startup PMs,Phrase,-0.47,1,C suite idiots
+756,2025-11-24,2,7,USR_0022,Enterprise PMs,Phrase,-0.0,2,boulder uphill
+757,2024-01-26,1,5,USR_0130,SMB PMs,Phrase,-0.54,2,slow down to speed up
+758,2025-03-02,3,7,USR_0204,Mid-market PMs,Dream,-0.25,1,
+759,2025-03-10,2,5,USR_0249,Mid-market PMs,Dream,-0.64,22,
+760,2024-05-12,4,13,USR_0402,Mid-market PMs,Pain,0.32,1,
+761,2024-03-25,5,8,USR_0173,SMB PMs,Phrase,-0.59,1,not psychic
+762,2024-10-19,5,5,USR_0025,SMB PMs,Pain,-0.5,6,
+763,2024-01-26,2,11,USR_0421,Startup PMs,Dream,0.59,3,
+764,2025-01-03,1,17,USR_0008,Mid-market PMs,Phrase,0.82,1,not psychic
+765,2024-06-03,3,5,USR_0240,Enterprise PMs,Pain,-0.36,8,sandbagging gatekeepers
+766,2025-02-11,5,11,USR_0413,Mid-market PMs,Pain,0.67,6,
+767,2024-03-22,1,7,USR_0112,Enterprise PMs,Phrase,-0.02,8,
+768,2025-10-18,1,1,USR_0276,SMB PMs,Phrase,-0.44,10,
+769,2025-08-20,1,10,USR_0369,Enterprise PMs,Pain,-0.56,1,slow down to speed up
+770,2025-07-01,1,1,USR_0069,Enterprise PMs,Dream,-0.34,4,
+771,2024-10-25,4,5,USR_0222,SMB PMs,Pain,-0.31,1,
+772,2024-03-17,5,18,USR_0466,Enterprise PMs,Dream,0.52,1,
+773,2025-06-29,3,3,USR_0494,Enterprise PMs,Phrase,-0.39,10,
+774,2025-09-23,1,2,USR_0128,Mid-market PMs,Phrase,-0.92,9,
+775,2025-02-08,5,14,USR_0317,SMB PMs,Phrase,0.85,1,
+776,2025-08-02,3,14,USR_0271,Startup PMs,Pain,1.0,3,
+777,2025-01-05,3,16,USR_0075,Startup PMs,Phrase,0.75,4,
+778,2024-07-25,5,10,USR_0246,Mid-market PMs,Pain,-0.55,1,CEO without power
+779,2025-05-30,4,16,USR_0361,Enterprise PMs,Dream,0.71,5,
+780,2024-04-14,3,2,USR_0060,Enterprise PMs,Pain,-0.35,4,
+781,2024-10-15,2,17,USR_0145,Enterprise PMs,Pain,0.86,1,
+782,2025-11-05,5,5,USR_0228,Enterprise PMs,Pain,-0.5,10,C suite idiots
+783,2025-08-03,5,12,USR_0052,Startup PMs,Dream,0.87,8,impacting users lives
+784,2025-04-21,2,18,USR_0246,Mid-market PMs,Dream,0.78,1,slow down to speed up
+785,2025-06-12,3,14,USR_0315,Startup PMs,Dream,0.96,1,
+786,2025-10-02,5,11,USR_0027,Enterprise PMs,Pain,0.43,2,CEO without power
+787,2024-04-11,3,6,USR_0117,Startup PMs,Phrase,0.07,1,
+788,2024-07-25,4,17,USR_0006,Enterprise PMs,Pain,0.31,2,slow down to speed up
+789,2024-05-30,4,13,USR_0467,Enterprise PMs,Phrase,0.61,1,
+790,2024-06-03,3,10,USR_0049,SMB PMs,Pain,-0.75,1,
+791,2024-04-06,3,15,USR_0007,Enterprise PMs,Phrase,1.0,6,
+792,2025-05-17,2,8,USR_0344,SMB PMs,Phrase,-0.57,1,
+793,2024-10-26,3,1,USR_0212,Startup PMs,Dream,-0.11,5,
+794,2024-12-31,1,15,USR_0028,SMB PMs,Pain,0.51,4,slow down to speed up
+795,2025-09-26,2,18,USR_0065,Enterprise PMs,Dream,0.55,6,
+796,2025-09-24,2,8,USR_0470,Mid-market PMs,Pain,0.07,1,
+797,2024-08-08,5,5,USR_0334,Enterprise PMs,Dream,-0.39,12,sandbagging gatekeepers
+798,2024-06-22,4,18,USR_0320,Enterprise PMs,Pain,0.38,2,CEO without power
+799,2024-01-15,4,9,USR_0051,Mid-market PMs,Pain,-0.75,3,sandbagging gatekeepers
+800,2024-03-10,5,12,USR_0364,SMB PMs,Phrase,0.35,1,
+801,2024-10-19,2,14,USR_0002,Mid-market PMs,Phrase,0.56,1,
+802,2024-09-16,3,17,USR_0286,Enterprise PMs,Phrase,0.64,7,C suite idiots
+803,2025-11-05,2,14,USR_0347,SMB PMs,Pain,0.55,5,not psychic
+804,2025-08-01,4,10,USR_0376,Enterprise PMs,Phrase,-0.1,1,
+805,2025-08-01,4,13,USR_0236,Startup PMs,Phrase,0.63,5,
+806,2024-01-31,2,18,USR_0107,SMB PMs,Phrase,0.7,2,
+807,2024-03-04,2,2,USR_0343,Enterprise PMs,Pain,-0.61,2,
+808,2024-02-02,4,11,USR_0436,Startup PMs,Pain,0.33,11,
+809,2025-08-01,2,12,USR_0364,SMB PMs,Pain,0.78,1,boulder uphill
+810,2024-07-09,5,4,USR_0152,Enterprise PMs,Phrase,-0.42,4,
+811,2025-03-19,2,4,USR_0287,SMB PMs,Dream,-0.67,2,C suite idiots
+812,2025-07-15,5,6,USR_0433,SMB PMs,Pain,-0.19,1,sandbagging gatekeepers
+813,2024-06-16,5,3,USR_0365,Mid-market PMs,Pain,-0.56,1,
+814,2025-06-09,5,3,USR_0238,Enterprise PMs,Dream,0.1,3,
+815,2024-11-24,1,7,USR_0308,Enterprise PMs,Phrase,-0.78,1,
+816,2024-05-09,5,1,USR_0246,Mid-market PMs,Phrase,-0.68,8,sandbagging gatekeepers
+817,2025-04-26,2,16,USR_0241,Mid-market PMs,Pain,0.94,7,
+818,2024-09-04,4,15,USR_0324,Enterprise PMs,Pain,0.34,4,C suite idiots
+819,2024-04-15,5,18,USR_0478,SMB PMs,Pain,0.87,3,
+820,2025-11-25,5,5,USR_0044,Mid-market PMs,Pain,-0.53,4,
+821,2025-10-15,3,11,USR_0329,SMB PMs,Pain,0.33,1,
+822,2025-12-07,5,17,USR_0439,Startup PMs,Phrase,0.38,1,
+823,2025-06-22,1,9,USR_0041,Enterprise PMs,Pain,-0.57,3,C suite idiots
+824,2024-01-10,2,18,USR_0394,Startup PMs,Pain,0.65,1,
+825,2024-06-18,2,8,USR_0344,SMB PMs,Dream,-0.58,1,
+826,2024-01-17,2,8,USR_0261,SMB PMs,Phrase,-0.69,1,
+827,2024-03-16,4,6,USR_0434,Enterprise PMs,Dream,-0.09,1,C suite idiots
+828,2024-04-08,3,11,USR_0285,SMB PMs,Pain,0.68,1,
+829,2025-01-21,3,10,USR_0306,Mid-market PMs,Pain,-0.39,5,
+830,2025-09-24,2,5,USR_0148,SMB PMs,Phrase,-0.26,10,
+831,2025-12-30,2,9,USR_0381,Enterprise PMs,Dream,-0.38,12,
+832,2024-11-07,1,16,USR_0175,SMB PMs,Dream,0.82,1,
+833,2024-03-05,2,2,USR_0137,SMB PMs,Pain,-0.66,3,
+834,2025-12-30,5,4,USR_0298,Enterprise PMs,Dream,-0.4,1,
+835,2024-05-01,5,16,USR_0349,Enterprise PMs,Pain,0.54,1,
+836,2024-02-18,4,18,USR_0462,SMB PMs,Phrase,0.72,6,impacting users lives
+837,2025-10-08,2,11,USR_0096,SMB PMs,Pain,0.57,1,
+838,2025-03-17,4,2,USR_0383,SMB PMs,Dream,-0.79,4,
+839,2024-11-25,3,12,USR_0017,Enterprise PMs,Dream,0.7,1,
+840,2024-06-09,4,13,USR_0076,Startup PMs,Dream,0.65,1,CEO without power
+841,2024-09-06,4,2,USR_0303,SMB PMs,Phrase,-0.72,7,
+842,2024-11-04,5,2,USR_0249,Mid-market PMs,Dream,-0.32,13,sandbagging gatekeepers
+843,2025-05-12,5,10,USR_0141,Mid-market PMs,Dream,-0.27,1,C suite idiots
+844,2025-04-13,1,13,USR_0091,Enterprise PMs,Dream,0.13,4,
+845,2024-12-06,2,14,USR_0143,SMB PMs,Phrase,0.58,5,C suite idiots
+846,2025-08-04,3,8,USR_0148,SMB PMs,Phrase,-0.22,1,CEO without power
+847,2024-09-16,1,2,USR_0092,Startup PMs,Phrase,-0.8,3,
+848,2024-03-05,5,4,USR_0082,SMB PMs,Dream,-0.13,5,boulder uphill
+849,2025-02-06,3,9,USR_0071,Startup PMs,Pain,-0.45,2,
+850,2025-06-16,3,2,USR_0184,Mid-market PMs,Pain,-0.65,1,not psychic
+851,2025-12-22,4,13,USR_0212,Startup PMs,Phrase,0.72,3,CEO without power
+852,2025-02-26,4,4,USR_0403,SMB PMs,Dream,-0.29,1,
+853,2024-10-03,2,6,USR_0306,Mid-market PMs,Pain,-0.15,1,
+854,2024-02-17,1,14,USR_0451,Startup PMs,Dream,0.4,3,
+855,2024-06-04,2,14,USR_0342,SMB PMs,Phrase,0.52,1,
+856,2025-07-16,3,16,USR_0343,Enterprise PMs,Phrase,0.98,3,
+857,2025-04-26,4,18,USR_0078,Enterprise PMs,Pain,0.49,7,
+858,2025-04-27,4,10,USR_0051,Mid-market PMs,Pain,-0.77,5,
+859,2025-01-21,2,3,USR_0169,Enterprise PMs,Pain,-0.49,6,
+860,2025-02-26,1,17,USR_0123,Enterprise PMs,Dream,0.76,5,
+861,2024-11-27,1,3,USR_0182,Enterprise PMs,Phrase,-0.3,5,
+862,2024-03-10,3,2,USR_0060,Enterprise PMs,Phrase,-0.63,4,
+863,2024-01-29,4,16,USR_0279,Startup PMs,Pain,1.0,1,
+864,2024-08-21,2,10,USR_0187,Startup PMs,Pain,-0.81,1,
+865,2025-05-12,4,14,USR_0346,SMB PMs,Pain,0.66,1,
+866,2025-01-10,5,16,USR_0111,Enterprise PMs,Pain,0.73,1,
+867,2024-08-25,2,2,USR_0187,Startup PMs,Phrase,-0.05,2,
+868,2024-10-22,2,15,USR_0343,Enterprise PMs,Dream,0.6,11,
+869,2024-02-28,3,18,USR_0347,SMB PMs,Dream,0.58,4,sandbagging gatekeepers
+870,2025-04-24,5,16,USR_0430,Enterprise PMs,Pain,0.39,1,C suite idiots
+871,2025-01-08,4,11,USR_0047,Enterprise PMs,Phrase,0.32,3,
+872,2025-03-03,5,11,USR_0466,Enterprise PMs,Dream,0.53,2,
+873,2024-04-04,2,1,USR_0307,SMB PMs,Pain,-0.44,1,
+874,2025-06-01,5,8,USR_0296,SMB PMs,Pain,-0.73,1,
+875,2024-12-28,2,13,USR_0017,Enterprise PMs,Dream,0.68,1,
+876,2025-07-15,1,17,USR_0471,Enterprise PMs,Pain,0.44,4,
+877,2024-09-08,4,14,USR_0114,Startup PMs,Pain,0.72,4,
+878,2024-09-24,1,14,USR_0477,Enterprise PMs,Phrase,0.37,1,
+879,2024-10-10,4,10,USR_0179,Mid-market PMs,Dream,-0.66,5,not psychic
+880,2025-03-25,4,14,USR_0227,Mid-market PMs,Pain,0.59,1,slow down to speed up
+881,2025-02-19,3,3,USR_0316,Startup PMs,Dream,-0.53,19,
+882,2024-07-15,2,8,USR_0469,Enterprise PMs,Phrase,-0.35,12,
+883,2024-06-16,3,2,USR_0318,Enterprise PMs,Pain,-0.46,3,
+884,2024-04-29,3,8,USR_0397,Mid-market PMs,Pain,-0.49,11,CEO without power
+885,2025-09-12,5,1,USR_0011,Enterprise PMs,Dream,-0.4,2,
+886,2024-01-05,2,16,USR_0492,SMB PMs,Pain,0.46,1,
+887,2025-05-29,3,16,USR_0442,Mid-market PMs,Pain,0.59,9,not psychic
+888,2024-09-14,1,8,USR_0258,Startup PMs,Pain,-0.26,1,
+889,2024-02-22,3,2,USR_0113,Mid-market PMs,Dream,-0.51,6,
+890,2024-10-19,4,6,USR_0014,Enterprise PMs,Phrase,-0.2,1,
+891,2024-03-22,5,5,USR_0091,Enterprise PMs,Dream,-0.47,14,
+892,2024-03-20,3,1,USR_0437,Enterprise PMs,Dream,-1.0,6,CEO without power
+893,2025-08-19,1,10,USR_0120,SMB PMs,Pain,-0.26,13,boulder uphill
+894,2024-03-31,5,5,USR_0466,Enterprise PMs,Dream,-0.81,1,
+895,2025-04-25,5,11,USR_0078,Enterprise PMs,Phrase,0.54,5,impacting users lives
+896,2025-01-19,5,13,USR_0259,SMB PMs,Phrase,0.56,1,C suite idiots
+897,2024-12-10,2,8,USR_0268,Startup PMs,Dream,-0.4,1,
+898,2024-03-27,5,12,USR_0483,SMB PMs,Dream,0.82,11,
+899,2025-03-01,1,14,USR_0011,Enterprise PMs,Phrase,0.68,1,
+900,2024-06-09,2,3,USR_0453,SMB PMs,Dream,-0.48,8,
+901,2024-04-15,2,5,USR_0097,SMB PMs,Pain,-0.56,1,
+902,2025-02-24,1,5,USR_0248,Mid-market PMs,Phrase,-0.35,5,
+903,2024-05-05,1,17,USR_0312,Enterprise PMs,Phrase,0.6,1,
+904,2025-03-24,5,12,USR_0447,Mid-market PMs,Dream,0.73,1,
+905,2025-08-18,1,15,USR_0211,SMB PMs,Pain,0.45,1,
+906,2025-08-26,1,18,USR_0103,Enterprise PMs,Phrase,0.46,10,
+907,2025-10-04,4,6,USR_0343,Enterprise PMs,Phrase,-0.15,4,sandbagging gatekeepers
+908,2024-01-28,5,4,USR_0280,Startup PMs,Pain,-0.84,1,
+909,2025-07-02,4,4,USR_0424,SMB PMs,Phrase,-0.31,1,
+910,2024-11-23,2,13,USR_0350,SMB PMs,Phrase,0.35,1,slow down to speed up
+911,2025-05-24,3,11,USR_0437,Enterprise PMs,Phrase,0.5,10,
+912,2024-02-27,1,4,USR_0266,Startup PMs,Pain,-0.14,1,not psychic
+913,2024-10-19,5,12,USR_0420,Startup PMs,Phrase,0.62,5,boulder uphill
+914,2024-08-17,1,10,USR_0478,SMB PMs,Phrase,-0.69,6,
+915,2024-10-08,4,11,USR_0126,SMB PMs,Phrase,0.71,3,
+916,2024-10-04,2,14,USR_0140,Mid-market PMs,Phrase,0.45,1,impacting users lives
+917,2025-10-20,3,6,USR_0238,Enterprise PMs,Pain,0.1,9,
+918,2025-06-29,2,17,USR_0425,Enterprise PMs,Pain,0.34,2,
+919,2024-07-05,5,7,USR_0391,Mid-market PMs,Dream,-0.11,1,
+920,2024-03-02,2,12,USR_0250,Mid-market PMs,Phrase,0.56,2,
+921,2025-05-02,3,4,USR_0049,SMB PMs,Phrase,-0.61,14,CEO without power
+922,2024-01-01,1,14,USR_0251,Enterprise PMs,Dream,0.77,2,
+923,2025-08-22,2,2,USR_0088,SMB PMs,Phrase,-0.93,19,
+924,2024-03-05,5,3,USR_0433,SMB PMs,Phrase,-0.26,7,CEO without power
+925,2024-03-20,3,8,USR_0310,Enterprise PMs,Dream,-0.56,1,
+926,2024-03-14,5,14,USR_0181,Enterprise PMs,Pain,0.89,13,
+927,2025-01-17,1,1,USR_0463,Startup PMs,Dream,0.06,8,
+928,2025-07-20,3,1,USR_0228,Enterprise PMs,Phrase,-0.72,2,slow down to speed up
+929,2024-11-20,2,12,USR_0204,Mid-market PMs,Phrase,0.52,6,
+930,2025-05-19,3,3,USR_0223,Enterprise PMs,Dream,-0.3,7,
+931,2024-07-19,1,8,USR_0263,Enterprise PMs,Pain,-0.23,1,
+932,2024-11-02,4,16,USR_0327,SMB PMs,Pain,0.65,1,
+933,2025-11-13,2,8,USR_0089,Mid-market PMs,Phrase,-0.39,1,
+934,2024-02-20,1,13,USR_0090,SMB PMs,Phrase,0.71,2,slow down to speed up
+935,2024-03-01,3,6,USR_0012,Mid-market PMs,Dream,-0.13,1,
+936,2025-11-18,3,11,USR_0242,Mid-market PMs,Dream,0.91,6,sandbagging gatekeepers
+937,2024-12-24,3,14,USR_0399,Startup PMs,Dream,0.49,6,slow down to speed up
+938,2024-12-31,2,8,USR_0098,SMB PMs,Dream,-0.78,1,
+939,2025-04-16,2,6,USR_0188,SMB PMs,Dream,-0.12,2,
+940,2025-11-22,3,5,USR_0107,SMB PMs,Pain,-0.34,1,sandbagging gatekeepers
+941,2024-09-17,1,4,USR_0304,SMB PMs,Dream,-0.28,6,
+942,2025-12-05,3,17,USR_0139,Enterprise PMs,Dream,0.83,1,CEO without power
+943,2025-10-23,5,11,USR_0044,Mid-market PMs,Pain,0.59,1,
+944,2025-12-03,1,11,USR_0205,SMB PMs,Pain,0.24,3,
+945,2025-05-13,5,4,USR_0046,Startup PMs,Dream,-0.57,4,
+946,2025-05-24,1,10,USR_0351,SMB PMs,Dream,-0.27,3,
+947,2025-08-05,1,8,USR_0089,Mid-market PMs,Dream,-0.71,14,
+948,2025-01-31,3,18,USR_0274,Mid-market PMs,Phrase,0.51,1,boulder uphill
+949,2025-10-05,3,13,USR_0232,SMB PMs,Phrase,0.65,5,
+950,2024-06-06,3,1,USR_0340,Enterprise PMs,Dream,-0.56,3,C suite idiots
+951,2024-09-24,4,13,USR_0495,SMB PMs,Dream,0.18,1,
+952,2024-11-10,5,17,USR_0489,Mid-market PMs,Phrase,0.65,6,
+953,2024-12-31,3,14,USR_0145,Enterprise PMs,Dream,0.99,4,
+954,2025-02-19,1,12,USR_0296,SMB PMs,Pain,0.6,1,
+955,2024-03-23,2,18,USR_0234,SMB PMs,Pain,0.49,6,not psychic
+956,2025-01-19,2,11,USR_0250,Mid-market PMs,Dream,0.67,3,
+957,2025-11-21,3,7,USR_0204,Mid-market PMs,Phrase,-0.67,1,slow down to speed up
+958,2025-08-10,2,14,USR_0073,Enterprise PMs,Pain,0.8,2,
+959,2025-03-31,5,10,USR_0162,SMB PMs,Pain,-0.36,22,
+960,2024-11-23,5,14,USR_0153,Enterprise PMs,Dream,0.2,2,
+961,2025-10-08,5,8,USR_0096,SMB PMs,Dream,-0.2,4,
+962,2024-05-05,3,15,USR_0064,Enterprise PMs,Dream,0.63,2,
+963,2024-11-28,1,5,USR_0083,Enterprise PMs,Dream,-0.55,19,C suite idiots
+964,2025-12-13,2,7,USR_0284,Enterprise PMs,Dream,-0.92,9,
+965,2025-01-22,5,18,USR_0387,Enterprise PMs,Dream,0.24,4,
+966,2024-03-03,4,11,USR_0452,SMB PMs,Phrase,1.0,1,
+967,2024-09-19,5,13,USR_0086,Enterprise PMs,Dream,0.41,10,sandbagging gatekeepers
+968,2025-11-30,5,7,USR_0300,Enterprise PMs,Pain,-0.92,1,
+969,2025-07-14,4,9,USR_0069,Enterprise PMs,Pain,-0.6,13,
+970,2024-12-16,2,3,USR_0187,Startup PMs,Phrase,-0.16,5,
+971,2024-07-13,3,15,USR_0048,SMB PMs,Dream,0.64,5,
+972,2025-08-12,1,17,USR_0163,SMB PMs,Phrase,0.2,1,impacting users lives
+973,2025-08-05,3,8,USR_0209,Enterprise PMs,Phrase,-0.64,2,
+974,2025-01-27,2,15,USR_0346,SMB PMs,Phrase,0.27,1,CEO without power
+975,2024-11-29,5,12,USR_0481,SMB PMs,Pain,0.35,2,
+976,2025-12-08,5,14,USR_0340,Enterprise PMs,Phrase,0.57,7,
+977,2024-07-30,5,13,USR_0364,SMB PMs,Pain,0.67,4,
+978,2024-10-03,5,14,USR_0202,Enterprise PMs,Pain,0.33,1,not psychic
+979,2024-10-03,5,16,USR_0156,Enterprise PMs,Dream,0.41,9,
+980,2025-12-17,4,4,USR_0094,SMB PMs,Phrase,-0.58,1,
+981,2025-03-15,3,8,USR_0169,Enterprise PMs,Phrase,-1.0,1,
+982,2024-12-19,2,13,USR_0236,Startup PMs,Phrase,0.92,1,
+983,2025-04-25,4,9,USR_0416,SMB PMs,Phrase,-0.22,4,
+984,2025-04-02,4,10,USR_0054,Mid-market PMs,Dream,-0.67,9,C suite idiots
+985,2024-03-07,3,1,USR_0453,SMB PMs,Phrase,-0.48,7,
+986,2025-09-23,1,17,USR_0075,Startup PMs,Phrase,0.79,3,
+987,2025-03-11,1,15,USR_0042,SMB PMs,Phrase,0.66,3,
+988,2024-06-09,1,11,USR_0275,SMB PMs,Pain,0.9,2,boulder uphill
+989,2024-10-17,5,7,USR_0066,SMB PMs,Phrase,-0.91,3,
+990,2024-04-16,3,7,USR_0192,Mid-market PMs,Dream,-0.59,1,boulder uphill
+991,2025-08-26,2,13,USR_0033,Enterprise PMs,Phrase,0.35,8,
+992,2025-05-08,2,14,USR_0359,Mid-market PMs,Pain,0.68,1,
+993,2025-05-24,2,4,USR_0176,Enterprise PMs,Phrase,-0.44,4,
+994,2024-12-12,4,5,USR_0064,Enterprise PMs,Phrase,-0.66,9,not psychic
+995,2024-01-26,5,3,USR_0285,SMB PMs,Dream,-0.43,4,slow down to speed up
+996,2025-08-20,5,5,USR_0458,SMB PMs,Pain,-0.58,1,
+997,2024-08-10,1,2,USR_0362,SMB PMs,Dream,-0.11,2,impacting users lives
+998,2024-04-20,3,14,USR_0459,Enterprise PMs,Phrase,0.57,4,not psychic
+999,2024-01-12,2,5,USR_0070,Mid-market PMs,Pain,0.03,2,
+1000,2024-05-15,5,16,USR_0450,Enterprise PMs,Phrase,0.58,4,
+1001,2025-07-04,2,16,USR_0315,Startup PMs,Pain,0.33,1,
+1002,2024-03-06,5,18,USR_0103,Enterprise PMs,Pain,0.67,1,
+1003,2024-11-23,4,18,USR_0359,Mid-market PMs,Pain,0.25,1,sandbagging gatekeepers
+1004,2025-10-12,4,11,USR_0241,Mid-market PMs,Phrase,0.61,2,
+1005,2025-01-15,4,9,USR_0335,Enterprise PMs,Dream,-0.57,17,
+1006,2024-02-22,4,8,USR_0212,Startup PMs,Phrase,-0.05,12,
+1007,2025-04-09,3,15,USR_0180,Enterprise PMs,Pain,0.6,1,
+1008,2025-07-12,5,5,USR_0394,Startup PMs,Phrase,-0.45,1,CEO without power
+1009,2025-03-01,4,3,USR_0214,Enterprise PMs,Pain,-0.29,2,
+1010,2025-06-05,5,2,USR_0351,SMB PMs,Dream,-0.74,3,not psychic
+1011,2024-10-03,4,1,USR_0435,Enterprise PMs,Pain,-0.8,9,sandbagging gatekeepers
+1012,2024-08-04,1,1,USR_0453,SMB PMs,Pain,-0.17,5,CEO without power
+1013,2025-08-23,1,14,USR_0408,Enterprise PMs,Pain,0.52,1,
+1014,2025-05-12,2,17,USR_0437,Enterprise PMs,Dream,0.75,2,
+1015,2024-07-01,2,6,USR_0163,SMB PMs,Phrase,-0.2,2,
+1016,2025-03-03,1,12,USR_0119,Mid-market PMs,Phrase,0.73,2,
+1017,2024-08-25,3,9,USR_0104,SMB PMs,Dream,-0.64,1,
+1018,2025-11-06,4,11,USR_0233,SMB PMs,Dream,0.71,3,
+1019,2025-02-08,1,17,USR_0184,Mid-market PMs,Dream,0.65,1,slow down to speed up
+1020,2025-02-09,3,3,USR_0289,Enterprise PMs,Dream,-0.04,5,sandbagging gatekeepers
+1021,2025-10-08,1,10,USR_0021,SMB PMs,Phrase,-0.4,4,boulder uphill
+1022,2024-05-25,3,17,USR_0306,Mid-market PMs,Dream,0.38,2,slow down to speed up
+1023,2024-03-07,5,9,USR_0277,Startup PMs,Phrase,-0.43,2,CEO without power
+1024,2024-02-26,4,14,USR_0462,SMB PMs,Dream,1.0,5,boulder uphill
+1025,2025-11-26,2,8,USR_0145,Enterprise PMs,Phrase,-0.22,4,slow down to speed up
+1026,2024-01-23,1,15,USR_0013,Startup PMs,Dream,0.93,3,
+1027,2025-07-03,4,10,USR_0438,Startup PMs,Pain,-0.36,2,
+1028,2024-09-05,1,2,USR_0264,SMB PMs,Dream,-0.43,8,
+1029,2024-02-21,4,13,USR_0264,SMB PMs,Phrase,0.45,2,
+1030,2024-08-19,2,12,USR_0049,SMB PMs,Phrase,0.96,6,not psychic
+1031,2025-12-14,1,15,USR_0292,Enterprise PMs,Pain,0.67,1,
+1032,2025-02-15,2,15,USR_0275,SMB PMs,Pain,0.24,1,slow down to speed up
+1033,2025-09-13,4,3,USR_0385,Startup PMs,Phrase,-0.45,5,
+1034,2025-02-20,2,1,USR_0444,Enterprise PMs,Pain,-0.48,8,
+1035,2024-09-19,1,14,USR_0394,Startup PMs,Phrase,0.09,1,
+1036,2024-03-23,1,14,USR_0380,Enterprise PMs,Pain,0.27,2,not psychic
+1037,2024-05-24,2,12,USR_0251,Enterprise PMs,Phrase,0.49,1,
+1038,2024-05-09,3,2,USR_0250,Mid-market PMs,Dream,-0.34,4,
+1039,2025-08-29,5,7,USR_0405,Enterprise PMs,Dream,-0.42,6,
+1040,2025-03-30,2,10,USR_0179,Mid-market PMs,Phrase,-0.84,13,
+1041,2024-12-23,5,4,USR_0185,Enterprise PMs,Pain,-0.34,1,
+1042,2024-01-01,4,16,USR_0388,Enterprise PMs,Phrase,0.52,1,
+1043,2024-05-12,1,8,USR_0295,Enterprise PMs,Phrase,-0.26,1,
+1044,2024-07-11,3,8,USR_0056,Mid-market PMs,Phrase,-0.96,2,
+1045,2025-01-27,1,5,USR_0408,Enterprise PMs,Dream,-0.67,22,
+1046,2025-10-07,5,3,USR_0440,Enterprise PMs,Dream,-0.2,3,
+1047,2024-09-30,3,9,USR_0277,Startup PMs,Pain,-0.78,1,not psychic
+1048,2025-06-14,3,11,USR_0379,Startup PMs,Dream,0.69,1,
+1049,2025-09-10,1,7,USR_0431,Enterprise PMs,Dream,-0.29,1,
+1050,2024-12-07,5,18,USR_0320,Enterprise PMs,Dream,0.98,1,
+1051,2024-04-20,5,9,USR_0276,SMB PMs,Phrase,-0.76,1,
+1052,2025-07-16,1,10,USR_0280,Startup PMs,Dream,-0.09,11,
+1053,2025-08-31,1,9,USR_0131,SMB PMs,Dream,-0.14,12,
+1054,2024-10-09,4,9,USR_0327,SMB PMs,Dream,-0.56,1,
+1055,2025-03-18,2,17,USR_0357,Enterprise PMs,Pain,0.88,3,
+1056,2024-01-12,1,12,USR_0274,Mid-market PMs,Phrase,0.92,6,
+1057,2025-02-21,4,5,USR_0236,Startup PMs,Pain,-0.71,1,impacting users lives
+1058,2024-08-24,4,10,USR_0500,Mid-market PMs,Phrase,-0.67,8,
+1059,2025-06-08,4,9,USR_0251,Enterprise PMs,Pain,-0.43,1,boulder uphill
+1060,2024-03-18,1,2,USR_0194,SMB PMs,Dream,-0.59,9,
+1061,2025-09-16,4,4,USR_0486,Mid-market PMs,Pain,-0.64,18,
+1062,2024-03-02,3,12,USR_0136,Enterprise PMs,Pain,1.0,1,
+1063,2024-01-17,5,2,USR_0219,SMB PMs,Pain,-0.59,1,slow down to speed up
+1064,2025-10-15,5,5,USR_0125,Enterprise PMs,Pain,-0.52,1,
+1065,2025-01-26,2,17,USR_0176,Enterprise PMs,Pain,0.51,1,
+1066,2025-06-18,5,4,USR_0321,SMB PMs,Phrase,-0.51,4,boulder uphill
+1067,2025-07-28,5,5,USR_0365,Mid-market PMs,Phrase,-0.4,1,
+1068,2024-03-22,1,9,USR_0226,Enterprise PMs,Pain,-0.4,10,
+1069,2024-06-14,4,13,USR_0366,Enterprise PMs,Dream,0.49,1,
+1070,2025-01-20,2,2,USR_0094,SMB PMs,Dream,-0.48,7,impacting users lives
+1071,2025-12-10,5,12,USR_0023,Enterprise PMs,Pain,0.23,7,impacting users lives
+1072,2025-11-19,5,17,USR_0061,Enterprise PMs,Dream,0.09,11,
+1073,2025-03-01,2,3,USR_0129,Enterprise PMs,Phrase,-0.16,11,boulder uphill
+1074,2024-04-10,5,2,USR_0415,SMB PMs,Dream,-0.18,1,
+1075,2025-11-28,5,14,USR_0257,Mid-market PMs,Phrase,0.67,4,
+1076,2025-12-29,3,18,USR_0178,Enterprise PMs,Phrase,0.61,3,
+1077,2024-08-26,4,16,USR_0305,Startup PMs,Pain,0.21,1,slow down to speed up
+1078,2024-05-15,3,11,USR_0148,SMB PMs,Pain,0.45,6,CEO without power
+1079,2024-02-01,1,8,USR_0234,SMB PMs,Pain,-0.12,16,
+1080,2025-01-05,4,15,USR_0147,SMB PMs,Phrase,0.65,6,
+1081,2025-06-05,3,14,USR_0133,Enterprise PMs,Pain,0.42,14,
+1082,2025-01-24,5,18,USR_0160,Startup PMs,Pain,0.63,1,
+1083,2024-04-02,1,1,USR_0029,SMB PMs,Dream,-0.13,5,
+1084,2024-10-18,4,13,USR_0245,Enterprise PMs,Phrase,0.4,9,
+1085,2024-07-02,4,8,USR_0276,SMB PMs,Dream,-0.68,3,
+1086,2024-06-07,2,1,USR_0014,Enterprise PMs,Pain,-0.57,16,
+1087,2024-06-10,1,18,USR_0147,SMB PMs,Phrase,0.3,1,
+1088,2024-08-04,4,12,USR_0143,SMB PMs,Pain,0.28,1,
+1089,2025-09-15,4,17,USR_0073,Enterprise PMs,Pain,0.56,1,
+1090,2025-07-29,2,11,USR_0125,Enterprise PMs,Pain,0.27,1,
+1091,2025-07-30,3,11,USR_0125,Enterprise PMs,Phrase,0.5,1,
+1092,2025-05-08,1,9,USR_0341,SMB PMs,Dream,-0.8,11,not psychic
+1093,2025-09-23,1,17,USR_0217,Enterprise PMs,Phrase,0.45,8,slow down to speed up
+1094,2025-05-11,4,6,USR_0201,SMB PMs,Dream,-0.39,4,not psychic
+1095,2025-05-23,1,5,USR_0293,Startup PMs,Pain,-0.96,2,
+1096,2025-08-16,1,4,USR_0246,Mid-market PMs,Phrase,0.0,1,
+1097,2024-01-30,5,8,USR_0165,Enterprise PMs,Pain,-0.55,2,
+1098,2024-07-21,3,14,USR_0365,Mid-market PMs,Dream,0.8,3,
+1099,2025-07-14,2,2,USR_0331,Enterprise PMs,Dream,-0.34,1,boulder uphill
+1100,2025-09-09,1,11,USR_0368,Mid-market PMs,Phrase,0.31,2,
+1101,2024-02-04,2,16,USR_0231,Startup PMs,Dream,0.31,2,
+1102,2025-03-10,1,18,USR_0371,Enterprise PMs,Phrase,0.15,9,
+1103,2024-04-19,5,9,USR_0162,SMB PMs,Phrase,-0.27,13,not psychic
+1104,2025-05-18,3,1,USR_0207,Enterprise PMs,Dream,-0.84,6,
+1105,2025-07-30,2,17,USR_0278,SMB PMs,Dream,0.85,1,
+1106,2024-09-11,4,17,USR_0030,Enterprise PMs,Dream,0.6,5,
+1107,2025-07-17,1,8,USR_0435,Enterprise PMs,Pain,-0.81,1,C suite idiots
+1108,2025-10-26,4,14,USR_0325,Mid-market PMs,Dream,0.16,2,
+1109,2024-01-15,2,6,USR_0289,Enterprise PMs,Dream,-0.45,2,
+1110,2024-03-17,2,17,USR_0038,Enterprise PMs,Dream,0.81,1,sandbagging gatekeepers
+1111,2024-01-27,4,9,USR_0399,Startup PMs,Phrase,-0.7,1,
+1112,2024-02-26,1,5,USR_0335,Enterprise PMs,Pain,-0.19,9,
+1113,2024-07-20,2,13,USR_0399,Startup PMs,Phrase,0.55,5,
+1114,2024-03-09,3,10,USR_0017,Enterprise PMs,Pain,-0.11,1,
+1115,2025-12-12,4,15,USR_0339,SMB PMs,Dream,0.74,1,CEO without power
+1116,2025-03-10,3,15,USR_0390,Startup PMs,Phrase,0.78,1,
+1117,2025-06-12,2,3,USR_0341,SMB PMs,Phrase,-0.63,1,impacting users lives
+1118,2024-06-21,4,11,USR_0114,Startup PMs,Dream,0.42,2,
+1119,2025-10-09,1,13,USR_0055,SMB PMs,Phrase,0.63,1,
+1120,2025-01-05,3,4,USR_0485,SMB PMs,Dream,-0.11,9,
+1121,2025-11-09,2,10,USR_0345,Enterprise PMs,Dream,-0.27,3,
+1122,2025-03-16,2,5,USR_0391,Mid-market PMs,Dream,-0.44,5,
+1123,2025-10-16,1,14,USR_0242,Mid-market PMs,Phrase,0.7,2,
+1124,2024-02-26,3,16,USR_0086,Enterprise PMs,Pain,0.72,5,boulder uphill
+1125,2025-11-25,1,11,USR_0444,Enterprise PMs,Phrase,0.74,1,
+1126,2025-07-28,3,3,USR_0080,Enterprise PMs,Phrase,-0.12,1,
+1127,2025-04-09,1,12,USR_0292,Enterprise PMs,Dream,0.41,1,
+1128,2024-11-27,3,8,USR_0430,Enterprise PMs,Pain,-0.72,4,
+1129,2025-05-09,2,3,USR_0317,SMB PMs,Phrase,-0.31,8,CEO without power
+1130,2024-12-02,3,12,USR_0180,Enterprise PMs,Phrase,0.36,1,boulder uphill
+1131,2024-09-22,1,4,USR_0043,Enterprise PMs,Phrase,-0.49,1,boulder uphill
+1132,2024-02-03,3,2,USR_0130,SMB PMs,Dream,-0.44,5,
+1133,2024-06-10,2,16,USR_0418,Enterprise PMs,Phrase,0.96,1,
+1134,2024-04-16,4,11,USR_0463,Startup PMs,Phrase,0.96,2,not psychic
+1135,2024-09-26,1,4,USR_0100,Enterprise PMs,Dream,-0.34,6,CEO without power
+1136,2025-07-13,3,12,USR_0034,Mid-market PMs,Dream,0.32,7,
+1137,2025-10-23,4,18,USR_0151,Mid-market PMs,Dream,0.94,3,
+1138,2024-10-11,4,13,USR_0027,Enterprise PMs,Pain,0.75,1,sandbagging gatekeepers
+1139,2025-09-10,5,11,USR_0452,SMB PMs,Pain,0.58,2,
+1140,2024-02-12,2,15,USR_0429,Enterprise PMs,Phrase,0.63,3,
+1141,2025-12-09,1,7,USR_0041,Enterprise PMs,Dream,-0.36,1,
+1142,2024-02-03,3,10,USR_0440,Enterprise PMs,Phrase,-0.77,2,
+1143,2024-10-28,5,9,USR_0374,Startup PMs,Dream,-0.53,17,
+1144,2024-02-08,4,18,USR_0425,Enterprise PMs,Pain,0.62,2,
+1145,2024-07-16,3,6,USR_0093,Startup PMs,Pain,-0.72,2,
+1146,2024-05-05,2,8,USR_0492,SMB PMs,Dream,-0.37,1,
+1147,2025-05-25,4,11,USR_0486,Mid-market PMs,Pain,0.43,2,
+1148,2024-11-30,5,16,USR_0478,SMB PMs,Dream,0.7,3,
+1149,2024-12-23,5,2,USR_0018,SMB PMs,Phrase,-0.84,2,
+1150,2025-01-02,4,15,USR_0207,Enterprise PMs,Dream,0.62,2,not psychic
+1151,2025-05-05,1,3,USR_0112,Enterprise PMs,Dream,-0.3,4,sandbagging gatekeepers
+1152,2025-10-21,3,8,USR_0495,SMB PMs,Pain,-0.42,4,
+1153,2025-07-15,1,17,USR_0406,Mid-market PMs,Pain,0.86,1,
+1154,2024-03-15,2,7,USR_0133,Enterprise PMs,Phrase,-0.42,15,
+1155,2024-08-27,1,10,USR_0082,SMB PMs,Pain,-0.44,7,
+1156,2025-09-01,4,9,USR_0366,Enterprise PMs,Dream,-0.42,1,
+1157,2024-07-25,1,15,USR_0250,Mid-market PMs,Phrase,0.94,1,
+1158,2025-10-06,4,15,USR_0103,Enterprise PMs,Dream,0.65,1,sandbagging gatekeepers
+1159,2025-05-29,2,13,USR_0059,Enterprise PMs,Dream,0.06,1,
+1160,2025-07-18,4,18,USR_0410,Enterprise PMs,Phrase,0.58,1,C suite idiots
+1161,2024-08-28,4,12,USR_0080,Enterprise PMs,Phrase,1.0,3,slow down to speed up
+1162,2024-01-31,2,2,USR_0169,Enterprise PMs,Phrase,-0.17,2,not psychic
+1163,2025-08-08,4,4,USR_0376,Enterprise PMs,Dream,-0.54,10,
+1164,2025-05-14,1,8,USR_0370,Enterprise PMs,Dream,-0.31,5,
+1165,2024-11-05,2,8,USR_0390,Startup PMs,Dream,-0.3,18,
+1166,2025-09-12,1,1,USR_0182,Enterprise PMs,Dream,-0.61,5,slow down to speed up
+1167,2024-12-17,1,2,USR_0317,SMB PMs,Phrase,-0.64,3,
+1168,2024-07-08,1,12,USR_0048,SMB PMs,Pain,0.73,1,sandbagging gatekeepers
+1169,2024-05-12,4,3,USR_0468,Mid-market PMs,Dream,-0.54,1,
+1170,2025-06-23,5,13,USR_0121,Startup PMs,Phrase,0.15,1,
+1171,2025-07-07,5,2,USR_0124,Enterprise PMs,Phrase,-0.33,5,
+1172,2025-12-30,4,10,USR_0307,SMB PMs,Phrase,-0.33,3,
+1173,2024-12-16,3,3,USR_0312,Enterprise PMs,Dream,-0.6,25,slow down to speed up
+1174,2024-03-20,5,7,USR_0368,Mid-market PMs,Dream,-0.22,22,
+1175,2024-01-21,5,6,USR_0419,Startup PMs,Phrase,-0.44,13,slow down to speed up
+1176,2024-10-02,3,2,USR_0040,SMB PMs,Phrase,-0.56,8,
+1177,2025-10-11,3,18,USR_0158,Startup PMs,Phrase,0.88,2,slow down to speed up
+1178,2024-01-10,1,11,USR_0183,Mid-market PMs,Phrase,0.23,3,
+1179,2025-08-04,4,15,USR_0134,Enterprise PMs,Pain,0.19,8,
+1180,2024-08-28,3,4,USR_0327,SMB PMs,Dream,-0.57,2,impacting users lives
+1181,2025-04-20,4,3,USR_0086,Enterprise PMs,Pain,-0.49,3,
+1182,2025-12-16,3,3,USR_0178,Enterprise PMs,Phrase,-0.79,1,
+1183,2024-03-15,2,5,USR_0363,SMB PMs,Phrase,-0.09,4,
+1184,2025-10-24,4,11,USR_0434,Enterprise PMs,Dream,0.12,1,
+1185,2024-03-29,2,6,USR_0014,Enterprise PMs,Phrase,-0.31,2,
+1186,2025-04-18,3,18,USR_0447,Mid-market PMs,Phrase,0.45,4,
+1187,2025-04-08,3,15,USR_0417,Enterprise PMs,Dream,0.95,1,sandbagging gatekeepers
+1188,2024-12-26,1,12,USR_0030,Enterprise PMs,Phrase,0.44,2,
+1189,2025-06-11,4,5,USR_0436,Startup PMs,Pain,-0.16,8,
+1190,2024-10-24,5,11,USR_0419,Startup PMs,Dream,0.67,4,
+1191,2024-01-07,4,12,USR_0007,Enterprise PMs,Phrase,0.98,2,
+1192,2024-03-09,2,8,USR_0462,SMB PMs,Pain,-0.89,8,
+1193,2025-10-17,4,6,USR_0030,Enterprise PMs,Pain,-0.17,7,sandbagging gatekeepers
+1194,2024-01-10,4,5,USR_0052,Startup PMs,Dream,-0.13,1,impacting users lives
+1195,2024-01-11,1,5,USR_0006,Enterprise PMs,Phrase,-0.42,1,slow down to speed up
+1196,2024-07-11,4,1,USR_0443,Enterprise PMs,Dream,0.02,1,
+1197,2025-03-29,1,10,USR_0194,SMB PMs,Dream,-0.19,2,
+1198,2025-04-04,1,14,USR_0386,Startup PMs,Dream,0.67,1,
+1199,2025-04-15,2,2,USR_0416,SMB PMs,Pain,-0.31,3,
+1200,2024-12-13,4,16,USR_0364,SMB PMs,Dream,0.03,1,
+1201,2025-02-05,2,18,USR_0140,Mid-market PMs,Phrase,0.73,11,
+1202,2024-03-11,2,17,USR_0447,Mid-market PMs,Phrase,0.79,4,
+1203,2024-03-22,4,7,USR_0033,Enterprise PMs,Pain,-0.55,1,boulder uphill
+1204,2024-02-20,1,16,USR_0073,Enterprise PMs,Phrase,0.44,1,
+1205,2025-01-28,5,11,USR_0185,Enterprise PMs,Pain,0.52,1,
+1206,2025-03-24,4,2,USR_0050,Enterprise PMs,Dream,-0.5,10,
+1207,2025-08-21,4,4,USR_0003,Startup PMs,Phrase,-0.1,4,
+1208,2025-02-26,2,15,USR_0044,Mid-market PMs,Pain,0.38,1,
+1209,2025-06-25,5,18,USR_0498,Enterprise PMs,Pain,0.59,4,
+1210,2025-07-11,2,18,USR_0126,SMB PMs,Phrase,0.91,4,C suite idiots
+1211,2025-07-25,1,17,USR_0241,Mid-market PMs,Phrase,0.34,3,
+1212,2024-12-30,3,13,USR_0422,Startup PMs,Pain,0.83,2,
+1213,2024-10-24,5,11,USR_0282,Enterprise PMs,Dream,0.77,1,
+1214,2024-10-06,4,9,USR_0481,SMB PMs,Dream,-0.33,4,not psychic
+1215,2024-07-31,5,13,USR_0374,Startup PMs,Phrase,0.48,3,
+1216,2025-08-07,5,7,USR_0033,Enterprise PMs,Dream,-0.62,1,
+1217,2025-07-23,1,12,USR_0377,Startup PMs,Phrase,0.74,1,
+1218,2025-08-15,3,13,USR_0406,Mid-market PMs,Pain,0.41,2,
+1219,2025-02-12,4,12,USR_0094,SMB PMs,Phrase,0.42,3,
+1220,2025-02-06,4,2,USR_0442,Mid-market PMs,Pain,-0.31,1,impacting users lives
+1221,2025-06-02,3,7,USR_0112,Enterprise PMs,Pain,-0.74,6,slow down to speed up
+1222,2025-02-25,4,12,USR_0190,Enterprise PMs,Pain,0.6,1,
+1223,2024-07-21,5,10,USR_0429,Enterprise PMs,Pain,-0.27,10,
+1224,2025-07-10,5,18,USR_0416,SMB PMs,Pain,0.63,2,C suite idiots
+1225,2024-01-29,4,7,USR_0102,SMB PMs,Phrase,-0.34,7,
+1226,2024-09-22,5,8,USR_0259,SMB PMs,Dream,-0.29,10,
+1227,2025-12-30,2,16,USR_0060,Enterprise PMs,Phrase,0.44,1,
+1228,2025-07-10,4,1,USR_0053,Mid-market PMs,Phrase,-0.7,3,
+1229,2024-05-13,1,18,USR_0166,Startup PMs,Pain,0.69,1,CEO without power
+1230,2025-07-25,5,5,USR_0462,SMB PMs,Pain,-0.63,2,not psychic
+1231,2025-04-26,5,13,USR_0339,SMB PMs,Dream,0.87,1,
+1232,2025-01-27,5,3,USR_0362,SMB PMs,Phrase,-0.83,1,
+1233,2024-05-02,1,17,USR_0122,Mid-market PMs,Phrase,0.6,5,
+1234,2025-10-17,5,4,USR_0214,Enterprise PMs,Phrase,-0.37,1,C suite idiots
+1235,2024-12-12,2,2,USR_0134,Enterprise PMs,Dream,-0.41,5,
+1236,2024-06-27,5,15,USR_0416,SMB PMs,Pain,0.59,3,
+1237,2025-09-16,1,4,USR_0337,Mid-market PMs,Phrase,-0.51,15,
+1238,2025-06-21,3,6,USR_0336,Enterprise PMs,Dream,-0.42,7,
+1239,2025-11-02,4,9,USR_0088,SMB PMs,Phrase,-0.32,1,
+1240,2024-08-25,4,18,USR_0047,Enterprise PMs,Phrase,0.82,3,
+1241,2025-11-22,2,3,USR_0490,Mid-market PMs,Dream,-0.53,15,
+1242,2024-11-13,2,9,USR_0020,Enterprise PMs,Dream,-0.43,3,
+1243,2024-10-10,4,11,USR_0426,SMB PMs,Phrase,0.45,2,sandbagging gatekeepers
+1244,2024-02-11,4,15,USR_0330,Enterprise PMs,Pain,0.54,2,
+1245,2024-09-13,2,5,USR_0245,Enterprise PMs,Pain,-0.44,1,boulder uphill
+1246,2024-04-14,3,17,USR_0281,Mid-market PMs,Phrase,0.69,3,
+1247,2024-01-19,3,1,USR_0176,Enterprise PMs,Dream,-0.24,5,
+1248,2025-12-08,3,7,USR_0238,Enterprise PMs,Pain,-0.03,2,impacting users lives
+1249,2024-07-31,4,2,USR_0451,Startup PMs,Phrase,-0.87,16,sandbagging gatekeepers
+1250,2024-06-12,4,9,USR_0090,SMB PMs,Phrase,-0.29,2,
+1251,2024-05-31,3,7,USR_0189,SMB PMs,Dream,-0.6,1,
+1252,2025-03-28,4,1,USR_0403,SMB PMs,Dream,-0.02,2,
+1253,2024-12-17,2,12,USR_0472,Mid-market PMs,Phrase,0.19,2,boulder uphill
+1254,2024-10-23,2,14,USR_0216,Enterprise PMs,Dream,0.74,1,
+1255,2025-10-28,3,5,USR_0139,Enterprise PMs,Pain,-0.22,5,
+1256,2024-08-19,1,2,USR_0441,Enterprise PMs,Pain,-0.52,3,
+1257,2025-01-18,5,8,USR_0363,SMB PMs,Dream,-0.38,9,slow down to speed up
+1258,2025-09-30,4,8,USR_0381,Enterprise PMs,Phrase,-0.45,2,
+1259,2024-02-09,4,16,USR_0078,Enterprise PMs,Pain,0.84,4,
+1260,2025-11-07,2,13,USR_0337,Mid-market PMs,Phrase,0.87,1,impacting users lives
+1261,2024-06-13,5,16,USR_0056,Mid-market PMs,Pain,0.94,5,
+1262,2025-06-24,3,8,USR_0307,SMB PMs,Pain,-0.32,11,
+1263,2024-10-01,2,17,USR_0285,SMB PMs,Dream,1.0,5,slow down to speed up
+1264,2025-03-18,1,8,USR_0350,SMB PMs,Phrase,0.06,1,
+1265,2025-12-22,5,5,USR_0274,Mid-market PMs,Phrase,-0.13,4,
+1266,2025-01-18,4,8,USR_0104,SMB PMs,Pain,-0.59,8,
+1267,2025-10-31,5,5,USR_0023,Enterprise PMs,Pain,-0.48,1,C suite idiots
+1268,2024-06-14,5,13,USR_0174,Enterprise PMs,Pain,0.62,3,
+1269,2025-01-01,4,6,USR_0248,Mid-market PMs,Dream,-0.46,4,
+1270,2024-06-22,3,6,USR_0225,Enterprise PMs,Phrase,-0.55,1,
+1271,2025-11-28,1,1,USR_0256,SMB PMs,Pain,-0.48,18,
+1272,2025-03-27,3,6,USR_0101,Enterprise PMs,Phrase,-0.68,8,
+1273,2025-12-22,1,13,USR_0223,Enterprise PMs,Pain,0.47,2,CEO without power
+1274,2025-06-16,3,13,USR_0306,Mid-market PMs,Dream,0.35,1,sandbagging gatekeepers
+1275,2025-01-30,5,2,USR_0380,Enterprise PMs,Phrase,-0.49,26,
+1276,2025-07-15,2,8,USR_0311,SMB PMs,Dream,-0.26,6,
+1277,2024-08-22,5,7,USR_0477,Enterprise PMs,Pain,-0.42,1,CEO without power
+1278,2025-07-07,2,15,USR_0070,Mid-market PMs,Pain,0.91,3,
+1279,2025-11-23,3,2,USR_0294,Enterprise PMs,Phrase,-0.45,8,
+1280,2024-09-12,5,10,USR_0007,Enterprise PMs,Phrase,-0.19,8,
+1281,2024-03-08,2,7,USR_0050,Enterprise PMs,Pain,-0.43,1,
+1282,2025-06-24,3,5,USR_0366,Enterprise PMs,Dream,-0.58,1,
+1283,2024-03-24,1,12,USR_0355,Enterprise PMs,Phrase,0.79,1,
+1284,2024-02-14,1,11,USR_0265,Mid-market PMs,Dream,0.89,4,
+1285,2024-01-26,3,13,USR_0487,Enterprise PMs,Dream,0.6,7,CEO without power
+1286,2024-02-09,5,17,USR_0137,SMB PMs,Phrase,0.49,1,
+1287,2025-03-03,1,3,USR_0239,SMB PMs,Pain,-0.37,13,sandbagging gatekeepers
+1288,2024-07-13,2,4,USR_0173,SMB PMs,Pain,-0.4,1,
+1289,2025-06-23,3,16,USR_0129,Enterprise PMs,Dream,0.15,1,
+1290,2024-01-03,1,12,USR_0155,Mid-market PMs,Pain,0.9,2,
+1291,2025-10-13,1,17,USR_0186,Startup PMs,Phrase,0.21,1,
+1292,2024-10-03,2,2,USR_0331,Enterprise PMs,Dream,-0.07,3,
+1293,2024-03-15,3,13,USR_0469,Enterprise PMs,Dream,0.2,6,boulder uphill
+1294,2025-01-21,3,11,USR_0050,Enterprise PMs,Phrase,0.33,4,
+1295,2024-10-16,1,9,USR_0338,Startup PMs,Pain,-0.4,13,
+1296,2024-12-12,4,17,USR_0356,SMB PMs,Dream,0.68,2,
+1297,2025-09-23,4,13,USR_0288,SMB PMs,Dream,0.73,3,impacting users lives
+1298,2024-03-11,3,4,USR_0061,Enterprise PMs,Dream,0.03,7,
+1299,2024-10-27,5,17,USR_0303,SMB PMs,Phrase,0.28,6,
+1300,2024-08-12,1,15,USR_0118,Enterprise PMs,Phrase,0.75,1,
+1301,2025-04-14,1,15,USR_0291,Enterprise PMs,Dream,0.59,8,C suite idiots
+1302,2024-08-09,1,2,USR_0184,Mid-market PMs,Pain,-0.22,4,
+1303,2025-07-04,3,10,USR_0003,Startup PMs,Dream,-0.46,12,
+1304,2025-01-05,4,9,USR_0304,SMB PMs,Pain,-0.57,10,
+1305,2025-09-29,5,15,USR_0214,Enterprise PMs,Pain,0.6,2,
+1306,2025-07-01,3,18,USR_0248,Mid-market PMs,Phrase,0.15,3,
+1307,2025-12-19,5,7,USR_0303,SMB PMs,Phrase,-0.33,1,boulder uphill
+1308,2025-12-06,4,17,USR_0239,SMB PMs,Phrase,0.64,2,
+1309,2024-09-12,5,16,USR_0228,Enterprise PMs,Dream,1.0,7,
+1310,2025-08-10,3,17,USR_0361,Enterprise PMs,Phrase,0.49,1,not psychic
+1311,2025-12-07,4,14,USR_0415,SMB PMs,Pain,0.7,5,
+1312,2024-05-25,4,4,USR_0460,Enterprise PMs,Phrase,-0.42,1,
+1313,2025-06-16,3,4,USR_0237,Enterprise PMs,Phrase,-0.47,2,slow down to speed up
+1314,2025-01-03,2,17,USR_0286,Enterprise PMs,Pain,0.62,11,
+1315,2024-05-13,3,13,USR_0487,Enterprise PMs,Dream,0.64,4,C suite idiots
+1316,2024-07-30,4,7,USR_0321,SMB PMs,Phrase,-0.31,6,
+1317,2024-05-06,5,4,USR_0044,Mid-market PMs,Dream,-0.79,6,
+1318,2024-12-26,3,1,USR_0051,Mid-market PMs,Pain,-0.32,6,
+1319,2025-09-04,5,14,USR_0458,SMB PMs,Pain,0.9,1,
+1320,2025-01-23,1,7,USR_0190,Enterprise PMs,Pain,-0.59,9,
+1321,2025-01-23,1,2,USR_0354,Enterprise PMs,Pain,-0.37,6,
+1322,2024-10-24,4,1,USR_0498,Enterprise PMs,Phrase,-0.38,1,slow down to speed up
+1323,2025-04-14,5,16,USR_0461,Enterprise PMs,Pain,0.13,6,
+1324,2024-03-08,3,14,USR_0077,Startup PMs,Pain,0.41,5,
+1325,2024-04-04,3,10,USR_0366,Enterprise PMs,Dream,-0.63,13,
+1326,2025-10-09,2,18,USR_0402,Mid-market PMs,Dream,0.7,1,sandbagging gatekeepers
+1327,2025-09-22,2,4,USR_0231,Startup PMs,Pain,-0.6,1,boulder uphill
+1328,2025-03-21,5,9,USR_0474,Mid-market PMs,Pain,-0.05,1,
+1329,2025-08-07,2,17,USR_0239,SMB PMs,Pain,0.61,1,
+1330,2025-03-07,2,15,USR_0296,SMB PMs,Pain,0.41,8,
+1331,2025-12-21,2,13,USR_0140,Mid-market PMs,Pain,0.83,3,sandbagging gatekeepers
+1332,2025-03-19,5,12,USR_0190,Enterprise PMs,Dream,0.37,1,slow down to speed up
+1333,2025-06-12,3,8,USR_0358,SMB PMs,Pain,-0.71,7,
+1334,2024-06-19,5,18,USR_0071,Startup PMs,Dream,0.5,5,
+1335,2024-12-07,2,10,USR_0090,SMB PMs,Phrase,-0.44,3,
+1336,2025-09-28,2,15,USR_0381,Enterprise PMs,Phrase,-0.21,1,boulder uphill
+1337,2024-09-06,1,11,USR_0238,Enterprise PMs,Phrase,0.71,2,not psychic
+1338,2024-01-09,5,7,USR_0395,Enterprise PMs,Phrase,0.07,6,
+1339,2024-10-26,2,11,USR_0241,Mid-market PMs,Dream,0.8,7,boulder uphill
+1340,2024-08-30,1,4,USR_0103,Enterprise PMs,Phrase,-0.25,3,
+1341,2025-01-25,2,18,USR_0010,Startup PMs,Phrase,1.0,5,
+1342,2024-10-27,3,12,USR_0084,Enterprise PMs,Dream,0.66,1,sandbagging gatekeepers
+1343,2025-03-23,2,5,USR_0124,Enterprise PMs,Phrase,-0.55,2,
+1344,2024-01-23,1,8,USR_0242,Mid-market PMs,Pain,-0.25,10,
+1345,2025-11-15,1,3,USR_0106,Enterprise PMs,Pain,-0.16,2,
+1346,2025-06-18,5,2,USR_0366,Enterprise PMs,Phrase,-0.36,3,sandbagging gatekeepers
+1347,2024-08-23,2,4,USR_0276,SMB PMs,Phrase,-0.83,5,
+1348,2025-03-01,5,12,USR_0481,SMB PMs,Pain,0.63,1,
+1349,2025-03-05,4,13,USR_0277,Startup PMs,Phrase,0.18,1,boulder uphill
+1350,2025-04-09,3,10,USR_0327,SMB PMs,Phrase,-0.61,12,
+1351,2024-10-16,4,6,USR_0292,Enterprise PMs,Dream,-0.89,3,
+1352,2025-11-02,3,14,USR_0114,Startup PMs,Dream,0.78,2,
+1353,2024-01-16,5,13,USR_0436,Startup PMs,Dream,0.87,9,
+1354,2024-11-11,4,11,USR_0214,Enterprise PMs,Dream,0.29,1,
+1355,2024-01-28,3,7,USR_0333,Enterprise PMs,Dream,-0.1,3,
+1356,2024-12-23,4,14,USR_0270,Enterprise PMs,Dream,0.52,1,
+1357,2025-04-29,4,11,USR_0393,Enterprise PMs,Dream,0.28,2,impacting users lives
+1358,2024-04-12,4,18,USR_0183,Mid-market PMs,Phrase,0.45,6,C suite idiots
+1359,2025-03-02,2,16,USR_0059,Enterprise PMs,Dream,0.38,1,slow down to speed up
+1360,2024-08-18,3,4,USR_0420,Startup PMs,Dream,-0.56,7,
+1361,2025-07-25,5,8,USR_0391,Mid-market PMs,Dream,-0.44,8,impacting users lives
+1362,2025-06-09,2,13,USR_0383,SMB PMs,Phrase,0.35,3,
+1363,2025-01-07,4,15,USR_0262,Mid-market PMs,Pain,0.7,1,
+1364,2025-02-19,5,6,USR_0218,Startup PMs,Pain,-0.67,10,
+1365,2025-08-08,5,10,USR_0134,Enterprise PMs,Pain,-0.39,16,impacting users lives
+1366,2025-05-11,2,2,USR_0292,Enterprise PMs,Pain,0.02,3,
+1367,2024-03-31,1,14,USR_0122,Mid-market PMs,Pain,0.72,3,
+1368,2024-09-09,2,15,USR_0399,Startup PMs,Dream,0.53,7,
+1369,2025-11-07,3,11,USR_0377,Startup PMs,Pain,0.54,14,CEO without power
+1370,2024-08-27,2,11,USR_0484,SMB PMs,Pain,0.62,3,
+1371,2024-12-14,1,16,USR_0158,Startup PMs,Phrase,0.71,4,
+1372,2025-04-06,5,8,USR_0161,Enterprise PMs,Phrase,-0.31,1,slow down to speed up
+1373,2025-06-09,5,17,USR_0251,Enterprise PMs,Phrase,1.0,11,
+1374,2025-06-27,2,14,USR_0244,Enterprise PMs,Pain,0.41,3,impacting users lives
+1375,2025-11-10,4,7,USR_0145,Enterprise PMs,Dream,-0.45,17,
+1376,2025-05-18,5,15,USR_0248,Mid-market PMs,Phrase,0.69,3,
+1377,2025-04-06,1,12,USR_0293,Startup PMs,Pain,0.45,1,
+1378,2024-04-18,5,3,USR_0316,Startup PMs,Dream,-0.43,1,
+1379,2024-03-18,4,18,USR_0321,SMB PMs,Dream,0.31,1,
+1380,2025-12-21,4,14,USR_0031,SMB PMs,Phrase,0.72,1,
+1381,2024-02-18,3,17,USR_0072,Enterprise PMs,Pain,0.62,1,
+1382,2025-07-24,5,4,USR_0322,Startup PMs,Pain,-0.87,11,
+1383,2024-01-12,4,18,USR_0067,Enterprise PMs,Dream,-0.17,1,
+1384,2025-06-10,3,10,USR_0057,Enterprise PMs,Dream,-0.51,2,boulder uphill
+1385,2024-05-03,1,8,USR_0470,Mid-market PMs,Phrase,-0.7,1,sandbagging gatekeepers
+1386,2024-05-13,2,1,USR_0387,Enterprise PMs,Phrase,-0.0,2,
+1387,2024-12-13,3,7,USR_0410,Enterprise PMs,Dream,-0.11,6,
+1388,2025-04-18,5,9,USR_0037,Enterprise PMs,Dream,-0.5,1,CEO without power
+1389,2025-09-26,3,15,USR_0025,SMB PMs,Phrase,0.38,1,
+1390,2024-07-15,5,8,USR_0411,Enterprise PMs,Pain,-0.47,4,
+1391,2025-01-01,2,3,USR_0391,Mid-market PMs,Dream,-0.06,1,
+1392,2025-11-04,1,16,USR_0406,Mid-market PMs,Pain,0.69,5,boulder uphill
+1393,2025-11-14,5,8,USR_0172,Enterprise PMs,Phrase,-0.79,12,
+1394,2025-06-13,5,16,USR_0163,SMB PMs,Phrase,0.8,1,CEO without power
+1395,2025-11-22,4,8,USR_0318,Enterprise PMs,Dream,-0.73,10,
+1396,2025-10-05,5,8,USR_0392,SMB PMs,Dream,0.06,1,
+1397,2024-04-20,2,15,USR_0177,Startup PMs,Phrase,0.46,6,
+1398,2024-12-05,4,14,USR_0283,Enterprise PMs,Pain,0.41,1,sandbagging gatekeepers
+1399,2024-02-24,3,16,USR_0148,SMB PMs,Pain,0.63,1,
+1400,2024-12-26,5,9,USR_0110,Enterprise PMs,Pain,-0.5,3,
+1401,2024-10-18,3,3,USR_0184,Mid-market PMs,Pain,-0.28,14,impacting users lives
+1402,2024-07-18,1,6,USR_0312,Enterprise PMs,Phrase,-0.81,1,
+1403,2025-10-10,3,11,USR_0027,Enterprise PMs,Dream,0.13,1,impacting users lives
+1404,2024-02-03,3,17,USR_0427,SMB PMs,Dream,0.35,1,
+1405,2025-03-06,3,7,USR_0413,Mid-market PMs,Pain,0.09,2,
+1406,2025-02-24,4,6,USR_0249,Mid-market PMs,Dream,-0.31,4,sandbagging gatekeepers
+1407,2025-07-03,1,6,USR_0374,Startup PMs,Dream,-0.09,1,sandbagging gatekeepers
+1408,2024-04-11,2,3,USR_0159,Enterprise PMs,Pain,-0.37,14,slow down to speed up
+1409,2025-12-28,2,14,USR_0056,Mid-market PMs,Dream,0.61,1,
+1410,2024-03-16,2,4,USR_0479,Mid-market PMs,Phrase,0.21,22,
+1411,2024-01-21,4,6,USR_0464,SMB PMs,Dream,-0.81,6,not psychic
+1412,2025-11-18,3,5,USR_0311,SMB PMs,Pain,-0.51,3,
+1413,2024-10-13,4,2,USR_0087,Startup PMs,Pain,-0.75,1,
+1414,2025-08-19,2,2,USR_0181,Enterprise PMs,Dream,-0.69,5,impacting users lives
+1415,2024-03-06,2,14,USR_0413,Mid-market PMs,Phrase,0.67,1,
+1416,2024-11-13,3,17,USR_0022,Enterprise PMs,Phrase,0.54,2,
+1417,2025-04-10,3,3,USR_0125,Enterprise PMs,Pain,-0.59,9,
+1418,2024-02-29,1,5,USR_0100,Enterprise PMs,Pain,-0.24,21,CEO without power
+1419,2025-07-28,2,6,USR_0006,Enterprise PMs,Pain,-0.4,2,
+1420,2025-08-28,4,13,USR_0263,Enterprise PMs,Phrase,0.95,5,impacting users lives
+1421,2025-09-26,3,3,USR_0018,SMB PMs,Phrase,-0.03,1,sandbagging gatekeepers
+1422,2024-03-23,5,6,USR_0109,Enterprise PMs,Phrase,-0.43,2,sandbagging gatekeepers
+1423,2025-09-29,1,9,USR_0139,Enterprise PMs,Phrase,0.06,4,not psychic
+1424,2024-05-15,2,1,USR_0197,Startup PMs,Dream,-0.04,1,
+1425,2025-10-16,2,4,USR_0339,SMB PMs,Dream,-0.24,6,not psychic
+1426,2024-12-28,2,3,USR_0013,Startup PMs,Pain,-0.48,8,
+1427,2024-03-02,5,3,USR_0118,Enterprise PMs,Phrase,-0.37,3,slow down to speed up
+1428,2025-08-08,2,16,USR_0381,Enterprise PMs,Pain,0.48,1,
+1429,2025-12-08,4,1,USR_0089,Mid-market PMs,Phrase,-0.52,4,
+1430,2025-12-07,2,11,USR_0282,Enterprise PMs,Dream,0.39,4,
+1431,2025-11-05,4,16,USR_0451,Startup PMs,Pain,0.53,3,sandbagging gatekeepers
+1432,2025-12-31,1,17,USR_0140,Mid-market PMs,Phrase,0.39,2,
+1433,2024-05-27,5,10,USR_0083,Enterprise PMs,Dream,-0.82,1,
+1434,2024-10-31,3,4,USR_0464,SMB PMs,Pain,-0.31,11,CEO without power
+1435,2025-02-16,1,14,USR_0036,Startup PMs,Pain,0.57,1,
+1436,2025-10-26,3,14,USR_0396,Mid-market PMs,Dream,0.75,1,
+1437,2025-11-02,3,17,USR_0454,Mid-market PMs,Phrase,0.69,1,
+1438,2025-10-07,2,1,USR_0355,Enterprise PMs,Phrase,-0.37,15,
+1439,2025-03-18,3,8,USR_0231,Startup PMs,Pain,-0.32,3,
+1440,2025-06-11,4,1,USR_0429,Enterprise PMs,Pain,-0.1,1,impacting users lives
+1441,2024-12-12,3,17,USR_0084,Enterprise PMs,Phrase,0.61,3,
+1442,2025-02-05,4,18,USR_0078,Enterprise PMs,Pain,0.18,1,impacting users lives
+1443,2024-12-11,4,13,USR_0315,Startup PMs,Pain,0.32,1,
+1444,2024-03-19,2,14,USR_0029,SMB PMs,Dream,0.6,2,
+1445,2024-06-23,2,1,USR_0147,SMB PMs,Dream,-0.59,14,C suite idiots
+1446,2024-11-17,2,4,USR_0281,Mid-market PMs,Pain,-0.57,6,
+1447,2024-12-05,1,15,USR_0026,Startup PMs,Phrase,0.51,9,
+1448,2024-02-29,1,9,USR_0394,Startup PMs,Pain,-0.44,11,
+1449,2024-04-27,2,12,USR_0419,Startup PMs,Dream,0.08,3,
+1450,2025-04-11,2,13,USR_0153,Enterprise PMs,Phrase,0.45,10,
+1451,2024-08-19,3,13,USR_0495,SMB PMs,Phrase,0.25,1,
+1452,2024-08-01,5,1,USR_0031,SMB PMs,Dream,-0.49,1,
+1453,2024-01-22,4,5,USR_0135,Mid-market PMs,Dream,-0.47,9,
+1454,2025-11-15,5,7,USR_0401,Enterprise PMs,Pain,-0.19,1,
+1455,2024-05-02,3,14,USR_0059,Enterprise PMs,Phrase,1.0,6,
+1456,2025-11-29,5,2,USR_0103,Enterprise PMs,Phrase,0.14,2,
+1457,2024-11-09,4,8,USR_0357,Enterprise PMs,Dream,-0.45,5,C suite idiots
+1458,2024-10-12,3,11,USR_0276,SMB PMs,Dream,0.34,4,
+1459,2025-01-26,1,4,USR_0473,Enterprise PMs,Pain,-0.65,2,
+1460,2025-09-23,2,14,USR_0377,Startup PMs,Phrase,0.61,2,not psychic
+1461,2025-04-28,5,11,USR_0467,Enterprise PMs,Dream,0.88,1,impacting users lives
+1462,2024-08-04,1,14,USR_0116,Mid-market PMs,Phrase,1.0,5,
+1463,2025-05-21,4,14,USR_0095,Startup PMs,Dream,0.6,13,
+1464,2025-06-07,4,18,USR_0146,Enterprise PMs,Phrase,0.49,1,impacting users lives
+1465,2024-09-13,3,6,USR_0087,Startup PMs,Pain,-0.38,5,
+1466,2024-09-21,1,5,USR_0287,SMB PMs,Phrase,-1.0,1,
+1467,2024-12-12,4,7,USR_0289,Enterprise PMs,Phrase,-0.52,1,
+1468,2024-03-04,4,6,USR_0017,Enterprise PMs,Dream,-0.83,4,
+1469,2024-05-16,3,11,USR_0231,Startup PMs,Phrase,0.57,1,not psychic
+1470,2025-03-23,2,18,USR_0151,Mid-market PMs,Dream,0.66,2,
+1471,2024-08-27,4,10,USR_0281,Mid-market PMs,Phrase,-0.59,5,
+1472,2024-10-04,4,8,USR_0270,Enterprise PMs,Phrase,-0.54,9,boulder uphill
+1473,2024-01-17,2,13,USR_0254,Enterprise PMs,Dream,1.0,1,sandbagging gatekeepers
+1474,2025-07-05,5,18,USR_0140,Mid-market PMs,Dream,0.76,1,
+1475,2024-06-26,4,5,USR_0309,Startup PMs,Dream,-0.73,2,
+1476,2024-10-22,2,11,USR_0018,SMB PMs,Dream,0.9,1,
+1477,2024-09-28,1,2,USR_0452,SMB PMs,Dream,-0.46,1,
+1478,2024-12-22,1,16,USR_0346,SMB PMs,Dream,0.32,1,not psychic
+1479,2025-01-28,3,10,USR_0200,Startup PMs,Phrase,-0.41,9,not psychic
+1480,2025-08-12,4,16,USR_0080,Enterprise PMs,Pain,0.66,1,
+1481,2025-06-07,1,2,USR_0339,SMB PMs,Dream,-0.01,10,sandbagging gatekeepers
+1482,2025-05-10,4,10,USR_0126,SMB PMs,Dream,-0.7,4,
+1483,2024-04-24,3,11,USR_0206,Enterprise PMs,Phrase,0.69,5,not psychic
+1484,2024-09-12,2,4,USR_0254,Enterprise PMs,Phrase,-0.53,1,not psychic
+1485,2024-06-26,5,11,USR_0120,SMB PMs,Phrase,0.62,4,
+1486,2025-08-28,1,10,USR_0007,Enterprise PMs,Pain,-0.48,1,
+1487,2025-06-07,4,14,USR_0074,Startup PMs,Phrase,0.61,4,
+1488,2024-12-18,1,13,USR_0323,Startup PMs,Phrase,0.45,2,
+1489,2024-05-29,1,13,USR_0270,Enterprise PMs,Phrase,0.43,1,
+1490,2024-11-22,2,18,USR_0490,Mid-market PMs,Phrase,0.31,4,
+1491,2024-12-28,3,16,USR_0117,Startup PMs,Dream,0.65,1,
+1492,2024-05-24,4,1,USR_0009,SMB PMs,Pain,-0.69,3,
+1493,2024-08-24,5,17,USR_0424,SMB PMs,Pain,-0.04,1,
+1494,2024-01-27,5,12,USR_0009,SMB PMs,Phrase,0.82,1,
+1495,2025-02-02,3,14,USR_0254,Enterprise PMs,Phrase,0.92,4,
+1496,2025-09-24,1,16,USR_0026,Startup PMs,Dream,0.52,1,C suite idiots
+1497,2025-07-23,4,16,USR_0123,Enterprise PMs,Pain,0.34,2,
+1498,2024-03-12,2,9,USR_0388,Enterprise PMs,Pain,-0.28,5,
+1499,2024-07-18,1,6,USR_0228,Enterprise PMs,Phrase,-0.76,5,
+1500,2024-11-26,2,5,USR_0376,Enterprise PMs,Pain,-0.6,4,slow down to speed up
+1501,2024-09-09,5,7,USR_0197,Startup PMs,Phrase,-0.43,1,
+1502,2024-04-15,5,3,USR_0022,Enterprise PMs,Dream,-0.34,10,
+1503,2025-03-27,3,16,USR_0340,Enterprise PMs,Dream,0.71,1,
+1504,2025-10-26,5,10,USR_0073,Enterprise PMs,Pain,-0.16,4,impacting users lives
+1505,2025-07-19,1,15,USR_0436,Startup PMs,Dream,0.58,1,impacting users lives
+1506,2025-12-07,5,16,USR_0154,SMB PMs,Pain,1.0,2,not psychic
+1507,2025-02-23,2,15,USR_0062,Enterprise PMs,Phrase,0.66,4,boulder uphill
+1508,2025-01-23,1,16,USR_0399,Startup PMs,Dream,0.24,1,
+1509,2024-12-08,3,15,USR_0338,Startup PMs,Dream,0.54,2,
+1510,2024-04-19,4,8,USR_0438,Startup PMs,Pain,-0.35,10,
+1511,2025-11-20,5,9,USR_0376,Enterprise PMs,Phrase,-0.17,25,
+1512,2024-01-30,5,2,USR_0329,SMB PMs,Dream,-0.68,12,
+1513,2025-05-26,1,4,USR_0303,SMB PMs,Phrase,-0.25,5,
+1514,2025-05-22,4,9,USR_0034,Mid-market PMs,Phrase,-0.26,1,not psychic
+1515,2024-11-01,4,2,USR_0403,SMB PMs,Pain,-0.28,1,
+1516,2025-03-22,1,4,USR_0073,Enterprise PMs,Dream,-0.45,11,
+1517,2025-03-24,4,12,USR_0102,SMB PMs,Phrase,0.76,1,slow down to speed up
+1518,2024-03-07,3,14,USR_0467,Enterprise PMs,Dream,0.62,14,
+1519,2024-10-02,2,5,USR_0006,Enterprise PMs,Dream,-0.42,5,boulder uphill
+1520,2024-08-04,5,14,USR_0434,Enterprise PMs,Dream,0.36,2,
+1521,2024-02-04,5,15,USR_0119,Mid-market PMs,Dream,0.73,3,impacting users lives
+1522,2024-02-13,2,1,USR_0219,SMB PMs,Pain,-0.28,5,
+1523,2024-05-28,4,4,USR_0026,Startup PMs,Dream,-0.39,2,
+1524,2024-12-04,1,3,USR_0132,Enterprise PMs,Dream,-0.67,6,
+1525,2024-01-09,5,14,USR_0422,Startup PMs,Dream,0.9,2,sandbagging gatekeepers
+1526,2025-04-29,2,17,USR_0124,Enterprise PMs,Phrase,0.38,1,
+1527,2025-01-14,3,18,USR_0088,SMB PMs,Pain,0.19,4,
+1528,2025-09-15,1,3,USR_0023,Enterprise PMs,Phrase,-0.32,2,
+1529,2025-02-08,2,4,USR_0197,Startup PMs,Phrase,-0.31,7,
+1530,2025-05-31,1,8,USR_0297,Startup PMs,Dream,-0.34,46,
+1531,2025-11-24,3,9,USR_0175,SMB PMs,Phrase,-0.33,4,
+1532,2024-09-09,5,4,USR_0340,Enterprise PMs,Dream,-0.63,1,
+1533,2024-10-08,5,16,USR_0096,SMB PMs,Phrase,0.79,1,
+1534,2024-02-04,5,8,USR_0273,Mid-market PMs,Pain,-0.71,10,
+1535,2025-06-19,5,14,USR_0252,Enterprise PMs,Phrase,0.67,4,
+1536,2024-03-23,2,5,USR_0107,SMB PMs,Dream,0.11,1,
+1537,2024-10-19,1,4,USR_0245,Enterprise PMs,Pain,-0.03,1,impacting users lives
+1538,2024-06-30,1,18,USR_0007,Enterprise PMs,Phrase,0.59,1,
+1539,2025-08-03,3,1,USR_0227,Mid-market PMs,Pain,-0.58,5,
+1540,2024-06-27,2,18,USR_0463,Startup PMs,Phrase,0.5,2,
+1541,2024-07-30,5,12,USR_0177,Startup PMs,Dream,0.49,5,
+1542,2025-01-17,5,15,USR_0121,Startup PMs,Dream,0.22,1,sandbagging gatekeepers
+1543,2025-07-09,5,16,USR_0078,Enterprise PMs,Pain,0.86,1,
+1544,2024-02-20,2,16,USR_0011,Enterprise PMs,Phrase,0.52,1,
+1545,2024-10-03,4,3,USR_0071,Startup PMs,Phrase,-0.44,4,CEO without power
+1546,2024-08-17,5,2,USR_0397,Mid-market PMs,Phrase,-0.44,1,not psychic
+1547,2025-02-01,5,4,USR_0319,Enterprise PMs,Phrase,-0.62,5,
+1548,2024-06-17,1,9,USR_0429,Enterprise PMs,Phrase,-0.61,1,
+1549,2024-03-18,4,7,USR_0098,SMB PMs,Pain,0.09,9,
+1550,2024-10-31,4,16,USR_0490,Mid-market PMs,Pain,0.52,2,
+1551,2025-03-16,2,9,USR_0333,Enterprise PMs,Pain,-0.2,7,slow down to speed up
+1552,2024-01-12,5,11,USR_0147,SMB PMs,Dream,0.61,2,C suite idiots
+1553,2024-08-07,1,5,USR_0342,SMB PMs,Phrase,-0.29,4,C suite idiots
+1554,2024-01-12,3,15,USR_0113,Mid-market PMs,Pain,0.69,1,
+1555,2025-02-06,1,3,USR_0343,Enterprise PMs,Phrase,-0.7,1,
+1556,2025-08-02,5,14,USR_0389,Startup PMs,Phrase,0.35,5,
+1557,2024-10-28,2,9,USR_0374,Startup PMs,Pain,-0.62,1,
+1558,2025-12-17,5,8,USR_0332,Startup PMs,Phrase,-0.55,12,boulder uphill
+1559,2025-03-10,5,14,USR_0359,Mid-market PMs,Pain,0.42,1,
+1560,2025-11-12,2,4,USR_0172,Enterprise PMs,Phrase,-0.19,4,
+1561,2025-09-01,2,10,USR_0404,Startup PMs,Pain,-0.25,7,
+1562,2025-11-21,5,9,USR_0353,Startup PMs,Dream,-0.9,6,
+1563,2025-07-04,4,3,USR_0157,Startup PMs,Dream,-0.13,1,
+1564,2024-08-25,5,17,USR_0067,Enterprise PMs,Phrase,0.51,2,
+1565,2025-08-06,2,1,USR_0059,Enterprise PMs,Phrase,-0.86,17,
+1566,2025-01-24,1,4,USR_0294,Enterprise PMs,Pain,-0.34,2,boulder uphill
+1567,2024-08-02,5,17,USR_0469,Enterprise PMs,Dream,0.32,4,impacting users lives
+1568,2025-05-24,3,16,USR_0123,Enterprise PMs,Phrase,0.94,1,C suite idiots
+1569,2024-06-06,1,5,USR_0270,Enterprise PMs,Dream,-0.35,1,
+1570,2025-02-02,4,14,USR_0219,SMB PMs,Pain,0.61,1,
+1571,2024-07-19,5,11,USR_0076,Startup PMs,Pain,0.22,4,
+1572,2025-12-31,4,10,USR_0088,SMB PMs,Phrase,-0.5,1,not psychic
+1573,2024-03-13,3,16,USR_0126,SMB PMs,Phrase,0.17,3,
+1574,2024-01-30,2,5,USR_0491,SMB PMs,Dream,-0.61,9,
+1575,2024-05-02,5,15,USR_0491,SMB PMs,Pain,0.44,5,slow down to speed up
+1576,2024-07-28,3,10,USR_0218,Startup PMs,Phrase,-0.54,9,CEO without power
+1577,2025-05-17,3,15,USR_0257,Mid-market PMs,Pain,0.87,2,sandbagging gatekeepers
+1578,2025-07-23,1,17,USR_0025,SMB PMs,Dream,0.74,1,
+1579,2025-02-14,4,15,USR_0241,Mid-market PMs,Phrase,0.42,1,not psychic
+1580,2025-10-08,1,5,USR_0007,Enterprise PMs,Dream,-0.26,1,
+1581,2024-09-27,5,8,USR_0144,Enterprise PMs,Phrase,-0.35,1,
+1582,2024-09-17,4,12,USR_0012,Mid-market PMs,Pain,0.76,1,
+1583,2025-05-19,5,4,USR_0218,Startup PMs,Pain,-0.24,12,
+1584,2025-04-05,4,3,USR_0471,Enterprise PMs,Pain,-0.39,1,
+1585,2024-01-15,2,10,USR_0344,SMB PMs,Phrase,-0.58,6,
+1586,2025-10-27,1,3,USR_0498,Enterprise PMs,Phrase,-0.48,17,
+1587,2024-02-22,2,5,USR_0467,Enterprise PMs,Pain,-0.05,2,
+1588,2025-05-27,4,11,USR_0074,Startup PMs,Dream,1.0,12,
+1589,2024-04-08,4,18,USR_0175,SMB PMs,Pain,0.76,1,
+1590,2025-02-17,4,1,USR_0457,Enterprise PMs,Pain,0.08,3,slow down to speed up
+1591,2025-07-07,5,4,USR_0152,Enterprise PMs,Pain,-0.87,11,
+1592,2025-05-26,3,10,USR_0093,Startup PMs,Phrase,-0.59,3,
+1593,2025-09-28,3,12,USR_0165,Enterprise PMs,Phrase,0.77,1,
+1594,2025-01-15,1,5,USR_0136,Enterprise PMs,Pain,-0.33,1,
+1595,2024-12-14,4,6,USR_0216,Enterprise PMs,Dream,-0.27,5,
+1596,2025-04-29,1,9,USR_0420,Startup PMs,Pain,-0.07,1,
+1597,2024-01-25,1,14,USR_0143,SMB PMs,Phrase,0.79,1,
+1598,2024-03-16,2,1,USR_0148,SMB PMs,Dream,-0.73,4,sandbagging gatekeepers
+1599,2024-04-14,2,1,USR_0390,Startup PMs,Dream,-0.05,3,
+1600,2024-12-16,1,4,USR_0403,SMB PMs,Phrase,-0.23,2,
+1601,2024-08-06,5,2,USR_0129,Enterprise PMs,Phrase,-0.5,1,sandbagging gatekeepers
+1602,2024-03-20,4,16,USR_0420,Startup PMs,Pain,0.47,1,
+1603,2024-10-15,4,17,USR_0180,Enterprise PMs,Phrase,0.4,1,
+1604,2025-08-18,3,9,USR_0464,SMB PMs,Dream,-0.68,2,
+1605,2025-04-23,5,7,USR_0140,Mid-market PMs,Pain,-0.39,1,boulder uphill
+1606,2024-08-24,5,11,USR_0280,Startup PMs,Pain,0.43,2,
+1607,2024-09-24,3,10,USR_0408,Enterprise PMs,Pain,-0.66,5,
+1608,2025-10-16,4,17,USR_0230,SMB PMs,Pain,1.0,1,
+1609,2025-04-02,1,15,USR_0085,Enterprise PMs,Phrase,0.52,1,
+1610,2024-07-21,2,11,USR_0248,Mid-market PMs,Phrase,0.54,1,C suite idiots
+1611,2024-08-07,2,17,USR_0041,Enterprise PMs,Phrase,1.0,4,
+1612,2025-06-14,2,2,USR_0206,Enterprise PMs,Phrase,-0.54,2,
+1613,2024-07-08,4,5,USR_0255,Enterprise PMs,Pain,-0.52,2,sandbagging gatekeepers
+1614,2025-06-01,1,1,USR_0205,SMB PMs,Dream,0.05,4,impacting users lives
+1615,2025-11-06,4,2,USR_0231,Startup PMs,Dream,-0.62,7,not psychic
+1616,2024-04-28,5,16,USR_0106,Enterprise PMs,Phrase,0.81,1,sandbagging gatekeepers
+1617,2025-12-05,3,5,USR_0060,Enterprise PMs,Pain,-0.32,6,
+1618,2024-06-15,4,3,USR_0416,SMB PMs,Dream,0.08,6,
+1619,2024-03-06,5,4,USR_0476,Mid-market PMs,Phrase,-0.51,4,
+1620,2024-08-29,2,1,USR_0279,Startup PMs,Dream,-0.26,1,
+1621,2024-05-27,1,1,USR_0105,Mid-market PMs,Pain,-0.39,9,
+1622,2025-03-22,1,13,USR_0432,Startup PMs,Pain,0.63,11,
+1623,2024-09-13,1,4,USR_0361,Enterprise PMs,Phrase,-0.58,1,
+1624,2025-12-09,5,6,USR_0470,Mid-market PMs,Dream,-0.95,1,slow down to speed up
+1625,2025-03-20,4,16,USR_0382,Startup PMs,Dream,0.46,7,impacting users lives
+1626,2025-05-12,5,12,USR_0256,SMB PMs,Phrase,0.26,5,
+1627,2024-08-12,5,16,USR_0103,Enterprise PMs,Dream,0.06,20,sandbagging gatekeepers
+1628,2025-03-20,2,4,USR_0084,Enterprise PMs,Phrase,-0.04,4,
+1629,2025-09-04,4,8,USR_0472,Mid-market PMs,Phrase,-0.4,1,
+1630,2024-05-08,5,7,USR_0137,SMB PMs,Pain,-0.02,4,slow down to speed up
+1631,2024-04-19,1,6,USR_0067,Enterprise PMs,Dream,-0.21,2,not psychic
+1632,2024-06-15,3,7,USR_0223,Enterprise PMs,Dream,-0.5,1,
+1633,2025-12-17,5,1,USR_0148,SMB PMs,Dream,-0.27,3,
+1634,2024-01-27,3,13,USR_0042,SMB PMs,Pain,1.0,1,slow down to speed up
+1635,2025-04-19,2,12,USR_0194,SMB PMs,Pain,0.5,6,slow down to speed up
+1636,2025-06-11,5,10,USR_0160,Startup PMs,Phrase,-0.67,1,sandbagging gatekeepers
+1637,2025-12-21,1,15,USR_0121,Startup PMs,Dream,0.8,2,boulder uphill
+1638,2024-05-07,5,16,USR_0484,SMB PMs,Pain,0.43,1,
+1639,2024-12-19,3,5,USR_0205,SMB PMs,Pain,-0.13,1,impacting users lives
+1640,2025-11-20,3,14,USR_0295,Enterprise PMs,Pain,0.81,7,
+1641,2025-04-05,4,14,USR_0363,SMB PMs,Pain,0.67,2,
+1642,2024-03-29,5,5,USR_0357,Enterprise PMs,Pain,-0.56,1,
+1643,2024-07-27,1,16,USR_0433,SMB PMs,Pain,0.61,1,not psychic
+1644,2025-08-07,3,6,USR_0355,Enterprise PMs,Pain,0.02,1,
+1645,2025-03-07,3,12,USR_0067,Enterprise PMs,Pain,0.74,3,C suite idiots
+1646,2024-07-21,3,1,USR_0080,Enterprise PMs,Pain,0.12,7,sandbagging gatekeepers
+1647,2024-11-26,2,1,USR_0172,Enterprise PMs,Dream,-0.55,6,
+1648,2024-07-01,5,11,USR_0187,Startup PMs,Pain,0.81,2,impacting users lives
+1649,2025-09-01,3,11,USR_0442,Mid-market PMs,Pain,0.56,1,slow down to speed up
+1650,2025-02-27,2,18,USR_0398,SMB PMs,Pain,0.7,2,
+1651,2025-08-09,1,7,USR_0342,SMB PMs,Dream,-0.44,1,sandbagging gatekeepers
+1652,2024-12-04,4,15,USR_0057,Enterprise PMs,Pain,0.55,1,
+1653,2024-12-07,4,14,USR_0195,Enterprise PMs,Dream,0.79,1,
+1654,2025-08-04,3,16,USR_0489,Mid-market PMs,Phrase,0.21,1,sandbagging gatekeepers
+1655,2024-04-23,2,6,USR_0391,Mid-market PMs,Phrase,-0.34,4,
+1656,2025-07-16,2,9,USR_0328,SMB PMs,Phrase,-0.37,4,
+1657,2025-05-18,1,17,USR_0328,SMB PMs,Dream,0.46,10,
+1658,2025-06-01,1,5,USR_0061,Enterprise PMs,Dream,-0.55,2,
+1659,2024-03-13,4,17,USR_0096,SMB PMs,Dream,0.19,1,
+1660,2024-08-24,5,9,USR_0215,Startup PMs,Dream,-0.42,8,
+1661,2024-09-01,2,14,USR_0246,Mid-market PMs,Dream,0.76,4,
+1662,2024-06-20,2,7,USR_0343,Enterprise PMs,Pain,-0.2,6,sandbagging gatekeepers
+1663,2024-08-05,2,17,USR_0051,Mid-market PMs,Dream,0.42,2,
+1664,2025-07-15,5,1,USR_0275,SMB PMs,Dream,-0.52,1,not psychic
+1665,2025-08-16,5,12,USR_0495,SMB PMs,Pain,0.5,1,
+1666,2024-10-13,1,13,USR_0489,Mid-market PMs,Pain,0.28,4,
+1667,2024-01-03,2,5,USR_0445,Startup PMs,Dream,-0.84,3,
+1668,2024-11-05,5,6,USR_0084,Enterprise PMs,Pain,-0.31,4,impacting users lives
+1669,2024-03-01,3,2,USR_0413,Mid-market PMs,Phrase,-0.17,5,
+1670,2025-12-18,2,3,USR_0382,Startup PMs,Phrase,-0.14,4,C suite idiots
+1671,2025-08-06,4,5,USR_0161,Enterprise PMs,Pain,-0.17,4,
+1672,2024-10-01,2,10,USR_0222,SMB PMs,Phrase,-0.58,1,
+1673,2024-05-26,5,8,USR_0134,Enterprise PMs,Phrase,0.16,1,
+1674,2025-11-10,1,8,USR_0087,Startup PMs,Dream,-0.38,7,CEO without power
+1675,2025-03-26,3,13,USR_0357,Enterprise PMs,Dream,0.77,1,CEO without power
+1676,2024-10-31,5,10,USR_0117,Startup PMs,Phrase,-0.68,1,sandbagging gatekeepers
+1677,2024-02-03,3,3,USR_0347,SMB PMs,Pain,-0.27,2,
+1678,2024-03-04,4,8,USR_0419,Startup PMs,Pain,-0.83,8,sandbagging gatekeepers
+1679,2025-12-17,5,1,USR_0171,Startup PMs,Phrase,-0.31,6,
+1680,2025-09-14,1,1,USR_0416,SMB PMs,Dream,-0.33,5,
+1681,2025-08-02,1,16,USR_0343,Enterprise PMs,Pain,0.75,1,
+1682,2024-02-23,1,4,USR_0086,Enterprise PMs,Pain,0.03,4,
+1683,2025-06-13,5,2,USR_0377,Startup PMs,Phrase,-0.59,3,slow down to speed up
+1684,2024-12-25,5,10,USR_0461,Enterprise PMs,Dream,-0.51,5,not psychic
+1685,2025-06-30,4,5,USR_0167,Enterprise PMs,Phrase,-0.65,7,
+1686,2024-10-05,3,13,USR_0210,Enterprise PMs,Dream,1.0,3,
+1687,2024-03-25,4,14,USR_0037,Enterprise PMs,Dream,0.42,1,
+1688,2024-05-28,2,10,USR_0132,Enterprise PMs,Dream,-0.55,1,impacting users lives
+1689,2025-11-14,4,6,USR_0071,Startup PMs,Pain,-0.5,1,
+1690,2025-02-17,3,18,USR_0016,Enterprise PMs,Pain,1.0,7,
+1691,2024-12-24,3,5,USR_0205,SMB PMs,Pain,-0.35,11,
+1692,2025-03-10,2,10,USR_0133,Enterprise PMs,Pain,-0.57,3,
+1693,2024-07-19,5,14,USR_0214,Enterprise PMs,Pain,0.84,5,not psychic
+1694,2025-01-07,1,16,USR_0208,Startup PMs,Phrase,0.52,4,
+1695,2024-05-27,2,16,USR_0256,SMB PMs,Phrase,0.55,2,
+1696,2025-06-19,3,15,USR_0258,Startup PMs,Phrase,0.47,1,not psychic
+1697,2024-07-23,4,12,USR_0300,Enterprise PMs,Dream,0.36,1,
+1698,2024-11-06,1,18,USR_0482,Startup PMs,Dream,0.45,6,
+1699,2024-11-23,5,15,USR_0310,Enterprise PMs,Pain,0.75,15,
+1700,2025-11-17,5,12,USR_0158,Startup PMs,Dream,0.62,5,
+1701,2024-08-16,4,6,USR_0306,Mid-market PMs,Phrase,-0.45,1,
+1702,2025-01-28,4,8,USR_0181,Enterprise PMs,Dream,-0.85,4,
+1703,2024-05-03,1,16,USR_0290,SMB PMs,Dream,0.69,1,
+1704,2025-01-19,4,10,USR_0435,Enterprise PMs,Dream,-0.47,1,
+1705,2025-04-08,2,6,USR_0429,Enterprise PMs,Dream,-0.43,4,C suite idiots
+1706,2025-10-07,5,4,USR_0245,Enterprise PMs,Dream,-0.45,1,
+1707,2024-08-14,3,10,USR_0189,SMB PMs,Dream,-0.46,14,boulder uphill
+1708,2024-10-23,3,15,USR_0178,Enterprise PMs,Pain,0.63,9,
+1709,2024-05-16,4,1,USR_0155,Mid-market PMs,Phrase,-0.24,1,slow down to speed up
+1710,2024-08-05,4,9,USR_0233,SMB PMs,Pain,-0.57,14,
+1711,2025-05-03,5,3,USR_0182,Enterprise PMs,Phrase,-0.46,2,
+1712,2024-11-14,1,9,USR_0089,Mid-market PMs,Dream,-0.45,9,
+1713,2024-01-19,2,16,USR_0171,Startup PMs,Dream,0.92,2,sandbagging gatekeepers
+1714,2024-12-30,5,15,USR_0493,Enterprise PMs,Dream,0.37,1,
+1715,2025-06-26,5,11,USR_0220,Startup PMs,Phrase,0.51,8,
+1716,2025-12-30,2,12,USR_0296,SMB PMs,Dream,0.75,1,
+1717,2025-02-11,2,5,USR_0446,Mid-market PMs,Pain,-0.1,3,
+1718,2025-05-10,1,6,USR_0435,Enterprise PMs,Pain,-0.48,5,
+1719,2024-05-11,5,2,USR_0131,SMB PMs,Dream,-0.85,1,boulder uphill
+1720,2025-04-16,4,5,USR_0388,Enterprise PMs,Pain,-0.3,2,CEO without power
+1721,2024-07-29,2,7,USR_0220,Startup PMs,Dream,-0.3,2,
+1722,2024-06-25,5,16,USR_0384,Mid-market PMs,Pain,0.7,1,
+1723,2025-11-24,4,11,USR_0495,SMB PMs,Pain,0.56,1,
+1724,2024-07-09,3,7,USR_0373,Enterprise PMs,Phrase,-0.47,4,
+1725,2025-09-24,3,18,USR_0074,Startup PMs,Pain,0.42,1,sandbagging gatekeepers
+1726,2024-07-29,2,17,USR_0195,Enterprise PMs,Dream,0.72,1,not psychic
+1727,2025-02-27,1,8,USR_0472,Mid-market PMs,Pain,-0.49,2,
+1728,2024-04-23,4,16,USR_0033,Enterprise PMs,Dream,1.0,1,
+1729,2025-06-14,1,8,USR_0332,Startup PMs,Phrase,-0.64,3,
+1730,2025-06-16,1,7,USR_0208,Startup PMs,Dream,-0.59,10,sandbagging gatekeepers
+1731,2025-10-15,1,10,USR_0074,Startup PMs,Phrase,-0.42,3,C suite idiots
+1732,2025-06-09,3,13,USR_0242,Mid-market PMs,Phrase,0.54,2,
+1733,2025-10-11,1,17,USR_0332,Startup PMs,Phrase,0.69,1,
+1734,2024-02-20,2,14,USR_0116,Mid-market PMs,Pain,0.57,5,sandbagging gatekeepers
+1735,2025-03-27,3,15,USR_0314,Mid-market PMs,Dream,0.75,1,sandbagging gatekeepers
+1736,2025-02-25,3,17,USR_0227,Mid-market PMs,Phrase,0.59,1,
+1737,2024-09-25,4,6,USR_0075,Startup PMs,Pain,-0.58,1,
+1738,2024-05-08,3,7,USR_0235,Enterprise PMs,Dream,-0.38,1,
+1739,2024-03-06,4,11,USR_0435,Enterprise PMs,Phrase,0.91,2,
+1740,2024-01-23,1,16,USR_0220,Startup PMs,Phrase,0.52,1,
+1741,2024-01-06,5,4,USR_0463,Startup PMs,Phrase,-0.33,1,boulder uphill
+1742,2024-07-29,1,9,USR_0241,Mid-market PMs,Phrase,-0.07,22,boulder uphill
+1743,2025-05-22,2,10,USR_0050,Enterprise PMs,Pain,-0.42,7,impacting users lives
+1744,2024-05-21,1,10,USR_0013,Startup PMs,Pain,-0.38,1,
+1745,2025-08-14,2,18,USR_0155,Mid-market PMs,Pain,0.93,3,
+1746,2024-11-10,5,10,USR_0455,Enterprise PMs,Pain,-0.33,1,
+1747,2025-05-21,2,10,USR_0087,Startup PMs,Pain,-0.17,8,
+1748,2025-02-22,3,7,USR_0114,Startup PMs,Dream,-0.82,8,
+1749,2025-07-24,4,9,USR_0322,Startup PMs,Dream,-0.21,2,
+1750,2024-07-07,1,17,USR_0460,Enterprise PMs,Dream,0.68,1,
+1751,2024-05-26,2,12,USR_0126,SMB PMs,Pain,0.19,2,
+1752,2024-10-26,5,4,USR_0384,Mid-market PMs,Dream,-0.43,20,sandbagging gatekeepers
+1753,2025-01-09,4,8,USR_0028,SMB PMs,Dream,-0.21,7,CEO without power
+1754,2024-01-02,1,1,USR_0223,Enterprise PMs,Dream,-0.54,3,
+1755,2025-10-10,5,4,USR_0016,Enterprise PMs,Phrase,-0.23,25,
+1756,2024-02-07,3,3,USR_0215,Startup PMs,Phrase,0.24,7,C suite idiots
+1757,2024-07-13,3,2,USR_0418,Enterprise PMs,Phrase,0.01,20,
+1758,2024-12-01,2,1,USR_0362,SMB PMs,Phrase,-0.82,21,
+1759,2024-08-14,3,5,USR_0317,SMB PMs,Phrase,-0.43,3,
+1760,2024-11-23,2,13,USR_0217,Enterprise PMs,Dream,0.67,1,
+1761,2024-04-06,1,15,USR_0349,Enterprise PMs,Dream,0.06,1,
+1762,2024-04-14,4,9,USR_0008,Mid-market PMs,Pain,-0.07,14,CEO without power
+1763,2025-06-25,5,3,USR_0388,Enterprise PMs,Phrase,-0.53,1,
+1764,2024-12-22,3,17,USR_0103,Enterprise PMs,Dream,1.0,5,
+1765,2024-08-13,5,3,USR_0108,Startup PMs,Pain,-0.37,13,
+1766,2024-12-13,1,15,USR_0141,Mid-market PMs,Pain,0.68,4,not psychic
+1767,2024-05-09,5,16,USR_0246,Mid-market PMs,Phrase,0.9,3,
+1768,2024-10-07,1,4,USR_0343,Enterprise PMs,Dream,-0.38,9,
+1769,2025-02-24,3,2,USR_0225,Enterprise PMs,Dream,-0.32,6,sandbagging gatekeepers
+1770,2024-03-24,2,13,USR_0125,Enterprise PMs,Pain,0.74,4,
+1771,2025-03-28,5,1,USR_0466,Enterprise PMs,Dream,-0.58,1,
+1772,2025-04-29,1,3,USR_0229,Mid-market PMs,Phrase,-0.59,1,sandbagging gatekeepers
+1773,2025-07-04,3,10,USR_0203,Enterprise PMs,Phrase,-0.55,5,C suite idiots
+1774,2024-08-08,3,7,USR_0184,Mid-market PMs,Pain,-0.47,4,
+1775,2024-04-18,3,6,USR_0056,Mid-market PMs,Pain,0.03,2,
+1776,2024-05-14,3,8,USR_0008,Mid-market PMs,Dream,-0.51,1,
+1777,2025-12-02,2,14,USR_0082,SMB PMs,Phrase,0.4,1,sandbagging gatekeepers
+1778,2024-01-31,5,13,USR_0102,SMB PMs,Phrase,0.79,1,
+1779,2025-08-27,1,17,USR_0179,Mid-market PMs,Dream,0.34,3,
+1780,2025-07-15,5,14,USR_0308,Enterprise PMs,Pain,0.45,4,
+1781,2025-11-28,1,5,USR_0442,Mid-market PMs,Phrase,-0.88,1,sandbagging gatekeepers
+1782,2024-03-16,5,13,USR_0369,Enterprise PMs,Phrase,0.85,1,
+1783,2024-03-08,3,13,USR_0111,Enterprise PMs,Dream,0.75,1,CEO without power
+1784,2024-01-19,3,3,USR_0048,SMB PMs,Phrase,-0.18,1,
+1785,2025-07-21,3,1,USR_0108,Startup PMs,Dream,-0.44,8,
+1786,2025-11-20,2,15,USR_0314,Mid-market PMs,Pain,0.22,3,
+1787,2025-08-10,4,8,USR_0463,Startup PMs,Phrase,-0.28,1,
+1788,2025-12-02,2,1,USR_0333,Enterprise PMs,Pain,-0.18,1,
+1789,2025-01-27,3,17,USR_0004,SMB PMs,Dream,0.32,6,
+1790,2025-02-27,4,15,USR_0334,Enterprise PMs,Pain,1.0,2,
+1791,2024-04-17,1,13,USR_0038,Enterprise PMs,Phrase,1.0,1,
+1792,2025-04-10,5,7,USR_0021,SMB PMs,Dream,-0.41,4,
+1793,2024-07-06,5,3,USR_0374,Startup PMs,Phrase,-0.42,5,
+1794,2024-06-23,2,13,USR_0086,Enterprise PMs,Pain,0.08,4,
+1795,2025-06-17,1,4,USR_0314,Mid-market PMs,Dream,-0.87,9,
+1796,2024-01-15,1,8,USR_0198,Mid-market PMs,Dream,-0.36,2,
+1797,2025-05-10,1,2,USR_0064,Enterprise PMs,Pain,-0.23,2,
+1798,2025-03-09,1,7,USR_0373,Enterprise PMs,Dream,-0.76,5,
+1799,2025-05-27,4,11,USR_0432,Startup PMs,Phrase,0.09,5,boulder uphill
+1800,2024-02-02,3,4,USR_0286,Enterprise PMs,Phrase,-0.75,10,
+1801,2024-02-09,5,1,USR_0447,Mid-market PMs,Dream,-0.8,1,
+1802,2025-03-26,4,6,USR_0329,SMB PMs,Dream,-0.29,1,
+1803,2024-04-27,5,3,USR_0340,Enterprise PMs,Pain,-0.58,5,CEO without power
+1804,2025-01-07,5,7,USR_0235,Enterprise PMs,Dream,-0.38,1,
+1805,2025-05-20,4,5,USR_0308,Enterprise PMs,Dream,-0.15,11,boulder uphill
+1806,2024-12-08,1,13,USR_0481,SMB PMs,Dream,0.04,1,boulder uphill
+1807,2025-03-23,1,5,USR_0242,Mid-market PMs,Phrase,-0.76,4,
+1808,2025-12-05,2,6,USR_0315,Startup PMs,Phrase,-0.07,1,
+1809,2024-03-12,4,5,USR_0339,SMB PMs,Phrase,-0.22,8,C suite idiots
+1810,2025-07-02,3,13,USR_0486,Mid-market PMs,Phrase,0.67,1,
+1811,2024-01-23,3,10,USR_0308,Enterprise PMs,Phrase,-0.39,4,
+1812,2024-05-01,4,9,USR_0099,Enterprise PMs,Pain,-0.44,1,
+1813,2024-04-04,1,5,USR_0069,Enterprise PMs,Phrase,-0.61,11,
+1814,2024-02-12,3,16,USR_0096,SMB PMs,Phrase,0.58,1,
+1815,2025-07-24,1,11,USR_0351,SMB PMs,Dream,0.49,1,
+1816,2025-04-30,3,11,USR_0306,Mid-market PMs,Phrase,0.35,6,
+1817,2024-01-24,3,10,USR_0093,Startup PMs,Dream,-0.59,1,CEO without power
+1818,2025-01-23,5,3,USR_0254,Enterprise PMs,Dream,-0.41,1,
+1819,2024-07-09,2,9,USR_0447,Mid-market PMs,Dream,-0.12,1,C suite idiots
+1820,2024-06-27,4,16,USR_0183,Mid-market PMs,Dream,-0.01,1,
+1821,2025-07-09,3,12,USR_0347,SMB PMs,Phrase,0.91,1,
+1822,2025-02-16,2,7,USR_0209,Enterprise PMs,Phrase,-0.51,1,
+1823,2025-12-04,4,8,USR_0500,Mid-market PMs,Pain,-0.44,2,
+1824,2024-08-31,5,16,USR_0453,SMB PMs,Phrase,0.44,2,
+1825,2024-02-18,1,4,USR_0402,Mid-market PMs,Pain,-0.36,10,impacting users lives
+1826,2025-11-04,1,10,USR_0115,SMB PMs,Phrase,-0.33,3,
+1827,2024-12-08,4,2,USR_0044,Mid-market PMs,Phrase,-0.57,4,
+1828,2025-07-11,3,4,USR_0459,Enterprise PMs,Dream,-0.03,8,slow down to speed up
+1829,2024-08-08,5,7,USR_0428,Mid-market PMs,Dream,-0.21,5,boulder uphill
+1830,2024-12-06,3,7,USR_0452,SMB PMs,Pain,-0.24,12,impacting users lives
+1831,2024-02-05,3,18,USR_0018,SMB PMs,Phrase,0.95,1,impacting users lives
+1832,2024-02-08,1,10,USR_0426,SMB PMs,Phrase,-0.49,5,not psychic
+1833,2024-09-13,3,8,USR_0047,Enterprise PMs,Phrase,-0.22,8,
+1834,2025-08-31,3,3,USR_0329,SMB PMs,Phrase,-0.04,1,
+1835,2024-04-20,2,8,USR_0497,SMB PMs,Phrase,-0.36,6,
+1836,2024-04-01,1,18,USR_0123,Enterprise PMs,Phrase,0.56,1,
+1837,2025-11-03,3,16,USR_0446,Mid-market PMs,Pain,0.38,1,
+1838,2025-06-29,2,9,USR_0270,Enterprise PMs,Pain,-0.47,7,
+1839,2025-11-18,4,16,USR_0431,Enterprise PMs,Dream,0.45,3,
+1840,2025-12-06,1,15,USR_0437,Enterprise PMs,Phrase,0.35,6,
+1841,2024-01-15,2,15,USR_0115,SMB PMs,Phrase,0.61,2,
+1842,2025-06-23,1,9,USR_0067,Enterprise PMs,Pain,0.1,2,CEO without power
+1843,2025-07-29,3,12,USR_0022,Enterprise PMs,Pain,0.67,1,sandbagging gatekeepers
+1844,2025-04-26,4,8,USR_0259,SMB PMs,Pain,-0.28,1,
+1845,2025-06-23,1,4,USR_0051,Mid-market PMs,Dream,-0.37,9,
+1846,2025-03-08,3,16,USR_0258,Startup PMs,Pain,1.0,2,
+1847,2024-01-05,3,7,USR_0345,Enterprise PMs,Phrase,-0.45,2,
+1848,2025-01-15,5,8,USR_0335,Enterprise PMs,Phrase,-0.53,1,
+1849,2024-04-02,2,14,USR_0080,Enterprise PMs,Phrase,1.0,1,impacting users lives
+1850,2024-01-21,5,18,USR_0219,SMB PMs,Phrase,0.56,6,sandbagging gatekeepers
+1851,2025-08-29,5,7,USR_0048,SMB PMs,Pain,-0.29,3,not psychic
+1852,2024-08-06,1,5,USR_0102,SMB PMs,Phrase,-0.26,2,boulder uphill
+1853,2024-10-23,2,12,USR_0393,Enterprise PMs,Dream,0.77,2,
+1854,2024-02-01,1,12,USR_0480,SMB PMs,Phrase,0.47,1,
+1855,2025-09-16,5,14,USR_0158,Startup PMs,Pain,0.46,1,
+1856,2025-06-10,2,16,USR_0270,Enterprise PMs,Pain,0.91,6,C suite idiots
+1857,2025-06-20,1,14,USR_0410,Enterprise PMs,Pain,0.4,1,
+1858,2024-03-17,5,12,USR_0390,Startup PMs,Dream,0.76,1,
+1859,2024-10-21,2,18,USR_0144,Enterprise PMs,Pain,0.63,22,
+1860,2024-04-27,5,12,USR_0351,SMB PMs,Phrase,0.78,2,
+1861,2025-11-16,1,15,USR_0273,Mid-market PMs,Pain,0.64,4,
+1862,2024-05-28,1,1,USR_0368,Mid-market PMs,Phrase,-0.09,2,
+1863,2025-01-01,5,10,USR_0037,Enterprise PMs,Phrase,-0.23,1,
+1864,2025-03-29,2,18,USR_0438,Startup PMs,Phrase,0.56,1,
+1865,2024-05-14,4,2,USR_0094,SMB PMs,Phrase,-0.58,1,sandbagging gatekeepers
+1866,2024-06-09,3,3,USR_0385,Startup PMs,Phrase,-0.97,1,
+1867,2024-02-22,5,5,USR_0344,SMB PMs,Phrase,-0.74,7,
+1868,2024-10-19,1,14,USR_0449,Enterprise PMs,Phrase,0.5,1,impacting users lives
+1869,2024-08-22,5,10,USR_0364,SMB PMs,Dream,0.06,2,
+1870,2025-07-07,2,11,USR_0010,Startup PMs,Pain,0.53,4,
+1871,2024-07-06,3,10,USR_0051,Mid-market PMs,Dream,-0.74,10,
+1872,2025-11-17,4,8,USR_0447,Mid-market PMs,Dream,-0.79,1,
+1873,2025-10-01,5,5,USR_0259,SMB PMs,Dream,-0.13,7,
+1874,2025-08-13,2,10,USR_0383,SMB PMs,Pain,-0.37,1,
+1875,2024-12-17,5,6,USR_0325,Mid-market PMs,Pain,-0.33,15,
+1876,2025-09-09,3,2,USR_0194,SMB PMs,Pain,-0.03,1,
+1877,2025-08-14,4,6,USR_0442,Mid-market PMs,Pain,-0.48,2,
+1878,2024-01-24,3,1,USR_0471,Enterprise PMs,Phrase,-0.44,1,CEO without power
+1879,2025-01-18,4,4,USR_0268,Startup PMs,Pain,-0.18,1,
+1880,2025-01-26,2,17,USR_0058,Enterprise PMs,Dream,0.93,1,not psychic
+1881,2025-01-13,2,7,USR_0223,Enterprise PMs,Dream,-0.35,3,
+1882,2025-12-19,5,8,USR_0342,SMB PMs,Pain,-0.51,1,sandbagging gatekeepers
+1883,2024-12-10,1,14,USR_0462,SMB PMs,Dream,0.77,1,impacting users lives
+1884,2024-03-13,4,10,USR_0243,Mid-market PMs,Phrase,-0.12,12,C suite idiots
+1885,2024-04-27,4,15,USR_0122,Mid-market PMs,Phrase,0.12,4,
+1886,2024-06-07,3,5,USR_0122,Mid-market PMs,Dream,-0.67,1,
+1887,2025-04-04,3,8,USR_0090,SMB PMs,Phrase,-0.22,10,not psychic
+1888,2024-06-28,4,17,USR_0320,Enterprise PMs,Pain,0.55,2,
+1889,2025-12-20,4,5,USR_0331,Enterprise PMs,Dream,-0.82,12,
+1890,2024-12-04,4,5,USR_0204,Mid-market PMs,Phrase,-0.59,1,
+1891,2025-12-16,1,18,USR_0222,SMB PMs,Dream,0.3,2,
+1892,2025-01-19,2,10,USR_0190,Enterprise PMs,Phrase,-0.12,1,
+1893,2025-08-29,1,12,USR_0477,Enterprise PMs,Dream,0.43,1,CEO without power
+1894,2025-11-10,4,3,USR_0073,Enterprise PMs,Dream,-0.84,15,not psychic
+1895,2024-08-11,4,10,USR_0284,Enterprise PMs,Pain,-0.46,2,
+1896,2024-01-14,5,6,USR_0416,SMB PMs,Phrase,-0.78,1,boulder uphill
+1897,2024-08-12,3,3,USR_0283,Enterprise PMs,Dream,-0.54,8,impacting users lives
+1898,2025-06-30,5,9,USR_0094,SMB PMs,Dream,-0.37,9,slow down to speed up
+1899,2024-03-22,5,16,USR_0491,SMB PMs,Phrase,0.49,1,
+1900,2025-06-19,2,5,USR_0181,Enterprise PMs,Phrase,0.16,4,C suite idiots
+1901,2025-08-12,4,14,USR_0385,Startup PMs,Phrase,0.71,2,
+1902,2025-04-08,4,4,USR_0424,SMB PMs,Phrase,-0.53,3,
+1903,2025-03-15,3,14,USR_0156,Enterprise PMs,Pain,0.37,7,
+1904,2024-09-03,1,2,USR_0329,SMB PMs,Dream,-0.63,6,
+1905,2024-10-07,5,13,USR_0182,Enterprise PMs,Phrase,0.34,1,slow down to speed up
+1906,2025-11-22,4,15,USR_0191,Enterprise PMs,Dream,0.65,4,
+1907,2025-08-29,1,10,USR_0288,SMB PMs,Dream,-0.34,9,
+1908,2024-02-07,1,4,USR_0308,Enterprise PMs,Dream,-0.76,1,
+1909,2025-03-22,4,14,USR_0210,Enterprise PMs,Pain,0.91,1,
+1910,2025-06-11,5,18,USR_0102,SMB PMs,Phrase,0.78,3,
+1911,2024-05-14,4,8,USR_0269,Enterprise PMs,Dream,-0.2,8,
+1912,2025-06-19,4,4,USR_0454,Mid-market PMs,Phrase,-0.38,7,
+1913,2024-07-19,3,12,USR_0052,Startup PMs,Phrase,0.19,1,slow down to speed up
+1914,2025-02-02,5,1,USR_0477,Enterprise PMs,Pain,-0.33,1,
+1915,2024-08-30,5,6,USR_0379,Startup PMs,Dream,-0.62,1,
+1916,2025-04-01,2,13,USR_0328,SMB PMs,Pain,0.44,3,
+1917,2025-07-21,5,3,USR_0309,Startup PMs,Dream,-0.68,1,slow down to speed up
+1918,2024-09-23,3,15,USR_0075,Startup PMs,Dream,0.72,1,slow down to speed up
+1919,2024-03-03,2,8,USR_0063,Startup PMs,Pain,-0.31,14,CEO without power
+1920,2025-08-09,3,11,USR_0049,SMB PMs,Dream,0.87,1,impacting users lives
+1921,2024-02-15,4,13,USR_0014,Enterprise PMs,Phrase,0.5,5,
+1922,2024-04-26,4,16,USR_0457,Enterprise PMs,Phrase,0.33,4,
+1923,2024-06-07,4,16,USR_0174,Enterprise PMs,Dream,0.69,3,C suite idiots
+1924,2025-10-23,4,13,USR_0132,Enterprise PMs,Phrase,0.67,1,
+1925,2025-04-22,2,7,USR_0379,Startup PMs,Phrase,-0.64,15,
+1926,2024-02-11,2,9,USR_0319,Enterprise PMs,Pain,0.06,12,
+1927,2025-10-03,2,13,USR_0075,Startup PMs,Dream,0.64,4,sandbagging gatekeepers
+1928,2025-07-26,1,17,USR_0362,SMB PMs,Dream,0.25,1,
+1929,2024-11-21,5,11,USR_0379,Startup PMs,Dream,0.56,6,boulder uphill
+1930,2025-07-13,3,4,USR_0172,Enterprise PMs,Phrase,-0.21,5,
+1931,2024-03-26,3,9,USR_0011,Enterprise PMs,Dream,-1.0,4,not psychic
+1932,2025-03-22,1,17,USR_0335,Enterprise PMs,Dream,0.12,2,
+1933,2025-07-25,5,4,USR_0093,Startup PMs,Dream,-0.47,5,
+1934,2024-04-22,3,8,USR_0437,Enterprise PMs,Pain,-0.74,10,
+1935,2025-10-13,3,11,USR_0266,Startup PMs,Pain,0.36,9,impacting users lives
+1936,2025-03-07,2,6,USR_0103,Enterprise PMs,Dream,0.06,5,
+1937,2025-03-01,1,1,USR_0313,Enterprise PMs,Pain,-0.57,6,
+1938,2024-06-11,5,17,USR_0389,Startup PMs,Pain,0.23,2,
+1939,2025-06-23,1,13,USR_0090,SMB PMs,Pain,0.21,1,
+1940,2024-09-21,3,2,USR_0348,Enterprise PMs,Phrase,-0.57,8,
+1941,2025-08-04,4,18,USR_0319,Enterprise PMs,Phrase,0.26,5,not psychic
+1942,2025-05-31,1,2,USR_0150,Enterprise PMs,Dream,-0.06,2,
+1943,2025-06-01,5,1,USR_0053,Mid-market PMs,Dream,-0.18,1,
+1944,2025-07-26,5,12,USR_0221,Startup PMs,Dream,0.06,1,not psychic
+1945,2024-11-01,3,14,USR_0469,Enterprise PMs,Dream,0.72,4,C suite idiots
+1946,2024-12-18,3,12,USR_0427,SMB PMs,Phrase,0.49,1,
+1947,2025-09-03,1,8,USR_0389,Startup PMs,Phrase,-0.45,2,
+1948,2025-09-17,3,10,USR_0167,Enterprise PMs,Phrase,-0.2,25,
+1949,2025-06-24,3,14,USR_0034,Mid-market PMs,Dream,0.69,1,
+1950,2025-09-19,5,11,USR_0357,Enterprise PMs,Phrase,0.57,4,
+1951,2024-12-22,1,16,USR_0253,Mid-market PMs,Phrase,1.0,1,impacting users lives
+1952,2025-09-19,5,18,USR_0495,SMB PMs,Phrase,0.71,3,
+1953,2025-07-19,5,11,USR_0267,Startup PMs,Dream,0.61,2,
+1954,2025-05-20,2,3,USR_0461,Enterprise PMs,Dream,-0.19,1,
+1955,2024-04-10,3,16,USR_0193,Mid-market PMs,Pain,0.53,2,boulder uphill
+1956,2024-08-21,4,11,USR_0417,Enterprise PMs,Phrase,0.54,1,
+1957,2025-09-28,5,1,USR_0435,Enterprise PMs,Pain,-0.01,2,
+1958,2025-04-17,4,6,USR_0446,Mid-market PMs,Dream,-0.71,12,sandbagging gatekeepers
+1959,2025-11-01,4,15,USR_0182,Enterprise PMs,Dream,0.38,5,
+1960,2024-03-25,2,4,USR_0107,SMB PMs,Dream,-0.48,5,
+1961,2025-07-18,1,5,USR_0362,SMB PMs,Phrase,-0.1,15,CEO without power
+1962,2025-12-11,5,5,USR_0388,Enterprise PMs,Dream,-0.69,5,sandbagging gatekeepers
+1963,2025-04-20,3,1,USR_0327,SMB PMs,Dream,-0.72,2,impacting users lives
+1964,2024-04-08,4,6,USR_0259,SMB PMs,Pain,-0.24,1,
+1965,2024-10-18,3,17,USR_0056,Mid-market PMs,Dream,1.0,1,
+1966,2024-06-26,3,4,USR_0358,SMB PMs,Pain,-0.39,7,
+1967,2025-01-28,2,9,USR_0074,Startup PMs,Dream,-0.61,1,
+1968,2025-06-21,3,7,USR_0193,Mid-market PMs,Dream,-0.28,4,
+1969,2025-04-02,2,14,USR_0004,SMB PMs,Phrase,0.47,2,
+1970,2025-04-30,3,7,USR_0377,Startup PMs,Dream,-0.45,21,impacting users lives
+1971,2025-11-28,1,13,USR_0372,Enterprise PMs,Dream,0.35,1,
+1972,2025-12-09,4,15,USR_0437,Enterprise PMs,Phrase,0.73,2,C suite idiots
+1973,2025-08-01,5,4,USR_0052,Startup PMs,Dream,-0.6,3,not psychic
+1974,2025-09-20,2,16,USR_0012,Mid-market PMs,Pain,0.59,1,
+1975,2025-07-13,4,16,USR_0209,Enterprise PMs,Phrase,0.85,3,
+1976,2024-08-16,3,10,USR_0333,Enterprise PMs,Phrase,-0.22,11,
+1977,2025-03-13,5,2,USR_0266,Startup PMs,Dream,-0.74,1,
+1978,2025-04-09,5,1,USR_0182,Enterprise PMs,Phrase,-0.22,7,
+1979,2025-06-04,1,17,USR_0283,Enterprise PMs,Dream,0.34,5,not psychic
+1980,2025-09-21,3,18,USR_0461,Enterprise PMs,Pain,0.14,1,
+1981,2024-01-23,2,15,USR_0010,Startup PMs,Dream,0.64,3,sandbagging gatekeepers
+1982,2025-09-22,4,10,USR_0482,Startup PMs,Dream,-0.68,1,impacting users lives
+1983,2024-06-03,2,10,USR_0459,Enterprise PMs,Pain,-0.55,8,
+1984,2024-05-19,4,18,USR_0142,Enterprise PMs,Phrase,0.95,1,C suite idiots
+1985,2025-09-09,2,5,USR_0008,Mid-market PMs,Phrase,-0.55,2,
+1986,2025-09-26,1,8,USR_0064,Enterprise PMs,Pain,-0.65,6,CEO without power
+1987,2024-10-11,1,16,USR_0154,SMB PMs,Dream,0.39,5,
+1988,2024-09-07,4,18,USR_0452,SMB PMs,Phrase,1.0,1,
+1989,2025-11-16,2,7,USR_0152,Enterprise PMs,Pain,-0.64,1,boulder uphill
+1990,2024-11-11,3,7,USR_0188,SMB PMs,Pain,-0.36,1,
+1991,2024-07-25,5,12,USR_0209,Enterprise PMs,Pain,0.79,4,
+1992,2024-01-30,4,14,USR_0227,Mid-market PMs,Phrase,0.64,2,
+1993,2025-08-05,4,8,USR_0441,Enterprise PMs,Dream,-0.72,5,
+1994,2024-03-27,5,7,USR_0104,SMB PMs,Phrase,-0.4,10,CEO without power
+1995,2025-02-26,3,11,USR_0118,Enterprise PMs,Dream,0.59,4,
+1996,2024-04-02,4,12,USR_0397,Mid-market PMs,Phrase,0.81,3,
+1997,2025-01-30,2,6,USR_0300,Enterprise PMs,Dream,-0.14,8,
+1998,2025-04-27,4,5,USR_0480,SMB PMs,Dream,-0.47,1,boulder uphill
+1999,2025-09-23,2,15,USR_0106,Enterprise PMs,Phrase,0.96,3,
+2000,2024-03-18,2,17,USR_0326,Startup PMs,Phrase,0.52,1,
+2001,2025-09-05,4,3,USR_0414,SMB PMs,Phrase,-0.21,1,
+2002,2024-05-15,2,17,USR_0172,Enterprise PMs,Pain,0.22,1,not psychic
+2003,2024-12-08,5,8,USR_0130,SMB PMs,Phrase,-0.8,5,
+2004,2024-04-26,4,7,USR_0151,Mid-market PMs,Dream,-0.73,5,
+2005,2024-09-12,4,6,USR_0352,Mid-market PMs,Dream,0.0,7,CEO without power
+2006,2024-08-06,1,8,USR_0293,Startup PMs,Pain,-0.67,4,
+2007,2024-06-14,5,14,USR_0180,Enterprise PMs,Dream,0.72,3,impacting users lives
+2008,2025-10-19,5,12,USR_0286,Enterprise PMs,Dream,0.5,4,
+2009,2025-09-12,5,18,USR_0185,Enterprise PMs,Pain,1.0,12,
+2010,2025-05-19,1,18,USR_0378,Enterprise PMs,Pain,0.49,2,
+2011,2025-10-10,5,11,USR_0478,SMB PMs,Phrase,0.74,1,
+2012,2025-07-10,5,8,USR_0492,SMB PMs,Pain,-0.2,6,
+2013,2024-08-22,4,4,USR_0238,Enterprise PMs,Phrase,-0.26,1,
+2014,2025-08-10,3,16,USR_0083,Enterprise PMs,Phrase,0.42,4,
+2015,2024-10-23,1,15,USR_0065,Enterprise PMs,Phrase,0.79,1,
+2016,2025-08-21,5,2,USR_0431,Enterprise PMs,Phrase,-0.48,4,CEO without power
+2017,2025-09-13,2,6,USR_0265,Mid-market PMs,Dream,-0.58,4,
+2018,2024-12-15,5,7,USR_0171,Startup PMs,Dream,-0.48,7,
+2019,2024-12-18,3,15,USR_0021,SMB PMs,Phrase,1.0,7,not psychic
+2020,2025-03-13,5,9,USR_0189,SMB PMs,Phrase,-0.2,1,
+2021,2025-05-31,1,15,USR_0441,Enterprise PMs,Pain,0.62,3,not psychic
+2022,2025-10-09,3,14,USR_0413,Mid-market PMs,Phrase,1.0,1,
+2023,2025-05-28,1,15,USR_0055,SMB PMs,Dream,0.84,1,
+2024,2024-01-14,5,8,USR_0360,SMB PMs,Dream,-0.61,3,
+2025,2025-06-17,2,7,USR_0450,Enterprise PMs,Pain,-0.48,5,slow down to speed up
+2026,2025-03-11,4,4,USR_0256,SMB PMs,Phrase,-0.08,2,
+2027,2024-01-17,3,17,USR_0342,SMB PMs,Dream,0.99,2,boulder uphill
+2028,2024-06-25,3,18,USR_0357,Enterprise PMs,Phrase,0.5,1,boulder uphill
+2029,2024-04-05,1,9,USR_0381,Enterprise PMs,Dream,-0.18,7,
+2030,2024-04-14,2,13,USR_0069,Enterprise PMs,Phrase,0.29,1,sandbagging gatekeepers
+2031,2024-09-28,3,2,USR_0409,Mid-market PMs,Pain,-0.22,6,boulder uphill
+2032,2025-07-21,5,18,USR_0489,Mid-market PMs,Phrase,0.76,3,boulder uphill
+2033,2024-05-01,4,5,USR_0266,Startup PMs,Phrase,-0.01,1,not psychic
+2034,2024-02-04,1,7,USR_0375,Enterprise PMs,Dream,-0.36,1,sandbagging gatekeepers
+2035,2025-06-28,5,5,USR_0212,Startup PMs,Dream,-0.34,1,not psychic
+2036,2024-02-07,3,9,USR_0165,Enterprise PMs,Dream,-0.52,4,
+2037,2025-11-09,2,7,USR_0184,Mid-market PMs,Dream,-0.5,1,impacting users lives
+2038,2024-06-08,1,14,USR_0017,Enterprise PMs,Pain,0.33,1,
+2039,2024-03-15,5,12,USR_0335,Enterprise PMs,Dream,0.37,1,
+2040,2024-02-01,3,4,USR_0354,Enterprise PMs,Dream,-0.13,5,
+2041,2024-12-27,4,16,USR_0169,Enterprise PMs,Phrase,0.58,1,
+2042,2024-08-28,5,14,USR_0273,Mid-market PMs,Pain,0.68,1,
+2043,2024-03-22,2,12,USR_0174,Enterprise PMs,Phrase,0.93,1,
+2044,2024-12-08,4,14,USR_0252,Enterprise PMs,Phrase,1.0,2,
+2045,2025-10-03,3,9,USR_0169,Enterprise PMs,Phrase,-0.56,4,
+2046,2024-10-28,2,17,USR_0306,Mid-market PMs,Dream,0.53,3,
+2047,2024-07-30,3,3,USR_0076,Startup PMs,Pain,-0.46,3,
+2048,2024-11-22,2,2,USR_0222,SMB PMs,Pain,-0.21,2,
+2049,2024-04-28,5,18,USR_0117,Startup PMs,Phrase,0.31,1,
+2050,2024-08-08,2,6,USR_0259,SMB PMs,Pain,-0.49,2,
+2051,2024-11-24,4,18,USR_0378,Enterprise PMs,Dream,0.82,3,
+2052,2024-07-28,2,12,USR_0043,Enterprise PMs,Dream,0.72,6,
+2053,2025-12-06,4,5,USR_0083,Enterprise PMs,Pain,-0.55,1,
+2054,2025-08-01,5,8,USR_0100,Enterprise PMs,Dream,-0.34,2,
+2055,2024-03-16,2,1,USR_0299,SMB PMs,Dream,-0.68,2,
+2056,2024-06-19,5,10,USR_0032,Enterprise PMs,Phrase,-0.06,2,
+2057,2024-02-04,2,14,USR_0025,SMB PMs,Phrase,0.33,1,
+2058,2024-08-04,2,17,USR_0218,Startup PMs,Pain,0.27,3,
+2059,2025-05-12,2,4,USR_0148,SMB PMs,Pain,-0.44,3,
+2060,2024-12-26,2,16,USR_0356,SMB PMs,Pain,0.42,1,
+2061,2025-01-05,3,4,USR_0305,Startup PMs,Pain,0.08,4,
+2062,2025-04-25,4,15,USR_0197,Startup PMs,Dream,0.55,2,
+2063,2025-09-02,5,16,USR_0022,Enterprise PMs,Phrase,0.47,4,
+2064,2024-06-26,3,14,USR_0044,Mid-market PMs,Dream,0.25,1,
+2065,2024-04-09,2,15,USR_0418,Enterprise PMs,Pain,0.89,1,
+2066,2025-02-08,4,5,USR_0381,Enterprise PMs,Dream,-0.19,1,impacting users lives
+2067,2025-07-18,4,10,USR_0415,SMB PMs,Dream,-0.48,1,
+2068,2025-12-23,5,3,USR_0012,Mid-market PMs,Phrase,-0.38,1,
+2069,2025-05-30,1,16,USR_0013,Startup PMs,Pain,0.11,4,
+2070,2024-06-05,1,11,USR_0021,SMB PMs,Dream,0.5,1,
+2071,2025-07-27,1,8,USR_0409,Mid-market PMs,Phrase,-0.07,2,sandbagging gatekeepers
+2072,2024-03-13,5,18,USR_0478,SMB PMs,Pain,0.11,1,boulder uphill
+2073,2024-01-24,5,1,USR_0416,SMB PMs,Dream,0.05,2,
+2074,2024-09-06,2,6,USR_0339,SMB PMs,Pain,-0.48,12,
+2075,2024-05-25,3,13,USR_0088,SMB PMs,Dream,0.63,1,
+2076,2024-08-24,3,6,USR_0034,Mid-market PMs,Phrase,-0.21,6,
+2077,2024-08-02,2,18,USR_0210,Enterprise PMs,Phrase,0.68,3,
+2078,2024-02-22,4,16,USR_0310,Enterprise PMs,Pain,1.0,7,
+2079,2025-02-25,4,3,USR_0427,SMB PMs,Dream,-0.24,5,
+2080,2025-02-24,1,14,USR_0334,Enterprise PMs,Phrase,0.77,2,
+2081,2024-05-21,4,17,USR_0416,SMB PMs,Phrase,0.14,4,
+2082,2025-04-17,3,11,USR_0108,Startup PMs,Dream,0.95,11,
+2083,2024-07-07,2,9,USR_0109,Enterprise PMs,Pain,-0.49,2,CEO without power
+2084,2024-07-27,5,17,USR_0098,SMB PMs,Pain,0.16,7,
+2085,2025-12-28,3,3,USR_0368,Mid-market PMs,Pain,-0.32,2,
+2086,2024-03-25,4,9,USR_0077,Startup PMs,Pain,-0.71,7,C suite idiots
+2087,2024-04-14,1,16,USR_0474,Mid-market PMs,Dream,0.32,3,
+2088,2025-03-11,1,12,USR_0188,SMB PMs,Dream,0.56,1,slow down to speed up
+2089,2025-03-17,4,7,USR_0294,Enterprise PMs,Pain,-0.33,37,slow down to speed up
+2090,2025-01-25,5,11,USR_0247,SMB PMs,Phrase,0.35,1,boulder uphill
+2091,2025-12-27,3,10,USR_0144,Enterprise PMs,Dream,-0.05,1,boulder uphill
+2092,2025-01-22,3,14,USR_0267,Startup PMs,Phrase,0.72,7,CEO without power
+2093,2024-10-28,2,1,USR_0358,SMB PMs,Phrase,-0.37,8,
+2094,2024-06-20,4,5,USR_0449,Enterprise PMs,Phrase,-0.6,21,
+2095,2024-10-18,4,12,USR_0175,SMB PMs,Dream,0.66,1,
+2096,2024-08-14,4,3,USR_0353,Startup PMs,Dream,-0.25,1,
+2097,2024-01-29,5,13,USR_0438,Startup PMs,Dream,0.43,1,
+2098,2024-09-06,3,3,USR_0031,SMB PMs,Dream,-0.58,2,
+2099,2024-03-10,1,11,USR_0289,Enterprise PMs,Phrase,0.83,1,slow down to speed up
+2100,2025-10-23,4,12,USR_0406,Mid-market PMs,Phrase,0.68,1,boulder uphill
+2101,2025-03-21,5,8,USR_0393,Enterprise PMs,Pain,-0.18,5,
+2102,2025-04-09,3,4,USR_0093,Startup PMs,Dream,-0.29,1,
+2103,2024-01-19,4,13,USR_0465,Mid-market PMs,Phrase,0.66,1,boulder uphill
+2104,2024-09-13,3,1,USR_0271,Startup PMs,Pain,-0.37,5,C suite idiots
+2105,2024-06-07,2,13,USR_0420,Startup PMs,Dream,0.9,1,impacting users lives
+2106,2025-04-10,1,10,USR_0489,Mid-market PMs,Pain,-0.3,3,
+2107,2024-03-09,5,15,USR_0456,SMB PMs,Pain,0.77,5,
+2108,2024-08-30,4,10,USR_0140,Mid-market PMs,Phrase,-0.67,1,
+2109,2024-07-26,1,7,USR_0008,Mid-market PMs,Phrase,-0.27,1,
+2110,2025-02-16,4,8,USR_0101,Enterprise PMs,Phrase,-0.57,1,
+2111,2025-10-23,5,3,USR_0283,Enterprise PMs,Pain,-0.43,5,
+2112,2024-03-04,5,3,USR_0293,Startup PMs,Phrase,-0.76,1,
+2113,2025-04-25,4,16,USR_0414,SMB PMs,Pain,0.96,1,
+2114,2024-05-21,5,18,USR_0068,Startup PMs,Dream,0.34,1,C suite idiots
+2115,2025-05-13,4,13,USR_0358,SMB PMs,Phrase,1.0,2,slow down to speed up
+2116,2025-01-05,5,6,USR_0230,SMB PMs,Dream,-0.14,1,
+2117,2024-10-16,1,7,USR_0480,SMB PMs,Phrase,-0.15,1,
+2118,2024-03-16,2,17,USR_0347,SMB PMs,Dream,0.76,1,
+2119,2024-11-27,1,6,USR_0320,Enterprise PMs,Pain,-0.44,1,
+2120,2025-12-11,1,14,USR_0444,Enterprise PMs,Phrase,0.37,2,CEO without power
+2121,2024-04-08,1,3,USR_0230,SMB PMs,Phrase,-0.35,1,not psychic
+2122,2024-11-18,5,16,USR_0426,SMB PMs,Dream,0.64,5,
+2123,2024-01-17,4,7,USR_0299,SMB PMs,Phrase,-0.35,4,
+2124,2025-12-19,4,10,USR_0011,Enterprise PMs,Phrase,-0.24,9,
+2125,2024-06-29,5,1,USR_0083,Enterprise PMs,Phrase,-0.53,2,CEO without power
+2126,2024-03-29,3,15,USR_0433,SMB PMs,Phrase,0.48,1,
+2127,2025-03-03,4,15,USR_0085,Enterprise PMs,Pain,0.84,3,CEO without power
+2128,2025-02-02,5,11,USR_0354,Enterprise PMs,Phrase,0.66,1,
+2129,2025-10-28,5,9,USR_0455,Enterprise PMs,Dream,-0.6,4,
+2130,2025-10-26,2,13,USR_0226,Enterprise PMs,Phrase,0.59,3,
+2131,2025-04-01,2,8,USR_0123,Enterprise PMs,Dream,-0.26,9,
+2132,2024-10-25,4,14,USR_0142,Enterprise PMs,Dream,0.83,1,
+2133,2025-10-27,3,3,USR_0323,Startup PMs,Dream,-0.68,1,
+2134,2025-06-27,2,2,USR_0394,Startup PMs,Dream,-0.36,10,
+2135,2025-06-09,4,7,USR_0041,Enterprise PMs,Phrase,-0.42,8,
+2136,2024-01-17,4,12,USR_0182,Enterprise PMs,Pain,0.59,10,
+2137,2024-08-24,5,18,USR_0223,Enterprise PMs,Phrase,0.66,1,
+2138,2025-05-16,4,9,USR_0352,Mid-market PMs,Pain,-0.58,4,
+2139,2024-12-20,2,5,USR_0080,Enterprise PMs,Dream,-0.19,1,
+2140,2024-05-12,5,15,USR_0313,Enterprise PMs,Dream,0.67,4,
+2141,2024-09-12,3,15,USR_0227,Mid-market PMs,Dream,0.54,4,
+2142,2024-02-21,5,3,USR_0239,SMB PMs,Phrase,-0.08,1,
+2143,2025-06-26,2,14,USR_0366,Enterprise PMs,Pain,0.32,1,
+2144,2024-05-09,4,5,USR_0189,SMB PMs,Dream,-0.28,4,
+2145,2024-07-12,4,9,USR_0407,Enterprise PMs,Phrase,-0.45,40,
+2146,2025-07-04,2,17,USR_0301,Enterprise PMs,Phrase,0.5,1,
+2147,2025-06-21,4,7,USR_0035,Mid-market PMs,Dream,-0.72,3,
+2148,2024-06-15,4,9,USR_0234,SMB PMs,Dream,-0.02,2,
+2149,2024-11-17,2,7,USR_0411,Enterprise PMs,Pain,-0.3,7,CEO without power
+2150,2024-07-01,4,8,USR_0433,SMB PMs,Pain,-0.26,1,C suite idiots
+2151,2024-02-07,4,10,USR_0086,Enterprise PMs,Pain,-0.26,4,
+2152,2024-06-16,2,18,USR_0156,Enterprise PMs,Phrase,0.76,1,
+2153,2024-02-02,3,1,USR_0289,Enterprise PMs,Dream,-0.83,5,
+2154,2024-09-22,5,11,USR_0016,Enterprise PMs,Dream,1.0,4,
+2155,2024-02-18,1,15,USR_0167,Enterprise PMs,Dream,0.72,3,
+2156,2025-09-18,4,14,USR_0083,Enterprise PMs,Dream,0.25,1,
+2157,2024-04-06,4,6,USR_0026,Startup PMs,Pain,-0.55,11,
+2158,2024-11-11,5,12,USR_0499,Mid-market PMs,Phrase,0.7,2,
+2159,2024-08-06,2,7,USR_0272,Startup PMs,Pain,-0.19,13,
+2160,2025-08-05,1,18,USR_0493,Enterprise PMs,Pain,0.66,10,
+2161,2024-11-29,5,16,USR_0375,Enterprise PMs,Phrase,0.37,1,sandbagging gatekeepers
+2162,2025-07-25,4,18,USR_0160,Startup PMs,Phrase,0.61,2,
+2163,2025-07-05,4,9,USR_0351,SMB PMs,Dream,-0.63,1,
+2164,2024-07-29,3,4,USR_0396,Mid-market PMs,Phrase,-0.36,12,slow down to speed up
+2165,2025-09-28,3,1,USR_0112,Enterprise PMs,Phrase,-0.64,5,slow down to speed up
+2166,2025-03-26,5,7,USR_0166,Startup PMs,Pain,0.18,1,
+2167,2025-06-16,3,12,USR_0073,Enterprise PMs,Pain,0.48,1,
+2168,2024-04-27,2,5,USR_0169,Enterprise PMs,Pain,-0.74,5,CEO without power
+2169,2025-02-28,5,4,USR_0205,SMB PMs,Dream,-0.39,18,
+2170,2024-11-17,4,11,USR_0296,SMB PMs,Pain,0.39,9,C suite idiots
+2171,2025-05-13,2,15,USR_0168,Enterprise PMs,Pain,0.82,3,sandbagging gatekeepers
+2172,2024-05-01,1,4,USR_0293,Startup PMs,Phrase,-0.25,6,
+2173,2024-09-19,3,18,USR_0294,Enterprise PMs,Phrase,0.53,1,
+2174,2024-01-25,4,3,USR_0418,Enterprise PMs,Dream,-0.49,2,C suite idiots
+2175,2025-07-17,1,10,USR_0321,SMB PMs,Pain,-0.15,10,
+2176,2025-09-24,1,4,USR_0030,Enterprise PMs,Phrase,-0.36,10,
+2177,2025-02-08,3,1,USR_0422,Startup PMs,Phrase,-0.01,1,
+2178,2024-09-02,2,14,USR_0178,Enterprise PMs,Phrase,0.92,1,
+2179,2025-03-29,2,10,USR_0377,Startup PMs,Dream,-0.32,1,
+2180,2024-09-05,2,5,USR_0253,Mid-market PMs,Dream,-0.33,28,
+2181,2024-01-28,4,10,USR_0475,SMB PMs,Pain,-0.67,8,
+2182,2025-07-12,4,10,USR_0279,Startup PMs,Phrase,0.02,1,
+2183,2025-05-12,1,7,USR_0194,SMB PMs,Dream,-0.73,2,
+2184,2025-05-06,4,16,USR_0189,SMB PMs,Dream,0.77,2,sandbagging gatekeepers
+2185,2025-11-03,5,16,USR_0078,Enterprise PMs,Phrase,0.76,6,
+2186,2025-03-10,5,15,USR_0106,Enterprise PMs,Phrase,0.48,1,
+2187,2025-01-10,1,1,USR_0108,Startup PMs,Dream,-0.36,10,
+2188,2024-02-23,4,9,USR_0333,Enterprise PMs,Dream,-0.56,1,
+2189,2025-03-16,4,14,USR_0308,Enterprise PMs,Phrase,0.81,2,C suite idiots
+2190,2025-02-26,4,12,USR_0148,SMB PMs,Phrase,-0.22,1,
+2191,2025-05-04,3,3,USR_0241,Mid-market PMs,Dream,-0.11,1,impacting users lives
+2192,2024-11-09,5,13,USR_0050,Enterprise PMs,Dream,0.53,1,
+2193,2025-03-05,3,13,USR_0214,Enterprise PMs,Pain,0.43,1,
+2194,2024-05-14,4,18,USR_0446,Mid-market PMs,Pain,0.69,3,not psychic
+2195,2024-11-19,5,4,USR_0350,SMB PMs,Phrase,-0.18,2,
+2196,2025-01-14,5,5,USR_0050,Enterprise PMs,Phrase,-0.16,4,
+2197,2024-06-15,1,13,USR_0330,Enterprise PMs,Pain,0.56,1,
+2198,2025-07-07,1,4,USR_0407,Enterprise PMs,Dream,-0.56,4,
+2199,2025-07-19,2,8,USR_0013,Startup PMs,Phrase,-0.85,11,sandbagging gatekeepers
+2200,2025-09-07,1,1,USR_0145,Enterprise PMs,Dream,-0.31,2,
+2201,2024-07-23,4,16,USR_0073,Enterprise PMs,Phrase,0.71,6,slow down to speed up
+2202,2025-04-16,4,5,USR_0096,SMB PMs,Pain,-0.32,20,
+2203,2024-12-17,1,3,USR_0282,Enterprise PMs,Pain,-0.41,1,C suite idiots
+2204,2025-06-08,2,16,USR_0289,Enterprise PMs,Phrase,0.61,1,sandbagging gatekeepers
+2205,2025-09-08,1,12,USR_0074,Startup PMs,Pain,0.63,1,CEO without power
+2206,2024-07-26,5,12,USR_0377,Startup PMs,Phrase,0.35,1,not psychic
+2207,2024-12-08,4,2,USR_0078,Enterprise PMs,Dream,-0.34,4,
+2208,2024-06-02,2,2,USR_0494,Enterprise PMs,Pain,-0.45,1,
+2209,2025-01-02,3,4,USR_0029,SMB PMs,Phrase,-0.45,1,
+2210,2024-10-31,2,12,USR_0253,Mid-market PMs,Phrase,0.72,1,
+2211,2024-06-22,5,9,USR_0409,Mid-market PMs,Dream,-0.68,5,
+2212,2025-04-16,5,11,USR_0200,Startup PMs,Pain,1.0,1,
+2213,2025-11-28,5,9,USR_0312,Enterprise PMs,Phrase,-0.88,3,
+2214,2025-08-04,3,10,USR_0400,Startup PMs,Dream,-0.21,3,
+2215,2024-06-04,3,17,USR_0330,Enterprise PMs,Pain,0.39,1,
+2216,2025-09-13,5,17,USR_0317,SMB PMs,Phrase,0.37,1,
+2217,2025-12-16,5,9,USR_0295,Enterprise PMs,Phrase,-0.55,6,not psychic
+2218,2024-08-28,1,16,USR_0210,Enterprise PMs,Pain,0.71,1,
+2219,2025-01-02,3,2,USR_0424,SMB PMs,Dream,-0.1,8,not psychic
+2220,2025-04-17,4,9,USR_0445,Startup PMs,Phrase,-0.09,3,
+2221,2024-02-16,3,2,USR_0319,Enterprise PMs,Phrase,-0.48,10,
+2222,2025-11-16,4,11,USR_0167,Enterprise PMs,Phrase,0.72,4,
+2223,2025-09-24,1,15,USR_0181,Enterprise PMs,Dream,0.74,10,
+2224,2025-02-19,4,11,USR_0339,SMB PMs,Dream,0.89,2,
+2225,2024-09-07,5,4,USR_0296,SMB PMs,Pain,-0.36,2,
+2226,2025-07-27,2,3,USR_0461,Enterprise PMs,Phrase,-0.41,3,
+2227,2025-01-04,3,15,USR_0231,Startup PMs,Phrase,0.57,1,
+2228,2024-05-03,1,15,USR_0136,Enterprise PMs,Dream,0.82,4,sandbagging gatekeepers
+2229,2024-12-02,2,11,USR_0302,SMB PMs,Pain,0.84,6,
+2230,2025-08-11,5,12,USR_0078,Enterprise PMs,Pain,-0.02,1,
+2231,2025-03-26,1,2,USR_0288,SMB PMs,Pain,-0.67,25,
+2232,2024-05-05,5,11,USR_0274,Mid-market PMs,Phrase,0.26,3,
+2233,2024-10-11,5,12,USR_0205,SMB PMs,Dream,0.33,2,
+2234,2024-07-25,3,15,USR_0054,Mid-market PMs,Dream,0.49,5,
+2235,2024-11-12,3,12,USR_0153,Enterprise PMs,Pain,0.82,1,
+2236,2025-03-27,4,13,USR_0072,Enterprise PMs,Phrase,0.66,2,
+2237,2025-05-01,5,14,USR_0378,Enterprise PMs,Dream,0.64,3,
+2238,2024-05-14,3,4,USR_0124,Enterprise PMs,Pain,-0.24,3,
+2239,2024-06-13,5,2,USR_0252,Enterprise PMs,Pain,-0.49,21,
+2240,2025-10-26,3,12,USR_0151,Mid-market PMs,Pain,0.58,5,
+2241,2024-11-01,5,14,USR_0479,Mid-market PMs,Pain,0.53,2,
+2242,2024-03-03,5,18,USR_0086,Enterprise PMs,Dream,0.32,2,slow down to speed up
+2243,2024-09-06,1,7,USR_0407,Enterprise PMs,Pain,-0.09,10,
+2244,2024-01-04,2,5,USR_0081,Mid-market PMs,Pain,0.16,11,
+2245,2025-06-02,5,15,USR_0108,Startup PMs,Pain,0.65,3,
+2246,2025-06-14,1,18,USR_0214,Enterprise PMs,Pain,0.74,7,not psychic
+2247,2024-03-16,3,9,USR_0375,Enterprise PMs,Dream,-0.28,1,not psychic
+2248,2025-01-21,4,3,USR_0145,Enterprise PMs,Pain,-0.38,1,
+2249,2024-11-22,2,11,USR_0368,Mid-market PMs,Dream,0.88,10,sandbagging gatekeepers
+2250,2025-08-11,4,12,USR_0184,Mid-market PMs,Dream,0.48,14,CEO without power
+2251,2024-12-10,1,12,USR_0264,SMB PMs,Phrase,0.13,2,
+2252,2024-10-11,1,2,USR_0078,Enterprise PMs,Phrase,-0.3,1,C suite idiots
+2253,2025-04-26,5,18,USR_0074,Startup PMs,Dream,0.58,2,impacting users lives
+2254,2024-08-01,4,12,USR_0033,Enterprise PMs,Pain,0.49,2,
+2255,2025-04-15,3,15,USR_0486,Mid-market PMs,Dream,0.29,1,
+2256,2024-03-13,4,5,USR_0471,Enterprise PMs,Dream,-0.5,9,
+2257,2024-12-28,3,18,USR_0416,SMB PMs,Phrase,0.84,2,
+2258,2025-02-06,5,11,USR_0445,Startup PMs,Pain,0.88,3,
+2259,2024-11-30,4,10,USR_0021,SMB PMs,Dream,-0.25,1,sandbagging gatekeepers
+2260,2024-11-27,3,17,USR_0486,Mid-market PMs,Phrase,0.81,7,
+2261,2025-07-06,4,18,USR_0337,Mid-market PMs,Dream,0.82,1,
+2262,2025-10-26,1,11,USR_0076,Startup PMs,Phrase,0.04,2,
+2263,2024-12-11,1,8,USR_0026,Startup PMs,Pain,-0.52,2,slow down to speed up
+2264,2025-04-30,5,1,USR_0232,SMB PMs,Pain,-0.66,8,sandbagging gatekeepers
+2265,2024-03-20,3,12,USR_0342,SMB PMs,Phrase,0.07,6,
+2266,2025-03-12,1,10,USR_0452,SMB PMs,Dream,-0.3,11,
+2267,2025-02-03,4,3,USR_0009,SMB PMs,Pain,-0.47,3,C suite idiots
+2268,2025-06-12,2,6,USR_0304,SMB PMs,Pain,-0.43,1,
+2269,2025-01-22,4,15,USR_0468,Mid-market PMs,Pain,0.21,1,
+2270,2025-08-29,1,3,USR_0038,Enterprise PMs,Phrase,-0.16,16,
+2271,2024-05-08,4,13,USR_0296,SMB PMs,Phrase,0.94,2,
+2272,2024-06-28,5,18,USR_0473,Enterprise PMs,Pain,0.8,2,
+2273,2024-06-11,5,1,USR_0015,Enterprise PMs,Phrase,-0.41,7,C suite idiots
+2274,2024-01-16,3,18,USR_0077,Startup PMs,Dream,0.58,1,
+2275,2024-02-19,3,12,USR_0273,Mid-market PMs,Dream,0.77,5,sandbagging gatekeepers
+2276,2024-07-23,2,12,USR_0313,Enterprise PMs,Phrase,0.28,3,
+2277,2025-01-05,1,18,USR_0096,SMB PMs,Phrase,0.61,3,
+2278,2024-08-14,4,6,USR_0076,Startup PMs,Pain,-0.14,2,
+2279,2025-02-23,4,8,USR_0389,Startup PMs,Dream,-0.34,4,
+2280,2025-10-06,2,16,USR_0351,SMB PMs,Phrase,0.44,5,
+2281,2025-01-03,1,8,USR_0284,Enterprise PMs,Pain,-0.32,2,
+2282,2025-07-26,2,8,USR_0268,Startup PMs,Dream,-0.47,11,
+2283,2024-11-15,5,6,USR_0055,SMB PMs,Phrase,-0.36,4,
+2284,2024-03-15,3,3,USR_0424,SMB PMs,Phrase,-0.23,3,
+2285,2024-05-23,1,6,USR_0082,SMB PMs,Phrase,-0.37,4,
+2286,2024-05-25,5,12,USR_0010,Startup PMs,Phrase,0.55,2,
+2287,2025-04-12,1,8,USR_0447,Mid-market PMs,Dream,-0.6,4,
+2288,2024-11-23,5,7,USR_0395,Enterprise PMs,Pain,0.06,1,impacting users lives
+2289,2024-03-06,1,9,USR_0319,Enterprise PMs,Dream,-0.66,3,
+2290,2025-11-04,4,6,USR_0442,Mid-market PMs,Phrase,-0.51,5,
+2291,2025-04-12,5,17,USR_0366,Enterprise PMs,Phrase,0.59,4,
+2292,2025-08-18,3,14,USR_0134,Enterprise PMs,Pain,0.72,3,
+2293,2025-10-26,4,13,USR_0444,Enterprise PMs,Dream,0.78,4,boulder uphill
+2294,2024-10-29,3,5,USR_0065,Enterprise PMs,Phrase,-1.0,1,
+2295,2025-07-18,5,11,USR_0375,Enterprise PMs,Pain,0.46,2,
+2296,2024-02-16,1,15,USR_0298,Enterprise PMs,Phrase,0.37,1,
+2297,2024-03-08,3,2,USR_0113,Mid-market PMs,Pain,-0.73,1,sandbagging gatekeepers
+2298,2024-07-06,5,3,USR_0162,SMB PMs,Dream,-0.56,3,
+2299,2024-04-11,4,18,USR_0421,Startup PMs,Pain,0.24,4,
+2300,2025-01-10,1,12,USR_0233,SMB PMs,Dream,0.38,1,
+2301,2024-01-30,3,10,USR_0089,Mid-market PMs,Phrase,-0.49,9,
+2302,2025-11-27,4,3,USR_0194,SMB PMs,Pain,-0.63,5,
+2303,2024-03-02,5,4,USR_0376,Enterprise PMs,Pain,-0.81,6,CEO without power
+2304,2024-10-22,2,10,USR_0203,Enterprise PMs,Pain,-0.64,2,
+2305,2024-10-26,5,7,USR_0124,Enterprise PMs,Dream,-0.4,1,
+2306,2024-04-02,4,16,USR_0110,Enterprise PMs,Pain,0.44,5,impacting users lives
+2307,2025-09-13,3,9,USR_0307,SMB PMs,Phrase,-0.22,1,
+2308,2025-04-30,2,11,USR_0349,Enterprise PMs,Pain,0.47,3,impacting users lives
+2309,2025-09-10,3,6,USR_0473,Enterprise PMs,Pain,-0.02,1,
+2310,2025-03-10,1,14,USR_0229,Mid-market PMs,Pain,0.44,5,
+2311,2024-06-15,1,5,USR_0012,Mid-market PMs,Pain,-0.3,1,
+2312,2025-03-02,4,2,USR_0119,Mid-market PMs,Pain,-0.3,4,
+2313,2025-09-09,4,11,USR_0392,SMB PMs,Dream,0.3,2,
+2314,2024-05-13,2,12,USR_0008,Mid-market PMs,Phrase,0.58,1,
+2315,2024-10-07,4,15,USR_0119,Mid-market PMs,Phrase,1.0,4,
+2316,2024-04-03,4,7,USR_0336,Enterprise PMs,Dream,-0.05,5,C suite idiots
+2317,2025-12-19,2,17,USR_0329,SMB PMs,Pain,0.62,10,not psychic
+2318,2024-11-28,3,14,USR_0304,SMB PMs,Dream,0.58,6,
+2319,2024-04-28,3,12,USR_0330,Enterprise PMs,Phrase,0.39,5,
+2320,2024-07-08,2,11,USR_0311,SMB PMs,Dream,0.31,3,C suite idiots
+2321,2025-03-30,1,18,USR_0392,SMB PMs,Dream,0.36,1,
+2322,2025-06-03,4,3,USR_0311,SMB PMs,Phrase,-0.57,9,
+2323,2025-12-31,2,17,USR_0231,Startup PMs,Phrase,0.35,1,impacting users lives
+2324,2024-09-30,3,6,USR_0217,Enterprise PMs,Dream,-0.61,1,not psychic
+2325,2024-08-27,4,6,USR_0073,Enterprise PMs,Phrase,-0.02,1,not psychic
+2326,2025-02-14,5,9,USR_0152,Enterprise PMs,Phrase,-0.82,18,
+2327,2025-10-23,2,1,USR_0121,Startup PMs,Pain,-0.55,11,
+2328,2024-07-30,1,6,USR_0168,Enterprise PMs,Phrase,-0.12,2,
+2329,2024-08-25,3,15,USR_0230,SMB PMs,Phrase,0.41,1,
+2330,2024-07-08,3,14,USR_0168,Enterprise PMs,Pain,0.36,1,sandbagging gatekeepers
+2331,2024-08-01,1,15,USR_0280,Startup PMs,Phrase,1.0,1,
+2332,2024-12-23,2,1,USR_0075,Startup PMs,Dream,-0.36,1,
+2333,2024-08-21,5,7,USR_0024,Enterprise PMs,Dream,-0.45,2,
+2334,2024-04-28,5,16,USR_0419,Startup PMs,Dream,0.49,2,
+2335,2024-05-27,1,5,USR_0018,SMB PMs,Phrase,-0.71,1,
+2336,2024-09-12,5,8,USR_0248,Mid-market PMs,Pain,-0.42,1,
+2337,2025-05-15,5,12,USR_0383,SMB PMs,Pain,1.0,1,
+2338,2025-12-19,1,9,USR_0102,SMB PMs,Phrase,-0.15,6,
+2339,2024-01-27,1,7,USR_0288,SMB PMs,Phrase,0.06,7,
+2340,2025-10-08,5,11,USR_0190,Enterprise PMs,Dream,0.42,12,
+2341,2024-07-04,2,4,USR_0497,SMB PMs,Phrase,-0.39,1,
+2342,2025-03-22,1,11,USR_0090,SMB PMs,Dream,0.8,1,
+2343,2024-02-04,4,4,USR_0416,SMB PMs,Phrase,-0.25,1,
+2344,2025-07-31,1,10,USR_0154,SMB PMs,Pain,-0.45,5,
+2345,2024-10-18,4,1,USR_0328,SMB PMs,Dream,-0.22,11,
+2346,2024-09-10,4,8,USR_0184,Mid-market PMs,Pain,-0.4,1,not psychic
+2347,2025-08-28,3,10,USR_0269,Enterprise PMs,Pain,-0.1,3,C suite idiots
+2348,2024-08-08,1,5,USR_0445,Startup PMs,Phrase,-0.23,6,CEO without power
+2349,2025-01-12,3,18,USR_0058,Enterprise PMs,Pain,0.69,1,
+2350,2024-06-17,1,2,USR_0391,Mid-market PMs,Dream,-0.3,9,
+2351,2024-07-16,1,14,USR_0180,Enterprise PMs,Pain,0.55,1,
+2352,2024-06-23,2,6,USR_0099,Enterprise PMs,Dream,-0.78,9,
+2353,2025-02-23,4,18,USR_0440,Enterprise PMs,Phrase,0.73,2,
+2354,2025-08-23,4,4,USR_0354,Enterprise PMs,Phrase,-0.72,2,C suite idiots
+2355,2024-03-17,3,14,USR_0189,SMB PMs,Pain,0.53,5,sandbagging gatekeepers
+2356,2025-08-05,3,14,USR_0242,Mid-market PMs,Pain,0.94,1,
+2357,2025-01-26,4,4,USR_0021,SMB PMs,Phrase,-0.28,7,CEO without power
+2358,2025-01-12,2,7,USR_0149,Enterprise PMs,Phrase,-0.66,1,
+2359,2025-09-12,3,6,USR_0027,Enterprise PMs,Pain,0.39,5,
+2360,2025-04-02,3,6,USR_0272,Startup PMs,Phrase,-0.61,1,
+2361,2025-05-26,4,8,USR_0343,Enterprise PMs,Pain,-0.38,1,
+2362,2024-02-06,2,4,USR_0369,Enterprise PMs,Dream,-0.5,2,
+2363,2025-10-16,3,9,USR_0225,Enterprise PMs,Dream,-0.21,1,CEO without power
+2364,2025-03-21,4,8,USR_0105,Mid-market PMs,Phrase,-0.52,14,impacting users lives
+2365,2024-03-30,1,8,USR_0044,Mid-market PMs,Dream,-0.79,3,
+2366,2024-01-07,1,16,USR_0386,Startup PMs,Pain,0.51,2,
+2367,2025-06-28,5,14,USR_0237,Enterprise PMs,Phrase,1.0,3,slow down to speed up
+2368,2025-03-13,5,10,USR_0256,SMB PMs,Pain,-0.61,1,
+2369,2025-01-03,2,13,USR_0436,Startup PMs,Dream,0.53,1,C suite idiots
+2370,2024-01-28,5,17,USR_0499,Mid-market PMs,Dream,0.53,1,
+2371,2025-11-22,5,8,USR_0262,Mid-market PMs,Dream,-0.12,9,
+2372,2024-04-12,3,5,USR_0373,Enterprise PMs,Dream,-0.3,2,
+2373,2024-03-08,4,5,USR_0500,Mid-market PMs,Pain,-0.39,5,
+2374,2024-02-20,3,18,USR_0469,Enterprise PMs,Phrase,0.75,9,
+2375,2025-09-02,5,9,USR_0203,Enterprise PMs,Pain,-0.46,7,CEO without power
+2376,2025-03-30,4,7,USR_0014,Enterprise PMs,Dream,-0.32,2,CEO without power
+2377,2025-12-12,2,7,USR_0275,SMB PMs,Dream,-0.73,4,slow down to speed up
+2378,2024-10-02,1,9,USR_0265,Mid-market PMs,Pain,-0.19,2,
+2379,2024-05-07,4,9,USR_0475,SMB PMs,Phrase,0.05,4,
+2380,2024-10-22,2,14,USR_0078,Enterprise PMs,Pain,1.0,4,
+2381,2025-09-20,3,13,USR_0231,Startup PMs,Dream,0.54,2,
+2382,2025-01-19,1,5,USR_0305,Startup PMs,Pain,-0.52,2,
+2383,2025-08-05,4,13,USR_0495,SMB PMs,Pain,0.85,5,sandbagging gatekeepers
+2384,2025-06-19,2,14,USR_0052,Startup PMs,Phrase,0.6,1,
+2385,2025-05-20,1,5,USR_0195,Enterprise PMs,Dream,-0.35,3,
+2386,2025-07-24,2,18,USR_0213,Startup PMs,Dream,0.6,4,
+2387,2024-09-07,3,6,USR_0409,Mid-market PMs,Pain,-0.44,3,
+2388,2024-05-22,4,16,USR_0014,Enterprise PMs,Dream,0.62,2,
+2389,2024-01-09,5,2,USR_0036,Startup PMs,Phrase,-0.31,3,
+2390,2025-02-26,5,6,USR_0097,SMB PMs,Phrase,-0.28,2,not psychic
+2391,2024-07-28,3,11,USR_0459,Enterprise PMs,Phrase,0.84,3,
+2392,2024-02-10,2,9,USR_0313,Enterprise PMs,Phrase,0.18,1,
+2393,2025-04-06,5,8,USR_0401,Enterprise PMs,Pain,-0.82,7,
+2394,2024-01-06,2,18,USR_0056,Mid-market PMs,Dream,0.38,1,not psychic
+2395,2025-05-23,1,13,USR_0158,Startup PMs,Phrase,0.56,1,C suite idiots
+2396,2025-08-23,1,6,USR_0143,SMB PMs,Phrase,-0.69,10,C suite idiots
+2397,2025-10-18,3,7,USR_0319,Enterprise PMs,Dream,-0.09,9,slow down to speed up
+2398,2024-12-12,5,17,USR_0252,Enterprise PMs,Dream,0.88,8,C suite idiots
+2399,2024-07-28,1,10,USR_0360,SMB PMs,Phrase,0.06,2,
+2400,2024-11-25,2,2,USR_0187,Startup PMs,Dream,-0.24,1,
+2401,2025-05-13,3,15,USR_0367,Mid-market PMs,Phrase,0.73,1,
+2402,2024-06-10,2,4,USR_0100,Enterprise PMs,Pain,-0.6,5,impacting users lives
+2403,2025-10-10,3,14,USR_0108,Startup PMs,Pain,0.8,2,
+2404,2024-05-23,3,2,USR_0200,Startup PMs,Dream,-0.75,1,
+2405,2025-11-27,3,1,USR_0149,Enterprise PMs,Pain,-0.55,1,
+2406,2024-11-16,3,17,USR_0293,Startup PMs,Pain,0.6,1,
+2407,2025-02-05,3,9,USR_0357,Enterprise PMs,Phrase,-0.06,2,slow down to speed up
+2408,2024-03-21,3,2,USR_0309,Startup PMs,Dream,-0.01,11,slow down to speed up
+2409,2024-02-07,5,12,USR_0414,SMB PMs,Pain,0.58,1,sandbagging gatekeepers
+2410,2024-12-11,3,4,USR_0383,SMB PMs,Phrase,-0.51,8,
+2411,2024-06-26,4,8,USR_0328,SMB PMs,Phrase,-0.17,2,slow down to speed up
+2412,2025-01-19,4,8,USR_0121,Startup PMs,Phrase,-0.44,3,C suite idiots
+2413,2025-05-13,3,9,USR_0048,SMB PMs,Pain,-0.02,1,boulder uphill
+2414,2025-08-04,5,2,USR_0327,SMB PMs,Dream,-0.35,1,
+2415,2025-11-02,1,15,USR_0047,Enterprise PMs,Dream,0.26,5,impacting users lives
+2416,2025-01-16,5,3,USR_0277,Startup PMs,Dream,-0.98,1,
+2417,2024-01-11,4,11,USR_0136,Enterprise PMs,Pain,0.61,1,
+2418,2024-12-12,2,15,USR_0183,Mid-market PMs,Pain,0.61,1,
+2419,2025-01-05,1,1,USR_0194,SMB PMs,Pain,-0.41,3,
+2420,2024-07-15,5,5,USR_0187,Startup PMs,Phrase,-0.21,1,
+2421,2025-05-28,1,8,USR_0184,Mid-market PMs,Phrase,-0.54,1,
+2422,2024-03-19,1,8,USR_0023,Enterprise PMs,Dream,-0.12,9,CEO without power
+2423,2025-09-19,4,16,USR_0158,Startup PMs,Phrase,0.55,1,
+2424,2025-06-07,5,8,USR_0009,SMB PMs,Dream,-0.37,1,
+2425,2025-02-01,1,16,USR_0374,Startup PMs,Dream,0.62,1,CEO without power
+2426,2024-04-04,5,15,USR_0473,Enterprise PMs,Dream,0.88,1,
+2427,2025-02-14,3,4,USR_0229,Mid-market PMs,Dream,-0.47,12,
+2428,2024-01-13,2,16,USR_0412,Mid-market PMs,Phrase,0.76,4,
+2429,2024-12-11,3,5,USR_0265,Mid-market PMs,Phrase,-0.58,14,impacting users lives
+2430,2025-07-24,4,5,USR_0375,Enterprise PMs,Phrase,0.08,14,
+2431,2025-10-16,4,2,USR_0008,Mid-market PMs,Phrase,-0.79,3,
+2432,2024-10-25,2,12,USR_0127,Startup PMs,Phrase,0.85,3,
+2433,2025-02-26,1,18,USR_0311,SMB PMs,Dream,0.98,5,C suite idiots
+2434,2024-02-10,2,1,USR_0043,Enterprise PMs,Dream,-0.69,4,
+2435,2024-07-29,4,7,USR_0121,Startup PMs,Pain,-0.25,9,
+2436,2025-07-01,5,14,USR_0048,SMB PMs,Phrase,0.36,5,
+2437,2025-10-22,2,9,USR_0204,Mid-market PMs,Phrase,-0.53,11,
+2438,2025-06-23,3,1,USR_0342,SMB PMs,Dream,-0.06,8,slow down to speed up
+2439,2024-04-04,2,17,USR_0473,Enterprise PMs,Dream,0.39,1,
+2440,2024-02-10,2,5,USR_0245,Enterprise PMs,Dream,-0.38,10,
+2441,2024-05-25,3,11,USR_0388,Enterprise PMs,Dream,0.54,1,
+2442,2024-10-28,5,6,USR_0064,Enterprise PMs,Phrase,-0.67,2,not psychic
+2443,2025-04-17,1,13,USR_0376,Enterprise PMs,Pain,0.77,3,impacting users lives
+2444,2024-05-01,4,2,USR_0469,Enterprise PMs,Phrase,-0.77,5,not psychic
+2445,2025-04-18,3,16,USR_0145,Enterprise PMs,Dream,0.59,7,sandbagging gatekeepers
+2446,2024-04-01,1,12,USR_0190,Enterprise PMs,Pain,0.21,1,
+2447,2025-11-26,1,5,USR_0029,SMB PMs,Phrase,-0.28,6,C suite idiots
+2448,2025-10-09,2,7,USR_0189,SMB PMs,Phrase,-0.65,9,slow down to speed up
+2449,2024-03-01,2,6,USR_0476,Mid-market PMs,Phrase,-1.0,1,not psychic
+2450,2024-03-19,4,13,USR_0022,Enterprise PMs,Phrase,0.71,1,
+2451,2025-06-18,5,7,USR_0029,SMB PMs,Phrase,-0.35,7,
+2452,2024-09-22,1,16,USR_0044,Mid-market PMs,Phrase,0.16,7,boulder uphill
+2453,2024-02-10,3,2,USR_0039,Startup PMs,Pain,-0.09,2,
+2454,2024-12-23,2,7,USR_0383,SMB PMs,Phrase,-0.07,1,CEO without power
+2455,2024-06-18,2,12,USR_0284,Enterprise PMs,Dream,0.51,6,
+2456,2025-05-27,1,1,USR_0087,Startup PMs,Pain,-0.45,11,CEO without power
+2457,2024-09-03,4,15,USR_0017,Enterprise PMs,Pain,0.71,1,boulder uphill
+2458,2025-02-28,1,6,USR_0059,Enterprise PMs,Dream,-0.38,1,
+2459,2024-07-03,4,17,USR_0168,Enterprise PMs,Dream,0.82,2,CEO without power
+2460,2024-09-23,5,1,USR_0102,SMB PMs,Dream,-0.19,20,
+2461,2024-10-12,1,4,USR_0320,Enterprise PMs,Pain,-0.38,20,
+2462,2024-10-20,4,15,USR_0463,Startup PMs,Phrase,0.26,2,
+2463,2025-07-08,1,16,USR_0369,Enterprise PMs,Pain,0.98,3,
+2464,2025-09-01,1,9,USR_0141,Mid-market PMs,Phrase,-0.72,8,
+2465,2025-07-06,5,1,USR_0193,Mid-market PMs,Phrase,-0.04,11,not psychic
+2466,2025-02-08,2,6,USR_0257,Mid-market PMs,Pain,-0.46,6,
+2467,2024-02-29,2,15,USR_0238,Enterprise PMs,Dream,0.65,3,impacting users lives
+2468,2025-09-06,3,16,USR_0214,Enterprise PMs,Pain,0.85,2,
+2469,2024-10-28,1,15,USR_0092,Startup PMs,Phrase,0.5,1,
+2470,2024-07-19,2,18,USR_0440,Enterprise PMs,Pain,0.6,1,
+2471,2025-04-04,5,12,USR_0497,SMB PMs,Pain,1.0,1,boulder uphill
+2472,2025-07-29,4,1,USR_0211,SMB PMs,Dream,-0.7,1,
+2473,2024-04-28,1,10,USR_0125,Enterprise PMs,Phrase,-0.16,7,
+2474,2024-03-01,3,15,USR_0237,Enterprise PMs,Pain,0.8,1,
+2475,2024-08-08,1,15,USR_0409,Mid-market PMs,Phrase,0.98,1,boulder uphill
+2476,2025-05-06,1,18,USR_0238,Enterprise PMs,Phrase,0.8,1,sandbagging gatekeepers
+2477,2024-11-14,4,13,USR_0125,Enterprise PMs,Dream,0.71,3,
+2478,2024-02-08,1,14,USR_0407,Enterprise PMs,Pain,0.63,4,
+2479,2024-01-09,4,14,USR_0464,SMB PMs,Phrase,0.63,1,
+2480,2025-12-30,4,17,USR_0005,Enterprise PMs,Dream,0.71,1,boulder uphill
+2481,2025-08-01,5,5,USR_0273,Mid-market PMs,Pain,-0.39,5,
+2482,2025-11-25,5,5,USR_0004,SMB PMs,Dream,-0.34,1,
+2483,2024-10-30,3,6,USR_0404,Startup PMs,Dream,-0.68,12,boulder uphill
+2484,2025-01-16,5,4,USR_0443,Enterprise PMs,Phrase,-0.7,1,
+2485,2024-11-08,3,14,USR_0031,SMB PMs,Dream,0.72,6,
+2486,2025-07-26,4,6,USR_0253,Mid-market PMs,Dream,-0.28,1,
+2487,2025-10-26,1,8,USR_0389,Startup PMs,Phrase,-0.43,3,impacting users lives
+2488,2024-07-25,3,2,USR_0284,Enterprise PMs,Dream,-0.41,2,
+2489,2025-04-23,3,9,USR_0141,Mid-market PMs,Dream,-0.64,1,
+2490,2024-11-03,1,3,USR_0311,SMB PMs,Phrase,-0.83,1,not psychic
+2491,2024-04-13,1,18,USR_0269,Enterprise PMs,Pain,0.42,9,sandbagging gatekeepers
+2492,2025-12-04,2,18,USR_0439,Startup PMs,Pain,0.71,4,
+2493,2024-09-08,2,14,USR_0353,Startup PMs,Pain,0.21,2,
+2494,2024-06-01,5,18,USR_0045,Enterprise PMs,Pain,0.72,2,
+2495,2024-12-10,4,4,USR_0017,Enterprise PMs,Phrase,-0.66,1,
+2496,2024-04-22,5,5,USR_0197,Startup PMs,Pain,-0.44,1,
+2497,2025-06-22,3,14,USR_0455,Enterprise PMs,Pain,0.77,6,
+2498,2024-09-13,5,14,USR_0153,Enterprise PMs,Dream,0.61,1,
+2499,2025-07-09,5,15,USR_0093,Startup PMs,Pain,0.72,1,
+2500,2024-06-19,5,9,USR_0446,Mid-market PMs,Pain,-0.67,20,boulder uphill
+2501,2024-09-19,5,10,USR_0416,SMB PMs,Dream,-0.4,2,
+2502,2025-06-24,1,12,USR_0161,Enterprise PMs,Pain,0.21,1,
+2503,2025-09-19,5,2,USR_0233,SMB PMs,Pain,-0.36,7,not psychic
+2504,2024-07-28,3,18,USR_0418,Enterprise PMs,Dream,0.47,1,
+2505,2025-08-02,1,9,USR_0119,Mid-market PMs,Pain,-0.35,4,
+2506,2025-01-18,2,14,USR_0145,Enterprise PMs,Dream,0.33,8,
+2507,2025-08-29,4,3,USR_0230,SMB PMs,Phrase,-0.53,8,
+2508,2024-01-07,1,14,USR_0299,SMB PMs,Pain,0.57,1,
+2509,2025-10-02,1,4,USR_0497,SMB PMs,Dream,-0.54,3,
+2510,2025-11-06,1,16,USR_0397,Mid-market PMs,Phrase,0.56,1,
+2511,2025-09-04,4,6,USR_0403,SMB PMs,Dream,-0.12,5,not psychic
+2512,2024-01-04,2,13,USR_0072,Enterprise PMs,Pain,0.6,6,
+2513,2025-03-16,4,17,USR_0222,SMB PMs,Phrase,0.55,3,
+2514,2025-07-07,3,8,USR_0358,SMB PMs,Dream,-0.61,4,
+2515,2024-07-06,4,8,USR_0241,Mid-market PMs,Phrase,-0.87,1,
+2516,2024-10-10,2,16,USR_0451,Startup PMs,Dream,0.37,1,
+2517,2025-09-10,3,18,USR_0435,Enterprise PMs,Dream,0.75,4,CEO without power
+2518,2024-11-29,3,14,USR_0069,Enterprise PMs,Phrase,0.68,12,
+2519,2024-09-25,4,9,USR_0378,Enterprise PMs,Dream,-0.45,6,
+2520,2024-08-27,5,9,USR_0470,Mid-market PMs,Dream,-0.18,6,
+2521,2024-01-23,4,9,USR_0428,Mid-market PMs,Dream,-0.12,1,boulder uphill
+2522,2024-02-17,3,8,USR_0253,Mid-market PMs,Dream,-0.42,5,C suite idiots
+2523,2025-04-09,1,4,USR_0444,Enterprise PMs,Dream,-0.26,1,sandbagging gatekeepers
+2524,2024-09-15,4,1,USR_0210,Enterprise PMs,Pain,-0.3,1,CEO without power
+2525,2024-04-05,4,12,USR_0375,Enterprise PMs,Dream,0.34,7,
+2526,2024-06-23,1,15,USR_0162,SMB PMs,Dream,0.82,3,
+2527,2025-07-09,4,7,USR_0044,Mid-market PMs,Pain,-0.26,4,boulder uphill
+2528,2024-07-27,4,15,USR_0342,SMB PMs,Pain,0.67,1,
+2529,2024-09-21,5,13,USR_0391,Mid-market PMs,Phrase,0.88,1,
+2530,2024-08-14,1,6,USR_0290,SMB PMs,Phrase,-0.56,5,
+2531,2024-10-20,3,1,USR_0258,Startup PMs,Phrase,-0.33,1,
+2532,2025-06-15,4,16,USR_0482,Startup PMs,Dream,0.19,4,
+2533,2025-10-14,1,17,USR_0095,Startup PMs,Dream,1.0,5,
+2534,2024-08-21,1,11,USR_0126,SMB PMs,Dream,0.5,1,
+2535,2025-08-08,4,1,USR_0312,Enterprise PMs,Phrase,-0.38,3,
+2536,2025-06-11,3,4,USR_0062,Enterprise PMs,Pain,-0.55,1,C suite idiots
+2537,2024-03-21,4,13,USR_0491,SMB PMs,Phrase,0.45,1,
+2538,2025-06-10,3,9,USR_0187,Startup PMs,Pain,-0.63,1,not psychic
+2539,2024-04-12,1,11,USR_0147,SMB PMs,Pain,1.0,10,sandbagging gatekeepers
+2540,2024-04-24,3,6,USR_0031,SMB PMs,Pain,-0.07,2,
+2541,2025-11-05,5,16,USR_0401,Enterprise PMs,Pain,0.95,3,sandbagging gatekeepers
+2542,2025-01-23,4,17,USR_0186,Startup PMs,Pain,0.62,1,
+2543,2024-08-25,2,8,USR_0463,Startup PMs,Pain,-0.59,3,
+2544,2024-01-12,3,1,USR_0192,Mid-market PMs,Dream,-0.5,2,
+2545,2024-02-05,1,2,USR_0240,Enterprise PMs,Phrase,-0.27,6,not psychic
+2546,2024-07-13,3,8,USR_0363,SMB PMs,Phrase,-0.39,1,
+2547,2024-01-20,4,18,USR_0448,Startup PMs,Dream,0.38,3,
+2548,2025-09-06,4,8,USR_0083,Enterprise PMs,Pain,-0.41,4,not psychic
+2549,2024-03-20,2,3,USR_0215,Startup PMs,Dream,-0.8,3,
+2550,2025-01-19,4,12,USR_0242,Mid-market PMs,Phrase,0.65,1,
+2551,2025-10-22,5,17,USR_0036,Startup PMs,Phrase,0.49,4,sandbagging gatekeepers
+2552,2024-07-22,3,15,USR_0373,Enterprise PMs,Pain,0.03,5,
+2553,2024-02-07,1,6,USR_0242,Mid-market PMs,Phrase,-0.1,2,
+2554,2025-03-11,1,7,USR_0274,Mid-market PMs,Dream,-0.18,4,
+2555,2024-07-30,2,10,USR_0111,Enterprise PMs,Phrase,-0.75,12,sandbagging gatekeepers
+2556,2024-09-11,4,14,USR_0075,Startup PMs,Phrase,0.44,1,
+2557,2025-09-09,3,13,USR_0120,SMB PMs,Dream,0.11,4,
+2558,2024-04-29,1,8,USR_0158,Startup PMs,Dream,-0.65,19,
+2559,2024-10-12,4,10,USR_0225,Enterprise PMs,Pain,-0.35,3,CEO without power
+2560,2024-02-20,4,18,USR_0046,Startup PMs,Phrase,0.99,1,
+2561,2025-04-20,1,8,USR_0032,Enterprise PMs,Dream,-0.5,1,
+2562,2024-02-05,3,9,USR_0055,SMB PMs,Phrase,-0.2,1,sandbagging gatekeepers
+2563,2024-09-05,2,16,USR_0228,Enterprise PMs,Dream,0.57,5,
+2564,2025-01-19,5,1,USR_0286,Enterprise PMs,Dream,-0.53,3,CEO without power
+2565,2025-06-11,3,3,USR_0104,SMB PMs,Phrase,-0.39,3,
+2566,2025-05-22,3,4,USR_0404,Startup PMs,Dream,-0.72,1,
+2567,2024-05-04,5,6,USR_0484,SMB PMs,Phrase,-0.59,5,impacting users lives
+2568,2025-10-13,5,8,USR_0081,Mid-market PMs,Pain,-0.28,1,boulder uphill
+2569,2024-07-25,5,15,USR_0218,Startup PMs,Dream,0.03,1,
+2570,2024-01-24,1,3,USR_0400,Startup PMs,Phrase,-0.45,2,
+2571,2025-08-25,2,18,USR_0461,Enterprise PMs,Dream,0.18,6,
+2572,2025-06-24,1,18,USR_0096,SMB PMs,Dream,0.83,6,sandbagging gatekeepers
+2573,2025-12-16,3,15,USR_0441,Enterprise PMs,Phrase,0.89,1,
+2574,2025-12-30,5,12,USR_0462,SMB PMs,Pain,0.3,1,
+2575,2025-09-07,4,6,USR_0471,Enterprise PMs,Phrase,-0.12,17,
+2576,2024-02-12,4,13,USR_0434,Enterprise PMs,Dream,0.8,1,sandbagging gatekeepers
+2577,2025-05-12,5,7,USR_0340,Enterprise PMs,Dream,-0.26,13,
+2578,2024-07-08,5,9,USR_0264,SMB PMs,Phrase,-0.06,3,
+2579,2024-04-06,2,10,USR_0063,Startup PMs,Dream,-0.61,4,
+2580,2024-10-25,5,13,USR_0480,SMB PMs,Dream,1.0,1,not psychic
+2581,2025-05-31,2,18,USR_0342,SMB PMs,Phrase,0.98,1,
+2582,2025-07-07,4,8,USR_0062,Enterprise PMs,Pain,-0.4,1,impacting users lives
+2583,2025-04-08,4,4,USR_0440,Enterprise PMs,Pain,-0.29,5,C suite idiots
+2584,2024-04-20,3,1,USR_0041,Enterprise PMs,Dream,-0.46,2,
+2585,2024-06-22,4,6,USR_0045,Enterprise PMs,Dream,-0.6,1,
+2586,2024-02-23,3,10,USR_0189,SMB PMs,Dream,-0.12,1,
+2587,2025-07-07,4,13,USR_0398,SMB PMs,Dream,0.7,2,
+2588,2025-09-12,2,11,USR_0481,SMB PMs,Phrase,1.0,10,
+2589,2024-05-03,2,4,USR_0324,Enterprise PMs,Pain,0.17,5,C suite idiots
+2590,2025-06-03,5,4,USR_0252,Enterprise PMs,Dream,-0.55,13,
+2591,2025-06-11,3,9,USR_0499,Mid-market PMs,Dream,-0.32,10,
+2592,2025-08-09,4,9,USR_0358,SMB PMs,Phrase,-0.77,3,
+2593,2024-03-13,2,6,USR_0443,Enterprise PMs,Pain,-0.25,1,
+2594,2025-08-24,3,13,USR_0291,Enterprise PMs,Dream,0.39,2,
+2595,2025-12-05,2,3,USR_0138,Startup PMs,Phrase,-0.32,19,
+2596,2024-04-28,4,7,USR_0493,Enterprise PMs,Phrase,-0.02,5,
+2597,2025-01-04,2,11,USR_0344,SMB PMs,Pain,0.38,1,
+2598,2024-09-14,2,11,USR_0375,Enterprise PMs,Dream,0.63,1,
+2599,2025-04-25,4,6,USR_0136,Enterprise PMs,Pain,-0.89,22,
+2600,2025-02-11,1,9,USR_0408,Enterprise PMs,Phrase,-0.21,7,
+2601,2025-05-21,3,3,USR_0392,SMB PMs,Dream,-0.17,8,
+2602,2024-04-02,1,14,USR_0027,Enterprise PMs,Dream,-0.05,1,
+2603,2024-04-20,1,11,USR_0248,Mid-market PMs,Pain,0.87,1,C suite idiots
+2604,2024-11-03,2,12,USR_0475,SMB PMs,Phrase,0.73,1,
+2605,2024-11-24,1,12,USR_0126,SMB PMs,Dream,0.58,2,
+2606,2024-09-08,1,13,USR_0180,Enterprise PMs,Dream,0.74,4,
+2607,2025-07-22,1,4,USR_0243,Mid-market PMs,Dream,-0.2,12,CEO without power
+2608,2025-07-04,1,3,USR_0289,Enterprise PMs,Dream,-0.52,3,
+2609,2024-01-31,2,18,USR_0329,SMB PMs,Phrase,0.37,8,impacting users lives
+2610,2025-11-03,1,4,USR_0141,Mid-market PMs,Dream,-0.22,5,
+2611,2025-09-28,1,17,USR_0195,Enterprise PMs,Phrase,0.58,1,
+2612,2024-02-19,5,10,USR_0490,Mid-market PMs,Phrase,-0.66,17,
+2613,2024-06-02,3,1,USR_0325,Mid-market PMs,Pain,-0.18,1,impacting users lives
+2614,2025-12-02,3,3,USR_0141,Mid-market PMs,Pain,-0.36,1,
+2615,2025-05-28,1,9,USR_0090,SMB PMs,Dream,-0.64,2,sandbagging gatekeepers
+2616,2024-06-28,1,7,USR_0414,SMB PMs,Dream,0.15,1,impacting users lives
+2617,2024-10-31,2,3,USR_0277,Startup PMs,Dream,-0.2,1,
+2618,2024-03-12,2,17,USR_0201,SMB PMs,Phrase,0.63,1,C suite idiots
+2619,2025-01-29,5,8,USR_0005,Enterprise PMs,Dream,-0.64,3,not psychic
+2620,2024-12-09,2,2,USR_0378,Enterprise PMs,Pain,-0.42,25,
+2621,2025-07-19,2,13,USR_0461,Enterprise PMs,Phrase,0.33,2,
+2622,2024-03-21,1,18,USR_0305,Startup PMs,Pain,0.26,1,
+2623,2025-12-22,5,4,USR_0137,SMB PMs,Dream,-0.43,5,C suite idiots
+2624,2025-07-07,3,3,USR_0185,Enterprise PMs,Phrase,-0.5,4,
+2625,2025-07-30,2,6,USR_0382,Startup PMs,Dream,-0.38,2,
+2626,2024-06-19,2,17,USR_0483,SMB PMs,Dream,0.82,1,
+2627,2025-04-14,2,8,USR_0109,Enterprise PMs,Phrase,-0.08,5,C suite idiots
+2628,2024-10-14,1,11,USR_0432,Startup PMs,Pain,0.35,1,CEO without power
+2629,2024-05-08,2,10,USR_0347,SMB PMs,Pain,-0.37,4,CEO without power
+2630,2024-07-29,3,18,USR_0076,Startup PMs,Phrase,0.74,1,slow down to speed up
+2631,2025-05-12,4,11,USR_0082,SMB PMs,Dream,0.95,1,impacting users lives
+2632,2025-06-09,4,12,USR_0468,Mid-market PMs,Dream,0.65,3,C suite idiots
+2633,2025-04-01,1,3,USR_0428,Mid-market PMs,Dream,-0.49,1,
+2634,2025-01-30,5,14,USR_0292,Enterprise PMs,Phrase,0.74,2,
+2635,2024-09-22,4,18,USR_0190,Enterprise PMs,Phrase,0.09,1,sandbagging gatekeepers
+2636,2024-07-16,1,11,USR_0334,Enterprise PMs,Dream,1.0,1,
+2637,2024-01-02,3,18,USR_0297,Startup PMs,Phrase,0.74,2,
+2638,2025-01-22,5,11,USR_0431,Enterprise PMs,Dream,0.84,4,
+2639,2024-12-11,5,2,USR_0419,Startup PMs,Dream,-0.46,2,
+2640,2025-01-18,2,18,USR_0369,Enterprise PMs,Pain,0.59,2,boulder uphill
+2641,2024-08-03,2,7,USR_0018,SMB PMs,Dream,-0.48,13,
+2642,2024-03-07,5,11,USR_0392,SMB PMs,Pain,0.85,3,C suite idiots
+2643,2024-10-10,2,7,USR_0181,Enterprise PMs,Pain,-1.0,10,
+2644,2025-03-21,3,10,USR_0326,Startup PMs,Dream,-0.65,7,
+2645,2024-04-22,3,3,USR_0174,Enterprise PMs,Dream,-0.51,5,slow down to speed up
+2646,2025-04-15,4,10,USR_0242,Mid-market PMs,Phrase,-0.92,10,
+2647,2024-09-21,1,8,USR_0320,Enterprise PMs,Phrase,-0.59,1,slow down to speed up
+2648,2025-08-09,2,6,USR_0282,Enterprise PMs,Pain,-0.34,2,
+2649,2024-09-15,5,9,USR_0130,SMB PMs,Dream,-0.65,1,boulder uphill
+2650,2024-03-05,1,11,USR_0223,Enterprise PMs,Pain,0.23,1,boulder uphill
+2651,2025-08-08,1,14,USR_0054,Mid-market PMs,Pain,0.63,10,
+2652,2024-07-03,1,9,USR_0318,Enterprise PMs,Dream,0.03,18,
+2653,2025-05-08,5,3,USR_0118,Enterprise PMs,Phrase,-0.47,3,
+2654,2025-07-22,1,10,USR_0499,Mid-market PMs,Dream,-0.23,4,
+2655,2024-05-31,1,2,USR_0150,Enterprise PMs,Pain,-0.49,2,
+2656,2025-01-23,2,7,USR_0425,Enterprise PMs,Phrase,-0.67,1,sandbagging gatekeepers
+2657,2025-10-25,3,8,USR_0253,Mid-market PMs,Dream,-0.3,2,
+2658,2024-04-13,3,4,USR_0233,SMB PMs,Dream,-0.78,15,
+2659,2025-02-18,5,17,USR_0316,Startup PMs,Phrase,0.82,1,
+2660,2024-06-03,2,5,USR_0337,Mid-market PMs,Pain,-0.37,1,slow down to speed up
+2661,2024-12-14,4,16,USR_0423,Enterprise PMs,Pain,0.15,1,
+2662,2024-12-06,1,3,USR_0157,Startup PMs,Dream,-0.93,4,
+2663,2024-05-30,4,13,USR_0074,Startup PMs,Phrase,0.72,1,
+2664,2024-08-19,2,6,USR_0298,Enterprise PMs,Dream,-0.16,7,sandbagging gatekeepers
+2665,2024-05-03,2,2,USR_0234,SMB PMs,Dream,-0.05,1,
+2666,2025-01-23,5,4,USR_0396,Mid-market PMs,Phrase,-0.19,2,
+2667,2025-07-07,2,12,USR_0009,SMB PMs,Phrase,0.71,4,
+2668,2024-01-05,4,12,USR_0314,Mid-market PMs,Pain,0.62,1,
+2669,2024-02-13,1,5,USR_0039,Startup PMs,Pain,-0.12,1,
+2670,2025-08-22,4,14,USR_0281,Mid-market PMs,Pain,0.37,4,sandbagging gatekeepers
+2671,2025-01-24,3,17,USR_0427,SMB PMs,Phrase,0.53,1,CEO without power
+2672,2024-04-28,2,4,USR_0088,SMB PMs,Phrase,-0.37,10,not psychic
+2673,2024-02-26,3,13,USR_0490,Mid-market PMs,Phrase,0.56,1,
+2674,2025-09-03,2,2,USR_0117,Startup PMs,Phrase,-0.06,1,
+2675,2025-08-06,1,7,USR_0385,Startup PMs,Pain,-0.58,1,CEO without power
+2676,2025-06-24,4,4,USR_0320,Enterprise PMs,Pain,-0.51,1,
+2677,2025-05-11,5,4,USR_0188,SMB PMs,Pain,-0.11,1,
+2678,2025-02-21,5,16,USR_0045,Enterprise PMs,Dream,0.73,1,
+2679,2024-04-17,3,11,USR_0265,Mid-market PMs,Pain,0.63,1,not psychic
+2680,2024-04-02,1,14,USR_0358,SMB PMs,Phrase,0.6,1,C suite idiots
+2681,2024-03-12,1,7,USR_0377,Startup PMs,Phrase,-0.5,1,
+2682,2025-12-12,1,2,USR_0400,Startup PMs,Pain,-0.25,4,
+2683,2024-09-27,4,6,USR_0387,Enterprise PMs,Pain,-0.5,1,
+2684,2024-10-28,4,11,USR_0380,Enterprise PMs,Dream,0.58,2,
+2685,2024-12-25,4,4,USR_0190,Enterprise PMs,Dream,-0.37,10,
+2686,2024-09-24,3,16,USR_0442,Mid-market PMs,Dream,0.86,9,
+2687,2025-09-26,2,11,USR_0052,Startup PMs,Phrase,0.13,3,
+2688,2025-12-07,3,3,USR_0313,Enterprise PMs,Phrase,-0.29,8,
+2689,2024-05-06,1,7,USR_0015,Enterprise PMs,Phrase,-0.42,3,impacting users lives
+2690,2025-04-13,1,3,USR_0413,Mid-market PMs,Dream,-0.26,1,slow down to speed up
+2691,2025-05-11,4,16,USR_0147,SMB PMs,Pain,1.0,13,
+2692,2025-09-17,4,15,USR_0341,SMB PMs,Pain,0.83,1,boulder uphill
+2693,2024-01-30,4,13,USR_0134,Enterprise PMs,Pain,0.42,4,slow down to speed up
+2694,2025-07-26,4,6,USR_0427,SMB PMs,Pain,-0.62,2,
+2695,2024-02-11,2,16,USR_0151,Mid-market PMs,Pain,0.33,1,impacting users lives
+2696,2024-03-08,4,18,USR_0122,Mid-market PMs,Pain,0.87,5,sandbagging gatekeepers
+2697,2024-02-15,2,1,USR_0440,Enterprise PMs,Pain,-0.55,4,
+2698,2024-09-12,5,14,USR_0436,Startup PMs,Phrase,0.8,1,C suite idiots
+2699,2025-10-20,2,2,USR_0437,Enterprise PMs,Pain,-0.61,1,
+2700,2025-10-30,4,14,USR_0145,Enterprise PMs,Phrase,0.79,1,
+2701,2024-02-16,1,2,USR_0131,SMB PMs,Dream,-0.27,24,
+2702,2024-05-08,1,6,USR_0057,Enterprise PMs,Dream,-0.63,3,
+2703,2024-08-05,5,4,USR_0336,Enterprise PMs,Dream,-0.35,6,
+2704,2024-10-25,3,4,USR_0394,Startup PMs,Dream,-0.43,4,
+2705,2025-06-10,4,12,USR_0394,Startup PMs,Phrase,0.75,10,
+2706,2024-05-26,2,17,USR_0182,Enterprise PMs,Phrase,0.62,7,C suite idiots
+2707,2024-10-08,3,4,USR_0373,Enterprise PMs,Pain,-0.1,2,
+2708,2025-09-20,2,7,USR_0318,Enterprise PMs,Pain,-0.51,7,
+2709,2024-08-29,2,1,USR_0188,SMB PMs,Dream,-0.54,1,not psychic
+2710,2024-11-10,1,1,USR_0254,Enterprise PMs,Dream,-0.49,4,
+2711,2024-04-19,4,4,USR_0207,Enterprise PMs,Phrase,-0.73,1,
+2712,2024-01-31,1,6,USR_0198,Mid-market PMs,Pain,-0.57,1,
+2713,2025-03-22,3,17,USR_0234,SMB PMs,Phrase,0.45,1,
+2714,2024-12-26,4,16,USR_0393,Enterprise PMs,Phrase,0.49,4,
+2715,2024-04-08,5,4,USR_0324,Enterprise PMs,Phrase,-0.5,13,
+2716,2025-06-04,2,3,USR_0309,Startup PMs,Dream,-0.49,6,impacting users lives
+2717,2024-12-05,1,10,USR_0141,Mid-market PMs,Phrase,-0.2,1,
+2718,2025-05-30,1,14,USR_0294,Enterprise PMs,Pain,0.81,11,
+2719,2024-04-28,2,4,USR_0103,Enterprise PMs,Phrase,-0.79,1,
+2720,2024-08-09,5,12,USR_0487,Enterprise PMs,Pain,0.74,6,
+2721,2024-07-21,5,6,USR_0282,Enterprise PMs,Dream,-0.5,1,
+2722,2025-08-31,5,9,USR_0492,SMB PMs,Dream,-0.4,1,
+2723,2025-05-04,4,9,USR_0087,Startup PMs,Dream,-0.49,5,not psychic
+2724,2024-02-28,2,2,USR_0243,Mid-market PMs,Pain,-0.42,3,
+2725,2024-08-29,2,2,USR_0496,Enterprise PMs,Pain,0.15,5,CEO without power
+2726,2025-04-02,3,5,USR_0205,SMB PMs,Dream,-0.49,5,boulder uphill
+2727,2025-08-02,4,8,USR_0088,SMB PMs,Pain,-0.44,3,
+2728,2024-11-22,2,18,USR_0112,Enterprise PMs,Dream,0.59,2,
+2729,2025-02-27,2,18,USR_0047,Enterprise PMs,Dream,0.36,2,
+2730,2025-06-02,1,14,USR_0065,Enterprise PMs,Pain,0.64,1,
+2731,2024-04-06,3,9,USR_0083,Enterprise PMs,Pain,-1.0,4,slow down to speed up
+2732,2025-05-27,3,18,USR_0161,Enterprise PMs,Dream,0.71,16,boulder uphill
+2733,2024-11-07,5,12,USR_0121,Startup PMs,Phrase,0.8,1,
+2734,2025-05-01,4,13,USR_0264,SMB PMs,Dream,0.36,1,
+2735,2024-07-25,3,16,USR_0498,Enterprise PMs,Dream,0.33,1,
+2736,2025-07-21,2,18,USR_0415,SMB PMs,Pain,0.27,5,
+2737,2025-06-30,2,9,USR_0024,Enterprise PMs,Phrase,-0.27,1,
+2738,2024-07-21,2,7,USR_0468,Mid-market PMs,Pain,-0.46,1,
+2739,2025-11-07,1,5,USR_0379,Startup PMs,Dream,-0.17,4,
+2740,2025-06-13,5,14,USR_0120,SMB PMs,Phrase,0.16,5,
+2741,2025-11-23,4,2,USR_0090,SMB PMs,Dream,-0.13,1,sandbagging gatekeepers
+2742,2024-08-22,2,14,USR_0314,Mid-market PMs,Phrase,0.3,1,
+2743,2025-09-21,2,12,USR_0488,Enterprise PMs,Dream,0.46,1,
+2744,2024-07-11,2,7,USR_0205,SMB PMs,Phrase,-0.89,4,
+2745,2025-05-18,4,7,USR_0429,Enterprise PMs,Dream,-0.69,10,
+2746,2024-05-06,4,2,USR_0171,Startup PMs,Phrase,-0.79,8,
+2747,2025-02-14,4,9,USR_0471,Enterprise PMs,Pain,-0.12,5,
+2748,2025-04-30,5,16,USR_0251,Enterprise PMs,Pain,0.49,4,
+2749,2024-02-10,4,7,USR_0343,Enterprise PMs,Phrase,-0.72,1,sandbagging gatekeepers
+2750,2024-02-17,2,10,USR_0317,SMB PMs,Phrase,-0.63,1,
+2751,2025-01-03,2,18,USR_0105,Mid-market PMs,Pain,0.64,3,
+2752,2025-09-29,4,16,USR_0162,SMB PMs,Dream,0.41,3,slow down to speed up
+2753,2025-10-12,3,9,USR_0171,Startup PMs,Phrase,-0.48,2,
+2754,2025-10-14,2,10,USR_0365,Mid-market PMs,Phrase,-0.06,3,
+2755,2024-03-16,4,10,USR_0343,Enterprise PMs,Pain,-0.22,3,
+2756,2024-08-17,1,12,USR_0135,Mid-market PMs,Phrase,0.38,5,impacting users lives
+2757,2025-02-25,5,7,USR_0489,Mid-market PMs,Pain,-0.39,1,
+2758,2025-06-08,5,12,USR_0258,Startup PMs,Pain,0.42,2,slow down to speed up
+2759,2024-12-27,2,3,USR_0078,Enterprise PMs,Pain,-0.07,13,boulder uphill
+2760,2025-08-06,5,4,USR_0180,Enterprise PMs,Dream,-0.28,11,
+2761,2025-04-22,5,13,USR_0074,Startup PMs,Phrase,1.0,1,CEO without power
+2762,2024-11-11,4,1,USR_0442,Mid-market PMs,Phrase,-0.04,3,slow down to speed up
+2763,2024-12-24,2,5,USR_0217,Enterprise PMs,Phrase,-0.4,14,
+2764,2024-08-17,5,15,USR_0164,SMB PMs,Pain,0.22,1,
+2765,2024-03-19,3,18,USR_0202,Enterprise PMs,Dream,0.51,1,impacting users lives
+2766,2025-10-15,4,14,USR_0150,Enterprise PMs,Dream,0.08,1,boulder uphill
+2767,2025-04-26,2,8,USR_0031,SMB PMs,Pain,-0.2,1,
+2768,2025-11-10,3,13,USR_0353,Startup PMs,Phrase,0.8,1,
+2769,2025-06-08,5,7,USR_0431,Enterprise PMs,Pain,-0.22,1,
+2770,2025-04-23,5,6,USR_0100,Enterprise PMs,Phrase,-0.57,1,slow down to speed up
+2771,2024-04-12,3,10,USR_0092,Startup PMs,Phrase,-0.44,2,
+2772,2024-04-12,1,14,USR_0280,Startup PMs,Pain,0.66,1,slow down to speed up
+2773,2025-11-14,3,12,USR_0493,Enterprise PMs,Dream,0.39,8,
+2774,2025-09-18,2,16,USR_0429,Enterprise PMs,Phrase,0.08,4,C suite idiots
+2775,2025-02-17,3,17,USR_0409,Mid-market PMs,Pain,0.61,23,
+2776,2024-06-26,3,16,USR_0349,Enterprise PMs,Pain,0.34,5,CEO without power
+2777,2025-08-30,4,9,USR_0404,Startup PMs,Phrase,-0.07,6,
+2778,2024-02-14,1,15,USR_0348,Enterprise PMs,Phrase,0.16,1,
+2779,2025-09-19,5,15,USR_0109,Enterprise PMs,Dream,0.57,3,
+2780,2025-05-13,2,5,USR_0160,Startup PMs,Phrase,-0.81,3,C suite idiots
+2781,2025-02-26,3,7,USR_0486,Mid-market PMs,Pain,-0.47,8,
+2782,2024-09-28,1,18,USR_0420,Startup PMs,Pain,1.0,2,boulder uphill
+2783,2024-03-03,3,10,USR_0246,Mid-market PMs,Pain,-0.7,6,
+2784,2025-07-16,2,7,USR_0135,Mid-market PMs,Dream,-0.16,7,
+2785,2025-04-14,2,3,USR_0456,SMB PMs,Phrase,-0.19,2,
+2786,2024-07-20,5,3,USR_0409,Mid-market PMs,Dream,0.1,3,
+2787,2024-12-05,4,2,USR_0321,SMB PMs,Phrase,-0.29,4,boulder uphill
+2788,2024-08-27,2,2,USR_0171,Startup PMs,Phrase,-0.48,2,
+2789,2024-03-30,3,8,USR_0051,Mid-market PMs,Dream,-0.18,5,
+2790,2024-10-30,4,7,USR_0492,SMB PMs,Pain,-0.32,20,
+2791,2025-04-28,4,10,USR_0408,Enterprise PMs,Dream,-0.44,4,
+2792,2025-04-26,1,13,USR_0082,SMB PMs,Pain,0.72,7,
+2793,2024-12-19,5,10,USR_0217,Enterprise PMs,Phrase,-0.31,7,
+2794,2024-10-09,4,4,USR_0123,Enterprise PMs,Pain,-0.75,3,
+2795,2025-05-29,3,13,USR_0422,Startup PMs,Dream,0.32,3,
+2796,2025-12-05,2,17,USR_0327,SMB PMs,Dream,0.74,4,
+2797,2025-07-03,2,10,USR_0085,Enterprise PMs,Dream,-0.45,4,sandbagging gatekeepers
+2798,2024-09-14,3,16,USR_0487,Enterprise PMs,Pain,0.54,1,
+2799,2025-12-18,2,12,USR_0044,Mid-market PMs,Phrase,0.71,3,impacting users lives
+2800,2024-06-02,2,16,USR_0240,Enterprise PMs,Dream,1.0,1,
+2801,2025-01-24,4,8,USR_0070,Mid-market PMs,Phrase,-0.37,4,
+2802,2024-04-23,2,15,USR_0030,Enterprise PMs,Pain,0.83,3,sandbagging gatekeepers
+2803,2025-05-04,4,9,USR_0476,Mid-market PMs,Pain,-0.1,10,not psychic
+2804,2025-12-27,1,14,USR_0243,Mid-market PMs,Phrase,0.26,10,boulder uphill
+2805,2024-02-19,1,2,USR_0028,SMB PMs,Pain,-0.19,2,
+2806,2025-09-17,1,17,USR_0019,SMB PMs,Dream,0.57,1,
+2807,2024-05-19,1,8,USR_0166,Startup PMs,Phrase,-0.31,1,C suite idiots
+2808,2025-03-12,3,1,USR_0064,Enterprise PMs,Pain,-0.82,13,
+2809,2025-01-04,4,8,USR_0377,Startup PMs,Dream,-0.75,8,C suite idiots
+2810,2025-12-04,1,17,USR_0231,Startup PMs,Pain,0.38,1,boulder uphill
+2811,2024-01-04,1,9,USR_0322,Startup PMs,Pain,-0.55,1,slow down to speed up
+2812,2024-08-08,4,12,USR_0063,Startup PMs,Phrase,0.4,1,CEO without power
+2813,2024-04-27,5,12,USR_0242,Mid-market PMs,Pain,0.34,1,CEO without power
+2814,2024-09-20,4,7,USR_0189,SMB PMs,Pain,-0.25,1,
+2815,2024-09-02,2,12,USR_0293,Startup PMs,Pain,0.57,4,
+2816,2024-11-01,5,8,USR_0080,Enterprise PMs,Dream,-0.11,10,boulder uphill
+2817,2025-05-18,4,16,USR_0487,Enterprise PMs,Dream,0.79,1,boulder uphill
+2818,2024-05-18,3,18,USR_0397,Mid-market PMs,Dream,0.64,1,boulder uphill
+2819,2024-06-03,3,18,USR_0013,Startup PMs,Dream,0.84,3,C suite idiots
+2820,2024-08-01,2,7,USR_0399,Startup PMs,Phrase,-0.44,6,C suite idiots
+2821,2025-06-26,1,8,USR_0332,Startup PMs,Dream,-1.0,27,
+2822,2025-06-17,5,1,USR_0372,Enterprise PMs,Dream,0.14,2,boulder uphill
+2823,2025-01-17,2,9,USR_0069,Enterprise PMs,Pain,-0.54,12,boulder uphill
+2824,2024-07-23,5,6,USR_0239,SMB PMs,Phrase,-0.36,1,C suite idiots
+2825,2024-04-03,4,13,USR_0423,Enterprise PMs,Dream,0.72,5,
+2826,2025-10-05,3,14,USR_0089,Mid-market PMs,Pain,0.82,1,
+2827,2024-07-27,5,3,USR_0396,Mid-market PMs,Phrase,-0.83,4,
+2828,2024-07-26,5,4,USR_0487,Enterprise PMs,Pain,-0.35,4,
+2829,2025-01-26,3,18,USR_0373,Enterprise PMs,Phrase,0.7,8,
+2830,2025-06-22,3,2,USR_0227,Mid-market PMs,Pain,-0.48,6,boulder uphill
+2831,2024-01-18,5,12,USR_0130,SMB PMs,Phrase,0.49,1,
+2832,2024-01-17,2,1,USR_0349,Enterprise PMs,Phrase,-0.35,28,impacting users lives
+2833,2025-09-21,3,6,USR_0026,Startup PMs,Pain,-0.38,8,
+2834,2025-05-03,3,16,USR_0043,Enterprise PMs,Pain,1.0,5,not psychic
+2835,2024-08-22,5,1,USR_0092,Startup PMs,Dream,-0.31,4,
+2836,2024-12-26,3,3,USR_0371,Enterprise PMs,Pain,0.11,2,
+2837,2024-01-16,5,1,USR_0232,SMB PMs,Dream,-0.23,17,
+2838,2025-06-22,2,17,USR_0075,Startup PMs,Dream,0.44,1,
+2839,2025-08-05,3,1,USR_0167,Enterprise PMs,Dream,-0.43,6,
+2840,2025-12-27,3,10,USR_0343,Enterprise PMs,Phrase,-1.0,5,
+2841,2025-03-17,3,18,USR_0224,Enterprise PMs,Phrase,0.81,1,
+2842,2025-12-08,2,4,USR_0060,Enterprise PMs,Dream,-0.39,1,
+2843,2024-10-31,1,11,USR_0044,Mid-market PMs,Phrase,0.59,1,impacting users lives
+2844,2024-12-28,1,9,USR_0386,Startup PMs,Pain,-0.42,1,
+2845,2024-05-29,3,8,USR_0012,Mid-market PMs,Phrase,-0.09,3,
+2846,2024-08-25,3,4,USR_0257,Mid-market PMs,Phrase,-0.54,3,
+2847,2025-10-13,5,5,USR_0311,SMB PMs,Dream,-0.36,1,
+2848,2025-11-06,1,7,USR_0063,Startup PMs,Pain,-0.25,2,
+2849,2025-02-18,3,10,USR_0432,Startup PMs,Pain,-0.12,1,
+2850,2024-08-16,5,11,USR_0198,Mid-market PMs,Dream,0.56,4,
+2851,2024-05-08,4,12,USR_0230,SMB PMs,Pain,0.61,7,
+2852,2025-04-18,3,5,USR_0056,Mid-market PMs,Phrase,-0.32,5,CEO without power
+2853,2025-06-01,5,5,USR_0190,Enterprise PMs,Phrase,-0.26,1,
+2854,2025-11-01,5,8,USR_0262,Mid-market PMs,Pain,-0.52,1,
+2855,2024-10-04,3,1,USR_0478,SMB PMs,Dream,-0.15,13,
+2856,2024-12-22,1,15,USR_0305,Startup PMs,Pain,1.0,5,
+2857,2024-08-06,4,3,USR_0216,Enterprise PMs,Phrase,-0.67,1,
+2858,2025-09-10,2,3,USR_0475,SMB PMs,Dream,-0.48,12,impacting users lives
+2859,2025-08-10,5,13,USR_0408,Enterprise PMs,Pain,0.55,1,CEO without power
+2860,2025-09-05,5,6,USR_0461,Enterprise PMs,Phrase,0.02,2,C suite idiots
+2861,2025-11-07,3,5,USR_0320,Enterprise PMs,Pain,-0.41,2,
+2862,2025-02-14,2,11,USR_0015,Enterprise PMs,Phrase,0.82,2,
+2863,2025-10-13,1,11,USR_0101,Enterprise PMs,Pain,1.0,1,
+2864,2025-01-22,5,7,USR_0149,Enterprise PMs,Phrase,-0.27,1,
+2865,2025-03-18,2,9,USR_0024,Enterprise PMs,Phrase,-0.21,2,impacting users lives
+2866,2024-10-15,2,17,USR_0316,Startup PMs,Phrase,0.73,4,slow down to speed up
+2867,2025-09-24,1,3,USR_0106,Enterprise PMs,Pain,-0.44,18,
+2868,2025-03-28,4,14,USR_0023,Enterprise PMs,Pain,0.15,7,
+2869,2024-08-12,2,10,USR_0346,SMB PMs,Pain,0.14,19,boulder uphill
+2870,2025-08-22,1,1,USR_0411,Enterprise PMs,Pain,-0.21,3,sandbagging gatekeepers
+2871,2024-10-29,4,12,USR_0452,SMB PMs,Pain,0.41,2,
+2872,2024-01-09,3,8,USR_0281,Mid-market PMs,Phrase,-0.56,2,CEO without power
+2873,2024-12-04,2,3,USR_0361,Enterprise PMs,Phrase,0.11,1,
+2874,2025-06-21,5,2,USR_0145,Enterprise PMs,Phrase,-0.45,1,C suite idiots
+2875,2024-03-31,5,14,USR_0462,SMB PMs,Pain,0.63,4,
+2876,2024-08-12,3,1,USR_0478,SMB PMs,Pain,-0.22,2,sandbagging gatekeepers
+2877,2025-02-12,2,6,USR_0230,SMB PMs,Phrase,-0.4,1,
+2878,2025-06-03,1,9,USR_0349,Enterprise PMs,Phrase,-0.55,2,
+2879,2024-09-22,3,8,USR_0236,Startup PMs,Pain,-0.71,1,
+2880,2025-08-22,2,5,USR_0144,Enterprise PMs,Phrase,-0.4,2,
+2881,2024-06-10,4,14,USR_0331,Enterprise PMs,Dream,0.32,1,
+2882,2025-09-11,2,11,USR_0267,Startup PMs,Phrase,0.79,2,
+2883,2025-06-09,5,11,USR_0285,SMB PMs,Phrase,1.0,6,
+2884,2024-07-28,3,14,USR_0330,Enterprise PMs,Dream,0.53,7,
+2885,2024-08-05,3,16,USR_0052,Startup PMs,Pain,0.44,1,
+2886,2024-12-19,3,7,USR_0203,Enterprise PMs,Phrase,-0.5,4,
+2887,2025-12-17,1,16,USR_0002,Mid-market PMs,Dream,0.25,9,
+2888,2025-11-05,5,6,USR_0244,Enterprise PMs,Dream,-0.36,8,impacting users lives
+2889,2025-03-12,2,1,USR_0227,Mid-market PMs,Dream,0.19,7,
+2890,2024-09-30,3,15,USR_0384,Mid-market PMs,Dream,0.63,1,
+2891,2025-12-01,1,6,USR_0144,Enterprise PMs,Pain,-0.46,5,boulder uphill
+2892,2024-06-14,1,9,USR_0143,SMB PMs,Dream,-0.66,1,
+2893,2024-02-14,2,16,USR_0052,Startup PMs,Phrase,0.6,4,
+2894,2024-09-18,4,16,USR_0080,Enterprise PMs,Phrase,0.44,5,
+2895,2025-01-01,4,9,USR_0293,Startup PMs,Pain,-0.37,1,
+2896,2024-05-15,4,15,USR_0326,Startup PMs,Dream,0.3,1,
+2897,2024-03-23,2,7,USR_0237,Enterprise PMs,Dream,-0.79,1,
+2898,2024-07-14,2,1,USR_0461,Enterprise PMs,Dream,-0.71,2,slow down to speed up
+2899,2024-11-20,4,6,USR_0432,Startup PMs,Phrase,-0.37,7,
+2900,2025-05-31,1,11,USR_0024,Enterprise PMs,Phrase,0.35,15,
+2901,2024-08-11,5,5,USR_0479,Mid-market PMs,Pain,-0.79,4,sandbagging gatekeepers
+2902,2025-02-07,1,4,USR_0229,Mid-market PMs,Dream,-0.18,7,C suite idiots
+2903,2025-02-20,3,15,USR_0248,Mid-market PMs,Phrase,0.78,3,not psychic
+2904,2024-09-09,3,3,USR_0184,Mid-market PMs,Dream,-0.01,1,
+2905,2025-08-17,1,3,USR_0148,SMB PMs,Pain,0.06,4,
+2906,2025-05-15,4,1,USR_0269,Enterprise PMs,Pain,-0.08,7,
+2907,2024-10-06,1,17,USR_0417,Enterprise PMs,Pain,0.3,1,sandbagging gatekeepers
+2908,2025-10-13,4,1,USR_0016,Enterprise PMs,Dream,-1.0,1,
+2909,2025-01-15,2,2,USR_0447,Mid-market PMs,Dream,-0.5,2,boulder uphill
+2910,2024-07-01,5,7,USR_0397,Mid-market PMs,Phrase,-0.58,4,
+2911,2024-06-30,1,5,USR_0095,Startup PMs,Pain,-0.62,1,
+2912,2024-02-06,2,15,USR_0404,Startup PMs,Phrase,0.68,5,
+2913,2024-02-23,5,12,USR_0234,SMB PMs,Pain,0.61,1,
+2914,2024-05-29,3,7,USR_0211,SMB PMs,Dream,-0.82,12,slow down to speed up
+2915,2024-01-07,3,6,USR_0353,Startup PMs,Dream,-0.41,1,
+2916,2024-12-28,1,10,USR_0433,SMB PMs,Pain,-0.23,6,boulder uphill
+2917,2024-08-31,2,7,USR_0309,Startup PMs,Pain,-0.21,1,
+2918,2025-01-20,4,10,USR_0239,SMB PMs,Phrase,-0.31,1,CEO without power
+2919,2024-10-30,2,7,USR_0468,Mid-market PMs,Dream,-0.35,5,
+2920,2024-04-07,2,14,USR_0338,Startup PMs,Dream,0.79,6,
+2921,2025-06-13,3,8,USR_0157,Startup PMs,Pain,-0.5,1,
+2922,2025-02-22,2,16,USR_0149,Enterprise PMs,Pain,0.56,8,
+2923,2025-03-11,1,10,USR_0140,Mid-market PMs,Pain,-0.65,2,
+2924,2025-03-16,4,17,USR_0022,Enterprise PMs,Phrase,0.87,5,C suite idiots
+2925,2024-05-30,2,15,USR_0055,SMB PMs,Dream,0.71,1,
+2926,2025-03-26,2,17,USR_0022,Enterprise PMs,Phrase,0.54,1,
+2927,2025-04-19,4,9,USR_0248,Mid-market PMs,Pain,-0.38,1,CEO without power
+2928,2024-07-01,4,6,USR_0373,Enterprise PMs,Phrase,-0.36,6,
+2929,2025-07-30,3,9,USR_0479,Mid-market PMs,Dream,-0.22,2,
+2930,2025-05-20,4,2,USR_0174,Enterprise PMs,Phrase,-0.8,5,
+2931,2025-02-16,5,18,USR_0275,SMB PMs,Pain,0.76,1,
+2932,2024-11-05,1,16,USR_0396,Mid-market PMs,Pain,0.6,10,
+2933,2025-09-04,1,12,USR_0371,Enterprise PMs,Dream,0.32,1,
+2934,2025-07-29,4,12,USR_0044,Mid-market PMs,Phrase,0.68,6,
+2935,2024-08-14,5,8,USR_0132,Enterprise PMs,Phrase,-0.39,2,slow down to speed up
+2936,2025-10-01,5,6,USR_0230,SMB PMs,Pain,-0.3,1,
+2937,2024-08-14,1,9,USR_0246,Mid-market PMs,Pain,-0.38,4,
+2938,2025-08-27,4,12,USR_0404,Startup PMs,Dream,0.87,1,sandbagging gatekeepers
+2939,2024-06-23,4,8,USR_0409,Mid-market PMs,Pain,0.07,3,
+2940,2025-01-21,1,18,USR_0177,Startup PMs,Dream,0.59,2,CEO without power
+2941,2024-07-02,3,3,USR_0437,Enterprise PMs,Dream,-0.42,6,
+2942,2025-05-10,5,11,USR_0278,SMB PMs,Pain,0.43,2,not psychic
+2943,2024-09-30,5,13,USR_0194,SMB PMs,Dream,0.79,2,
+2944,2024-01-17,1,1,USR_0126,SMB PMs,Phrase,-0.45,7,
+2945,2025-04-06,2,12,USR_0057,Enterprise PMs,Pain,0.54,1,
+2946,2024-09-20,3,12,USR_0328,SMB PMs,Dream,0.57,7,
+2947,2025-07-05,2,18,USR_0293,Startup PMs,Pain,0.85,2,boulder uphill
+2948,2025-09-05,3,8,USR_0012,Mid-market PMs,Dream,-0.47,1,
+2949,2025-03-28,3,12,USR_0062,Enterprise PMs,Phrase,0.81,1,not psychic
+2950,2025-01-08,4,9,USR_0095,Startup PMs,Phrase,-0.19,5,impacting users lives
+2951,2025-02-14,5,17,USR_0433,SMB PMs,Pain,0.5,3,
+2952,2025-04-18,5,4,USR_0107,SMB PMs,Pain,-0.87,5,boulder uphill
+2953,2024-06-29,4,18,USR_0263,Enterprise PMs,Dream,1.0,1,
+2954,2024-06-17,1,18,USR_0259,SMB PMs,Pain,0.47,1,
+2955,2025-10-11,5,17,USR_0121,Startup PMs,Phrase,0.62,2,
+2956,2024-11-12,2,11,USR_0225,Enterprise PMs,Phrase,0.81,1,slow down to speed up
+2957,2024-12-28,3,11,USR_0171,Startup PMs,Pain,0.36,3,impacting users lives
+2958,2025-05-04,2,9,USR_0420,Startup PMs,Phrase,-0.18,1,
+2959,2024-10-18,1,17,USR_0211,SMB PMs,Dream,0.68,1,
+2960,2025-12-15,3,5,USR_0474,Mid-market PMs,Phrase,-0.67,2,boulder uphill
+2961,2025-06-06,5,11,USR_0301,Enterprise PMs,Dream,0.37,10,
+2962,2024-04-20,4,5,USR_0020,Enterprise PMs,Phrase,-0.17,3,
+2963,2024-03-02,5,17,USR_0007,Enterprise PMs,Pain,0.62,1,slow down to speed up
+2964,2024-09-19,3,13,USR_0095,Startup PMs,Pain,0.55,1,C suite idiots
+2965,2024-10-27,3,5,USR_0449,Enterprise PMs,Phrase,-0.05,2,
+2966,2025-10-19,5,16,USR_0194,SMB PMs,Phrase,0.22,2,
+2967,2025-08-11,1,5,USR_0210,Enterprise PMs,Pain,-0.73,2,
+2968,2024-06-15,3,16,USR_0475,SMB PMs,Dream,0.75,1,
+2969,2025-01-12,2,4,USR_0479,Mid-market PMs,Phrase,-0.55,1,
+2970,2024-07-13,2,4,USR_0360,SMB PMs,Phrase,-0.12,2,
+2971,2024-11-09,3,15,USR_0481,SMB PMs,Pain,0.88,1,
+2972,2025-12-21,5,14,USR_0297,Startup PMs,Dream,0.58,1,
+2973,2025-01-10,3,14,USR_0092,Startup PMs,Dream,0.46,2,
+2974,2024-05-18,4,7,USR_0424,SMB PMs,Phrase,-0.45,1,boulder uphill
+2975,2024-06-04,4,4,USR_0277,Startup PMs,Pain,-0.34,3,
+2976,2024-01-21,3,14,USR_0133,Enterprise PMs,Phrase,0.44,1,CEO without power
+2977,2024-12-25,1,2,USR_0078,Enterprise PMs,Phrase,-0.53,1,
+2978,2024-04-26,3,2,USR_0028,SMB PMs,Pain,-0.54,12,sandbagging gatekeepers
+2979,2024-07-14,5,17,USR_0393,Enterprise PMs,Phrase,0.21,2,
+2980,2024-11-18,5,10,USR_0460,Enterprise PMs,Dream,-0.38,2,not psychic
+2981,2025-01-18,4,5,USR_0407,Enterprise PMs,Pain,-0.39,5,
+2982,2025-08-21,2,10,USR_0349,Enterprise PMs,Pain,-0.17,10,
+2983,2025-01-09,4,17,USR_0477,Enterprise PMs,Dream,0.55,1,
+2984,2025-11-06,4,5,USR_0422,Startup PMs,Phrase,-0.47,6,
+2985,2025-01-07,2,1,USR_0342,SMB PMs,Pain,-0.55,2,
+2986,2025-02-18,3,17,USR_0065,Enterprise PMs,Phrase,0.32,1,sandbagging gatekeepers
+2987,2025-10-22,5,14,USR_0486,Mid-market PMs,Dream,0.22,2,
+2988,2025-12-03,3,11,USR_0201,SMB PMs,Pain,0.59,1,
+2989,2024-09-07,2,7,USR_0069,Enterprise PMs,Phrase,-0.27,7,
+2990,2024-03-28,2,3,USR_0469,Enterprise PMs,Dream,-0.37,1,
+2991,2024-05-11,3,4,USR_0229,Mid-market PMs,Dream,0.13,15,
+2992,2025-04-15,4,1,USR_0480,SMB PMs,Phrase,-0.38,9,
+2993,2024-01-27,4,15,USR_0279,Startup PMs,Phrase,0.56,4,
+2994,2025-05-24,2,13,USR_0086,Enterprise PMs,Pain,0.28,4,
+2995,2025-01-21,5,12,USR_0390,Startup PMs,Dream,0.71,6,
+2996,2024-10-10,1,5,USR_0164,SMB PMs,Dream,-0.68,5,
+2997,2024-10-02,3,6,USR_0296,SMB PMs,Dream,-0.65,1,
+2998,2024-10-16,1,16,USR_0467,Enterprise PMs,Dream,0.62,2,not psychic
+2999,2024-10-11,4,6,USR_0318,Enterprise PMs,Phrase,-0.25,4,
+3000,2025-06-30,1,14,USR_0102,SMB PMs,Dream,0.65,3,
