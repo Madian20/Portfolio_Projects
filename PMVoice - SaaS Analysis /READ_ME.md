@@ -52,7 +52,7 @@ Monthly recurring revenue shows notable fluctuations across 2024–2025, with pe
 
 ### Pain Themes: Frequency vs. Strategic Impact
 <img width="1377" height="713" alt="image" src="https://github.com/user-attachments/assets/31aa7130-acb6-4ede-8190-29f994d4ab93" />
-Pain themes reveal a mismatch between frequency and strategic impact. While “better WLB” and “innovative company” are the most mentioned (74 and 72 mentions), their impact is moderate (≈2.0–2.5). In contrast, “no customer validation” and “project manager duties” are less mentioned (59 each) but carry higher strategic weight (≈2.7 and 2.2). This indicates that issues with validation and role clarity, though less frequently raised, pose greater long-term risk to product and organizational stability.
+Pain themes reveal a mismatch between frequency and strategic impact. While “better WLB” is the most mentioned (74 mentions), But its strategic weight is low  0.5 . In contrast, “no customer validation” is  less mentioned (59 mentions) but carry higher strategic weight 2.58. This indicates that issues with validation and role clarity, though less frequently raised, pose greater long-term risk to product and organizational stability.
 
 ###  PM Experience & Sentiment
 ```{sql}
