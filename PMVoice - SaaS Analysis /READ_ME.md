@@ -85,6 +85,24 @@ ORDER BY AvgRiskScore DESC;
 - Larger organizations (51–200, 201–1000, 1000+): cluster at 0.287–0.294.
 - **Pattern:** U-shaped distribution → vulnerability at smallest scale, stability in early growth, plateaued risk in mature enterprises.
 
+## Key Recommendations
+
+1. **August Priority**  
+   Focus on **August**, which consistently shows seasonal revenue decline and lower customer satisfaction.  
+   → Action: Investigate causes (bugs, workload, operations) and plan counter‑measures.
+
+2. **Validation Problem**  
+   The theme **“No Customer Validation”** records a **high impact score of 2.58**, making it a critical issue.  
+   → Action: Build validation features and integrate customer feedback loops.
+
+3. **Analytics Dashboard Leverage**  
+   The **Analytics Dashboard has the highest adoption (340 users)**.  
+   → Action: Enhance it further to reduce the validation gap and strengthen trust.
+
+4. **Enterprise Segment Risk**  
+   Enterprise PMs generate the **highest revenue ($218.8K)** but also show a **pain rate of 32.11%**, creating churn risk.  
+   → Action: Prioritize retention programs and address pain themes for this segment.
+
 
 
 
