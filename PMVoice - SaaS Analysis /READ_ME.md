@@ -33,10 +33,11 @@ In the final stage, the data was used to build an **interactive Power BI report*
 
 ## Insights Deep Dive 
 
-### Core Metrics & Platform Insights
+### Core Metrics
 - **Financials:** Total Revenue $550.56K | Active Customers: 470 | ARPU: $1.17K  
-- **Customer Metrics:** Total Mentions: 3K | Churn Rate: 29.27% | Adoption Rate: 61.89%  
-- **Platform Sentiment:**
+- **Customer Metrics:** Total Mentions: 3K | Churn Rate: 29.27% | Adoption Rate: 61.89%
+  
+### Platform Sentiment:
  <img width="1372" height="690" alt="image" src="https://github.com/user-attachments/assets/d6b5f3b1-385f-4588-857d-18079ad222d9" />
   - Reddit: 27.66% pain (lowest → most positive)  
   - ProductHunt: 37.33% pain (highest → most critical)  
