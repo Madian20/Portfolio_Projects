@@ -54,6 +54,39 @@ Monthly recurring revenue shows notable fluctuations across 2024–2025, with pe
 <img width="1377" height="713" alt="image" src="https://github.com/user-attachments/assets/31aa7130-acb6-4ede-8190-29f994d4ab93" />
 Pain themes reveal a mismatch between frequency and strategic impact. While “better WLB” and “innovative company” are the most mentioned (74 and 72 mentions), their impact is moderate (≈2.0–2.5). In contrast, “no customer validation” and “project manager duties” are less mentioned (59 each) but carry higher strategic weight (≈2.7 and 2.2). This indicates that issues with validation and role clarity, though less frequently raised, pose greater long-term risk to product and organizational stability.
 
+###  PM Experience & Sentiment
+```{sql}
+SELECT 
+    u.PMExperienceYears, 
+    ROUND(AVG(v.SentimentScore), 3) AS AvgSentiment,
+    COUNT(v.MentionID) AS Mentions
+FROM Fact_VOC_Mentions v
+ INNER JOIN Dim_Users u ON v.UserID = u.UserID
+GROUP BY u.PMExperienceYears
+ORDER BY u.PMExperienceYears;
+```
+- Entry-level PMs (0 years) show highest positivity (0.145).
+- Sharp drop after year 1 (0.036), stabilizing ≈0.05–0.06 through years 2–6.
+- Beyond year 7, sentiment deteriorates further: neutral (0.0 at year 9), negative (-0.014 at year 8).
+- Mentions volume peaks mid-career (years 3–5, >400 mentions).
+- **Trajectory:** More experience → heightened scrutiny, reduced optimism, greater tendency to highlight shortcomings.
+
+### 2. Company Size Risk
+```{sql}
+SELECT 
+    CompanySize, 
+    ROUND(AVG(ChurnRiskScore), 3) AS AvgRiskScore
+FROM Dim_Users
+GROUP BY CompanySize
+ORDER BY AvgRiskScore DESC;
+```
+- Micro-firms (1–10 employees): highest avg risk (0.311).
+- Mid-sized firms (11–50 employees): lowest risk (0.285) → “stability sweet spot.”
+- Larger organizations (51–200, 201–1000, 1000+): cluster at 0.287–0.294.
+- **Pattern:** U-shaped distribution → vulnerability at smallest scale, stability in early growth, plateaued risk in mature enterprises.
+
+
+
 
 
 
