@@ -28,3 +28,20 @@ Built an interactive dashboard that brings core findings in a clear, decision-re
 
 
 <img width="1069" height="731" alt="image" src="https://github.com/user-attachments/assets/80a91a73-3874-4ed8-9be1-d82b3a494e6f" />
+
+---
+
+## Key Performance Indicators
+
+| KPI | Value |
+|-----|-------|
+| Total Revenue | $1.233M |
+| ARPC | $606 |
+| AVG Campaign Acceptance | 0.45 |
+| Total Customers | 2,037 |
+| % Active Customers | 32.20% |
+| % Inactive Customers | 8.69% |
+| AVG Customer Age | 45.16 |
+| % Customers With Children | 71.87% |
+
+---
