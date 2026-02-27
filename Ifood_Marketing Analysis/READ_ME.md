@@ -1,5 +1,7 @@
 # IFood Customer Behavaior Analysis
 
+---
+
 ## Project Overview
 
 **IFood Customer Behavaior Analysis** is an end-to-end data analytics project built on a real-world marketing dataset from Maven Analytics, covering **2,240 customers** across **25 fields** — including customer profiles, product spending, purchase channels, and responses to 6 marketing campaigns.
