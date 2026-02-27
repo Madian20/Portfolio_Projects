@@ -22,7 +22,9 @@ Created five dedicated views to make the data easier to query and explore across
 
 **5. Exploratory Data Analysis — Python**
 This phase aimed to uncover the structure and behavior of the dataset before moving into reporting
+
 **6. Dashboard — Power BI**
 Built an interactive dashboard that brings core findings in a clear, decision-ready format.
+
 
 <img width="1069" height="731" alt="image" src="https://github.com/user-attachments/assets/80a91a73-3874-4ed8-9be1-d82b3a494e6f" />
