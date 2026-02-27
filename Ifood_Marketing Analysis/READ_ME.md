@@ -45,3 +45,78 @@ Built an interactive dashboard that brings core findings in a clear, decision-re
 | % Customers With Children | 71.87% |
 
 ---
+## Cleaning Deep Dive
+
+* **Removing incomplete rows** — deleted any record missing critical fields such as ID, Year_Birth, or Dt_Customer
+
+```sql
+DELETE FROM MarketingCampaign
+WHERE
+    ID            IS NULL OR LTRIM(RTRIM(ID))            = ''
+    OR Year_Birth IS NULL OR LTRIM(RTRIM(Year_Birth))    = ''
+    OR Dt_Customer IS NULL OR TRY_CAST(Dt_Customer AS DATE) IS NULL;
+GO
+```
+
+* **Removing outliers** — dropped rows where Year_Birth was below 1900
+
+```sql
+DELETE FROM MarketingCampaign
+WHERE TRY_CAST(Year_Birth AS SMALLINT) < 1900
+   OR TRY_CAST(Year_Birth AS SMALLINT) IS NULL;
+GO
+```
+
+* **Handling missing income** — replaced NULL or empty Income values with the median of the existing values
+
+```sql
+WITH Ordered AS (
+    SELECT
+        TRY_CAST(Income AS DECIMAL(10,2)) AS Income_Val,
+        ROW_NUMBER() OVER (ORDER BY TRY_CAST(Income AS DECIMAL(10,2))) AS rn,
+        COUNT(*)     OVER ()                                            AS cnt
+    FROM MarketingCampaign
+    WHERE TRY_CAST(Income AS DECIMAL(10,2)) IS NOT NULL
+      AND LTRIM(RTRIM(Income)) != ''
+)
+UPDATE MarketingCampaign
+SET Income = CAST(
+    (
+        SELECT AVG(Income_Val)
+        FROM Ordered
+        WHERE rn IN ( (cnt + 1) / 2, (cnt + 2) / 2 )
+    ) AS NVARCHAR(MAX)
+)
+WHERE Income IS NULL
+   OR LTRIM(RTRIM(Income)) = ''
+   OR TRY_CAST(Income AS DECIMAL(10,2)) IS NULL;
+GO
+```
+
+* **Trimming text columns** — removed leading and trailing whitespace from Education, Marital_Status, and Country
+
+```sql
+UPDATE MarketingCampaign
+SET Education      = LTRIM(RTRIM(Education)),
+    Marital_Status = LTRIM(RTRIM(Marital_Status)),
+    Country        = LTRIM(RTRIM(Country));
+GO
+```
+
+* **Removing duplicates** — kept only the first occurrence of duplicate rows based on key demographic fields
+
+```sql
+WITH CTE_Duplicates AS (
+    SELECT *,
+           ROW_NUMBER() OVER (
+               PARTITION BY Year_Birth, Education, Marital_Status, Income,
+                            Kidhome, Teenhome, Dt_Customer
+               ORDER BY ID
+           ) AS rn
+    FROM MarketingCampaign
+)
+DELETE FROM CTE_Duplicates WHERE rn > 1;
+GO
+```
+
+---
