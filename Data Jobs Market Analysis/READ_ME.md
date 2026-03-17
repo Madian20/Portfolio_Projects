@@ -18,26 +18,20 @@ After discovering Luke's dataset, the idea was simple: turn it into something us
 ---
 
 ## Project Phases
- 
+
 **1. Database & Table Creation — SQL Server**
 Built the database and created the core `DataJobs` table to host the raw CSV data.
- 
+
 **2. Data Ingestion & Cleaning — SQL Server**
-Loaded the raw data via `BULK INSERT`, removed duplicates, standardized the `job_via` field, and enforced correct data types.
- 
-**3. Skill Extraction — SQL Server**
-Parsed the JSON-formatted `job_skills` column to create a dedicated `JobSkills` table, linking each job posting to its required skills.
- 
-**4. Calculated Columns — SQL Server**
-Derived missing salary values — estimating annual salary from hourly rates and vice versa — to maximize usable salary data.
- 
-**5. View Creation — SQL Server**
+Loaded the raw data via `BULK INSERT`, removed duplicates, standardized text fields, extracted skills from JSON into a dedicated `JobSkills` table, and derived missing salary values from hourly rates and vice versa.
+
+**3. View Creation — SQL Server**
 Built a unified `V_DataJobs` view joining jobs with skills, filtered to the 8 core data roles with valid salary records, serving as the single source for all analysis.
 
-**6. Exploratory Data Analysis — SQL Server**
+**4. Exploratory Data Analysis — SQL Server**
 Explored the dataset structure and behavior through data profiling, quality checks, salary distributions, outlier detection, and a skill demand vs. pay quadrant analysis.
 
-**7. Dashboard — Power BI**
+**5. Dashboard — Power BI**
 Built an interactive dashboard to visualize key findings across job roles, salaries, skills, and hiring trends — making the insights accessible and easy to explore.
 
 ---
@@ -87,6 +81,27 @@ WHERE salary_year_avg IS NOT NULL AND salary_hour_avg IS NULL;
 UPDATE DataJobs
 SET salary_year_avg = ROUND(salary_hour_avg * (40 * 52), 2)
 WHERE salary_hour_avg IS NOT NULL AND salary_year_avg IS NULL;
+```
+
+* **Creating the analytical view** — joined `DataJobs` with `JobSkills`, filtered to 8 core data roles, and excluded any row with missing salaries or null skills
+```sql
+CREATE VIEW V_DataJobs AS
+SELECT 
+    d.job_id, d.job_title_short, d.job_title,
+    d.job_location, d.job_country, d.company_name,
+    d.job_work_from_home, d.job_schedule_type,
+    d.job_posted_date, d.salary_year_avg, d.salary_hour_avg,
+    s.skill
+FROM DataJobs d
+LEFT JOIN JobSkills s ON d.job_id = s.job_id
+WHERE d.job_title_short IN (
+    'Data Analyst', 'Data Scientist', 'Data Engineer',
+    'Machine Learning Engineer', 'Business Analyst',
+    'Senior Data Analyst', 'Senior Data Scientist', 'Senior Data Engineer'
+)
+AND d.salary_year_avg > 0
+AND d.salary_hour_avg > 0
+AND s.skill IS NOT NULL;
 ```
 
 ---
