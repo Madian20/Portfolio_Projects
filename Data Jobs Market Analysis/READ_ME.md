@@ -1,7 +1,7 @@
 # Data Jobs Market Analysis
 ## Project Overview
 
-**Data Jobs Market Analysis** is a data analytics project based on a dataset published by [Luke Barousse](https://huggingface.co/datasets/lukebarousse/data_jobs) — scraped from real job postings across multiple hiring platforms. Only **data-related roles** were selected from the dataset for this analysis.
+**Data Jobs Market Analysis** is a data analytics project based on a dataset published by [Luke Barousse](https://huggingface.co/datasets/lukebarousse/data_jobs) — scraped from real job postings across multiple hiring platforms in 2023. Only **data-related roles** were selected from the dataset for this analysis.
 
 ---
 
@@ -105,4 +105,18 @@ AND s.skill IS NOT NULL;
 ```
 
 ---
+
+## Key Insights
+ 
+> All insights below are based on **Data Analyst** job postings unless otherwise noted.
+ 
+- **August** recorded the highest number of job postings, while **November** saw the lowest — suggesting a seasonal hiring pattern worth tracking.
+- **Full-time roles dominate** at **72.81%** of all postings, reflecting the structured nature of Data Analyst positions.
+- Only **12.75%** of postings offer **remote work**, indicating that most Data Analyst roles still require on-site presence.
+- **38.8%** of postings include **health insurance**, and **26.56%** make no degree mention — suggesting a growing openness to non-traditional candidates.
+- The average compensation stands at **$90,600/year** and **$43.58/hour**.
+- **SQL** leads as the most in-demand technical skill, appearing in **60%** of postings, followed by **Excel** at **46%** and **Python** at **33%**.
+- Salary distribution is **right-skewed** — over half of postings fall below **$80K**, around 40% land in the **$80K–$120K** range, and only **6.5%** reach **$160K+**, meaning high salaries exist but are far from the norm.
+- A clear pattern emerges across all data roles: **the least-hired roles tend to command the highest salaries** — pointing to a supply-demand gap where specialized talent remains scarce and highly valued.
+ 
 
