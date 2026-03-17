@@ -116,7 +116,7 @@ CROSS APPLY OPENJSON(
 WHERE job_skills IS NOT NULL;
 
 --------------------------------------------------
--- ✅ REMOVE DUPLICATES FROM JobSkills
+--  REMOVE DUPLICATES FROM JobSkills
 --------------------------------------------------
 WITH CTE_Skills AS (
     SELECT *,
