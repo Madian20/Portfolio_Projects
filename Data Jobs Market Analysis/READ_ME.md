@@ -42,3 +42,52 @@ Built an interactive dashboard to visualize key findings across job roles, salar
 
 ---
 
+## Cleaning Deep Dive
+ 
+* **Removing duplicates** — kept only the first occurrence of duplicate job postings based on title, company, location, and date
+```sql
+WITH CTE_Duplicates AS (
+    SELECT *,
+           ROW_NUMBER() OVER (
+               PARTITION BY job_title, company_name, job_location, job_posted_date
+               ORDER BY job_id
+           ) AS rn
+    FROM DataJobs
+)
+DELETE FROM CTE_Duplicates
+WHERE rn > 1;
+```
+ 
+* **Cleaning job source** — stripped the redundant `via` prefix from the `job_via` column
+```sql
+UPDATE DataJobs
+SET job_via = TRIM(REPLACE(job_via, 'via ', ''));
+```
+ 
+* **Extracting skills** — parsed the JSON-formatted `job_skills` column and loaded each skill into a dedicated `JobSkills` table
+```sql
+INSERT INTO JobSkills (job_id, skill, job_posted_date)
+SELECT DISTINCT
+    job_id,
+    TRIM(s.value) AS skill,
+    job_posted_date
+FROM DataJobs
+CROSS APPLY OPENJSON(
+    REPLACE(REPLACE(job_skills, '''', '"'), 'None', 'null')
+) AS s
+WHERE job_skills IS NOT NULL;
+```
+ 
+* **Deriving missing salaries** — estimated annual salary from hourly rate and vice versa to maximize usable salary data
+```sql
+UPDATE DataJobs
+SET salary_hour_avg = ROUND(salary_year_avg / (40 * 52), 2)
+WHERE salary_year_avg IS NOT NULL AND salary_hour_avg IS NULL;
+ 
+UPDATE DataJobs
+SET salary_year_avg = ROUND(salary_hour_avg * (40 * 52), 2)
+WHERE salary_hour_avg IS NOT NULL AND salary_year_avg IS NULL;
+```
+
+---
+
