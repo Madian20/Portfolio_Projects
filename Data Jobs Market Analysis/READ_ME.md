@@ -33,6 +33,12 @@ Derived missing salary values — estimating annual salary from hourly rates and
  
 **5. View Creation — SQL Server**
 Built a unified `V_DataJobs` view joining jobs with skills, filtered to the 8 core data roles with valid salary records, serving as the single source for all analysis.
- 
+
 **6. Exploratory Data Analysis — SQL Server**
 Explored the dataset structure and behavior through data profiling, quality checks, salary distributions, outlier detection, and a skill demand vs. pay quadrant analysis.
+
+**7. Dashboard — Power BI**
+Built an interactive dashboard to visualize key findings across job roles, salaries, skills, and hiring trends — making the insights accessible and easy to explore.
+
+---
+
