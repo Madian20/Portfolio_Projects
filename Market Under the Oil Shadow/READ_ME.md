@@ -79,6 +79,11 @@ Load all CSVs into SQL Server, cast columns to proper data types, define primary
 
 ---
 
+**Phase 3 — Dashboard (Power BI)**
+Connect SQL Server to Power BI, build the data model, write DAX measures, and deliver a 4-page report covering price behavior, sector comparison, oil correlation, and company fundamentals.
+
+---
+
 ## Code Highlights
 
 ### Cleaning
@@ -120,6 +125,4 @@ df["Analyst_Upside_%"] = (
 ).round(2)
 ```
 
-**Phase 3 — Dashboard (Power BI)**
-Connect SQL Server to Power BI, build the data model, write DAX measures, and deliver a 4-page report covering price behavior, sector comparison, oil correlation, and company fundamentals.
 
