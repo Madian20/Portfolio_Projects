@@ -6,6 +6,18 @@
 
 ---
 
+## Motivation
+
+Oil doesn't move quietly. When prices spike or collapse, the effects don't stay in the energy sector — they spread. The question is: how far, how fast, and who feels it most?
+
+This project started from that question, and a simple premise: **if you can measure the relationship between oil and equities across sectors and time, you can start to understand market behavior at a deeper level.**
+
+---
+
+## Goal
+
+> Build a fully end-to-end data analytics project — from raw API data to SQL to Power BI — that is **practical, reproducible, and beginner-friendly**; while answering a real market question: which sectors move with oil, which resist it, and which flip their relationship during periods of geopolitical stress.
+
 ## Sectors & Tickers
 
 | Sector | Tickers |
@@ -31,4 +43,3 @@
 | Interval | 1 day · auto-adjusted prices |
 | Source | Yahoo Finance via `yfinance` |
 
-**Yahoo Finance** → **Python** (Jupyter) → **SQL Server** → **Power BI**
