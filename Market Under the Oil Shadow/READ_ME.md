@@ -30,7 +30,6 @@ This project started from that question, and a simple premise: **if you can meas
 | Gulf Market | `2222.SR` `2010.SR` `1180.SR` |
 | Benchmarks | `^GSPC` `^IXIC` `GC=F` `^VIX` |
 
----
 
 ## Dataset at a Glance
 
@@ -72,12 +71,10 @@ Pull 3 years of daily OHLCV data for 30 tickers via `yfinance`, calculate derive
 | `Volume_Spike` | Flag: 1 if volume > 2× 30-day average |
 | `Analyst_Upside_%` | `(Target Price − Current Price) / Current Price × 100` |
 
----
 
 **Phase 2 — Data Warehouse (SQL Server)**
 Load all CSVs into SQL Server, cast columns to proper data types, define primary and foreign keys, and run exploratory queries to validate the data and surface early insights.
 
----
 
 **Phase 3 — Dashboard (Power BI)**
 Connect SQL Server to Power BI, build the data model, write DAX measures, and deliver a 4-page report covering price behavior, sector comparison, oil correlation, and company fundamentals.
@@ -107,7 +104,6 @@ float_cols = combined.select_dtypes(include="float64").columns
 combined[float_cols] = combined[float_cols].round(4)
 ```
 
----
 
 ### Calculated Columns
 
@@ -124,38 +120,33 @@ df["Analyst_Upside_%"] = (
     (df["targetMeanPrice"] - df["currentPrice"]) / df["currentPrice"] * 100
 ).round(2)
 ```
+---
 
 ## Key Insights
 
 **The Hormuz crisis redrew the map.**
 On April 7, 2026, WTI crude settled at **$112.41** — up nearly 96% year-to-date. The S&P 500 closed at **6,617** that same day, down from **~6,837** just before the conflict began on February 28, reflecting the sustained pressure the crisis placed on equities over five weeks of escalation.
 
----
 
 **SLB flipped its relationship with oil entirely.**
 SLB — an oilfield services company — historically moved *with* oil, holding a full-period correlation of **+0.35**. During the recent crisis, that relationship inverted to **−0.47**, suggesting the market is now pricing SLB as a victim of instability rather than a beneficiary of high oil prices.
 
----
 
 **JPMorgan went from neutral to negatively correlated with oil.**
 JPM's full-period oil correlation was near zero (**+0.07**), reflecting the typical independence of financials from energy prices. The recent 30-day correlation dropped to **−0.49** — a sharp shift indicating that the crisis is now being read as a macro risk event, dragging financials down alongside the broader market.
 
----
 
 **Saudi market showed unusual activity throughout the period.**
 Gulf Market tickers recorded volume spikes on approximately **8% of all trading days** over 3 years — well above typical levels — reflecting the regional market's heightened sensitivity to oil-driven news flow.
 
----
 
 **Microsoft is the most dislocated large-cap in the dataset.**
 MSFT is currently trading at **$370.87** — **13.8% below its 90-day moving average** — while analysts maintain a mean price target implying **58.4% upside**. The gap between technical weakness and fundamental conviction makes it the most notable divergence in the dataset.
 
----
 
 **NVDA leads cumulative returns — but at a cost.**
 Over the full 3-year period, NVDA posted a cumulative return of **594.9%**, making it the top performer in the dataset by a wide margin. However, its 30-day average volatility of **2.24%** means the ride is far from smooth — high reward, high risk.
 
----
 
 **Apple and McDonald's show mild technical weakness with moderate upside.**
 Both AAPL (**−1.3%** below MA90, **13.7%** analyst upside) and MCD (**−2.9%** below MA90, **12.8%** analyst upside) are slightly below their 90-day averages but with relatively contained divergence — suggesting mild softness rather than structural weakness, and analysts remain cautiously constructive on both.
