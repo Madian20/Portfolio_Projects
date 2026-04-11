@@ -79,6 +79,47 @@ Load all CSVs into SQL Server, cast columns to proper data types, define primary
 
 ---
 
+## Code Highlights
+
+### Cleaning
+
+Auto-adjusting prices and flattening the column index:
+
+```python
+df = yf.download(
+    ticker,
+    period=PERIOD,
+    interval=INTERVAL,
+    auto_adjust=True,
+    progress=False
+)
+
+# Flatten multi-level column index
+df.columns = [c[0] if isinstance(c, tuple) else c for c in df.columns]
+
+# Round all floats to 4 decimal places
+float_cols = combined.select_dtypes(include="float64").columns
+combined[float_cols] = combined[float_cols].round(4)
+```
+
+---
+
+### Calculated Columns
+
+```python
+df["Daily_Return_%"]      = df["Close"].pct_change() * 100
+df["Intraday_Range"]      = df["High"] - df["Low"]
+df["Volatility_30D"]      = df["Daily_Return_%"].rolling(30).std()
+df["MA_30D"]              = df["Close"].rolling(30).mean()
+df["Cumulative_Return_%"] = ((df["Close"] - df["Close"].iloc[0]) / df["Close"].iloc[0]) * 100
+df["Volume_Spike"]        = (df["Volume"] > df["Avg_Volume_30D"] * 2).astype(int)
+
+# Analyst upside in company_info
+df["Analyst_Upside_%"] = (
+    (df["targetMeanPrice"] - df["currentPrice"]) / df["currentPrice"] * 100
+).round(2)
+```
+
 **Phase 3 — Dashboard (Power BI)**
 Connect SQL Server to Power BI, build the data model, write DAX measures, and deliver a 4-page report covering price behavior, sector comparison, oil correlation, and company fundamentals.
 
