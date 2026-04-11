@@ -43,3 +43,42 @@ This project started from that question, and a simple premise: **if you can meas
 | Interval | 1 day · auto-adjusted prices |
 | Source | Yahoo Finance via `yfinance` |
 
+---
+
+## Project Phases
+
+**Phase 1 — Data Pipeline (Python)**
+Pull 3 years of daily OHLCV data for 30 tickers via `yfinance`, calculate derived metrics, fetch company metadata, build oil correlation table, and export 5 clean CSVs.
+
+**Cleaning applied:**
+- Prices auto-adjusted for splits and dividends via `auto_adjust=True`
+- All floats rounded to 4 decimal places for clean CSV output
+- Multi-level column index flattened where yfinance returns tuples
+
+**Calculated columns:**
+
+| Column | Description |
+|---|---|
+| `Daily_Return_%` | Day-over-day price change % |
+| `Intraday_Range` | High minus Low |
+| `Intraday_Range_%` | Intraday range as % of Close |
+| `Volatility_30D` | Rolling 30-day std dev of daily returns |
+| `Avg_Volume_30D` | Rolling 30-day average volume |
+| `MA_30D` / `MA_90D` | 30 and 90-day moving averages |
+| `Cumulative_Return_%` | Total return from start of period |
+| `Pct_Above_MA30` | % distance from current price to MA30 |
+| `Prev_Close` | Previous day closing price |
+| `Price_Change` | Close minus Prev_Close |
+| `Volume_Spike` | Flag: 1 if volume > 2× 30-day average |
+| `Analyst_Upside_%` | `(Target Price − Current Price) / Current Price × 100` |
+
+---
+
+**Phase 2 — Data Warehouse (SQL Server)**
+Load all CSVs into SQL Server, cast columns to proper data types, define primary and foreign keys, and run exploratory queries to validate the data and surface early insights.
+
+---
+
+**Phase 3 — Dashboard (Power BI)**
+Connect SQL Server to Power BI, build the data model, write DAX measures, and deliver a 4-page report covering price behavior, sector comparison, oil correlation, and company fundamentals.
+
