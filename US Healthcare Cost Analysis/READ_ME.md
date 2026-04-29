@@ -15,3 +15,9 @@ The question this project started with was simple: how can this data be used in 
 The goal was to transform raw government data into a clear, accessible tool that answers the questions people actually ask: *What will my treatment cost? Where is it cheaper? And can I realistically afford it where I live?*
 
 ---
+
+## Project Phases
+
+<img width="680" height="866" alt="image" src="https://github.com/user-attachments/assets/246f411f-5b8f-4bc2-84d6-013eecc89bb2" />
+
+---
