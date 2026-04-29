@@ -2,7 +2,7 @@
  
 ## Project Overview
  
-**US Healthcare Cost Analysis** is a data analytics project that examines how treatment costs vary across hospitals and states in America — and whether those costs are affordable relative to local household income. The pipeline covers **2,906 hospitals · 540 DRG codes · 51 states**, sourced from the Centers for Medicare & Medicaid Services (CMS) 2024 inpatient dataset, with a focus on identifying the most financially stressed communities in the country.
+**US Healthcare Cost Analysis** is a data analytics project that examines how treatment costs vary across hospitals and states in America — and whether those costs are affordable relative to local household income. The project covers **2,906 hospitals · 540 DRG codes · 51 states**, sourced from the Centers for Medicare & Medicaid Services (CMS) 2024 inpatient dataset, with a focus on identifying the most financially stressed communities in the country.
  
 ---
 
@@ -87,3 +87,20 @@ RETURN
 
 
 ---
+
+## Insights 
+
+- Despite Massachusetts holding the highest median household income in the dataset at **$113,900**, its healthcare affordability ratio sits at just **18.22%** — making it one of the most affordable states relative to income.
+
+On the opposite end, **Maine** ($66,100) and **New Mexico** ($64,140) — both among the lowest income states in the dataset — carry affordability ratios of **27.83%** and **27.01%** respectively, meaning residents spend nearly a third of their annual income on treatment costs.
+
+The contrast is stark: a Massachusetts resident earning nearly double what a Maine resident earns still pays a significantly smaller share of their income for the same care.
+
+- Despite the District of Columbia and New York being among the highest earning states in the country, they carry the two highest affordability ratios in the dataset at **30.78%** and **29.01%** — meaning residents in both states spend a larger share of their income on healthcare than anywhere else in the country.
+
+- Septicemia (severe sepsis) leads with over **577,000 discharges** at an average cost of **$17,800**, followed by Heart Failure & Shock with **304,000 discharges** at **$12,100**.
+
+CAR T-Cell & Immunotherapy tops the list at **$469,800** per case — with only 1,360 cases nationwide. Heart Transplant follows at **$341,000** with 1,814 cases.
+The contrast is striking: the most common conditions are relatively affordable, while the most expensive ones are rare — but catastrophically costly when they occur.
+
+
