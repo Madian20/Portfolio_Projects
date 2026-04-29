@@ -16,6 +16,13 @@ The goal was to transform raw government data into a clear, accessible tool that
 
 ---
 
+
+## Project Phases
+
+<img width="680" height="866" alt="image" src="https://github.com/user-attachments/assets/246f411f-5b8f-4bc2-84d6-013eecc89bb2" />
+
+---
+
 ## Code Highlights
 
 ### Creating vw_healthcare_analysis
@@ -53,8 +60,15 @@ WHERE
 GO
 ```
 
-## Project Phases
+### Creating Affordability DAX MEASURE
 
-<img width="680" height="866" alt="image" src="https://github.com/user-attachments/assets/246f411f-5b8f-4bc2-84d6-013eecc89bb2" />
+```DAX
+Affordability Ratio =
+DIVIDE(
+    AVERAGE(vw_healthcare_analysis[Avg_Tot_Pymt_Amt]),
+    AVERAGE(vw_healthcare_analysis[Official_Median_Income_2024])
+)
+```
+
 
 ---
