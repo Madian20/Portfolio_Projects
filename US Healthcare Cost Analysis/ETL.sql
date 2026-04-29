@@ -88,9 +88,6 @@ ALTER TABLE household_income
 GO
 
 -- Now we will create a view that combines the data from both tables
-USE Healthcare_Cost_DB;
-GO
-
 CREATE VIEW vw_healthcare_analysis AS
 SELECT
     h.[Rndrng_Prvdr_CCN],
@@ -121,4 +118,3 @@ WHERE
     AND h.Avg_Mdcr_Pymt_Amt       IS NOT NULL
     AND i.Official_Median_Income_2024 IS NOT NULL;
 GO
-
