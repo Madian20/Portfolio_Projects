@@ -16,6 +16,43 @@ The goal was to transform raw government data into a clear, accessible tool that
 
 ---
 
+## Code Highlights
+
+### Creating vw_healthcare_analysis
+
+```sql
+CREATE VIEW vw_healthcare_analysis AS
+SELECT
+    h.[Rndrng_Prvdr_CCN],
+    h.[Rndrng_Prvdr_Org_Name],
+    h.[Rndrng_Prvdr_City],
+    h.[Rndrng_Prvdr_St],
+    h.[Rndrng_Prvdr_State_FIPS],
+    h.[Rndrng_Prvdr_Zip5],
+    h.[Rndrng_Prvdr_State_Abrvtn],
+    h.[Rndrng_Prvdr_RUCA],
+    h.[Rndrng_Prvdr_RUCA_Desc],
+    h.[DRG_Cd],
+    h.[DRG_Desc],
+    h.[Tot_Dschrgs],
+    h.[Avg_Submtd_Cvrd_Chrg],
+    h.[Avg_Tot_Pymt_Amt],
+    h.[Avg_Mdcr_Pymt_Amt],
+    i.[State],
+    i.[Official_Median_Income_2024]
+FROM hospital_charges h
+INNER JOIN household_income i
+    ON h.Rndrng_Prvdr_State_Abrvtn = i.State_Abbreviation
+WHERE
+    h.Rndrng_Prvdr_Org_Name      IS NOT NULL
+    AND h.Rndrng_Prvdr_State_Abrvtn IS NOT NULL
+    AND h.DRG_Desc                IS NOT NULL
+    AND h.Tot_Dschrgs             IS NOT NULL
+    AND h.Avg_Mdcr_Pymt_Amt       IS NOT NULL
+    AND i.Official_Median_Income_2024 IS NOT NULL;
+GO
+```
+
 ## Project Phases
 
 <img width="680" height="866" alt="image" src="https://github.com/user-attachments/assets/246f411f-5b8f-4bc2-84d6-013eecc89bb2" />
