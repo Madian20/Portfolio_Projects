@@ -137,19 +137,22 @@ GO
 WITH state_stats AS (
     SELECT
         [State],
-        ROUND(AVG(Avg_Tot_Pymt_Amt), 2)                         AS avg_payment,
-        MAX(Official_Median_Income_2024)                        AS median_income,
-        ROUND(AVG(Avg_Tot_Pymt_Amt) /
-              NULLIF(MAX(Official_Median_Income_2024), 0) * 100, 2) AS affordability_ratio_pct
+        ROUND(AVG(Avg_Tot_Pymt_Amt), 2) AS avg_payment,
+        MAX(Official_Median_Income_2024) AS median_income,
+        ROUND(
+            AVG(Avg_Tot_Pymt_Amt) /
+            NULLIF(MAX(Official_Median_Income_2024), 0) * 100, 
+        2) AS affordability_ratio_pct
     FROM vw_healthcare_analysis
     GROUP BY [State]
 ),
 [national] AS (
     SELECT
-        AVG(avg_payment)    AS national_avg_payment,
-        AVG(median_income)  AS national_avg_income
-    FROM state_stats
+        AVG(Avg_Tot_Pymt_Amt) AS national_avg_payment,
+        AVG(Official_Median_Income_2024) AS national_avg_income
+    FROM vw_healthcare_analysis
 )
+
 SELECT
     s.state,
     s.avg_payment,
@@ -160,4 +163,6 @@ CROSS JOIN [national] n
 WHERE s.avg_payment > n.national_avg_payment
   AND s.median_income < n.national_avg_income
 ORDER BY s.affordability_ratio_pct DESC;
+
 GO
+
