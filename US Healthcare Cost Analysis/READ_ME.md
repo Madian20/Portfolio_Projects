@@ -69,6 +69,21 @@ DIVIDE(
     AVERAGE(vw_healthcare_analysis[Official_Median_Income_2024])
 )
 ```
+### Creating Calculated Area Type Column in DAX
+
+```DAX
+Area Type =
+VAR ruca = VALUE(vw_healthcare_analysis[Rndrng_Prvdr_RUCA])
+RETURN
+    SWITCH(
+        TRUE(),
+        ruca >= 1  && ruca < 4,  "Metropolitan",
+        ruca >= 4  && ruca < 7,  "Micropolitan",
+        ruca >= 7  && ruca < 10, "Small Town",
+        ruca >= 10 && ruca < 99, "Rural",
+        "Unknown"
+    )
+```
 
 
 ---
