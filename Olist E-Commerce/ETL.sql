@@ -342,6 +342,7 @@ GO
 UPDATE orders
 SET order_delivered_carrier_date = NULL
 WHERE order_delivered_carrier_date < order_purchase_timestamp;
+GO
 
 
 -- Update product categories to use English names
@@ -350,6 +351,7 @@ SET p.product_category = ct.product_category_name_english
 FROM products p
 JOIN category_translation ct ON p.product_category = ct.product_category_name
 WHERE p.product_category IS NOT NULL; 
+GO
 
 -- Remove duplicate reviews, keeping only the most recent review for each order
 WITH cte AS (
@@ -361,6 +363,7 @@ WITH cte AS (
     FROM order_reviews
 )
 DELETE FROM cte WHERE rn > 1;
+GO
 
 -- Remove order items that reference products not present in the products table
 DELETE FROM order_items
@@ -376,7 +379,6 @@ WHERE product_id NOT IN (
 ALTER TABLE customers
 ADD 
     recency_days INT,
-    frequency INT,
     monetary DECIMAL(10,2),
     r_score INT,
     m_score INT,
