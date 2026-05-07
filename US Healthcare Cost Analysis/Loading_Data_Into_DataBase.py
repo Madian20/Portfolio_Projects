@@ -3,7 +3,7 @@ from sqlalchemy import create_engine
 
 # Connect to SQL Server
 engine = create_engine(
-    r'mssql+pyodbc://DESKTOP-931U322\SQLEXPRESS/Healthcare_Cost_DB'
+    r'mssql+pyodbc://YOUR SERVER NAME/Healthcare_Cost_DB'
     '?driver=ODBC+Driver+17+for+SQL+Server'
     '&trusted_connection=yes'
 )
