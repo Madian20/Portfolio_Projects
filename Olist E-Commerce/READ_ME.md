@@ -29,5 +29,19 @@
 
 ---
 
+## Final Dashboard
+
+### Overview
+<img width="1304" height="784" alt="image" src="https://github.com/user-attachments/assets/ed2b39b4-9bb4-406e-9617-e7d9b5003474" />
+
+<img width="1302" height="779" alt="image" src="https://github.com/user-attachments/assets/a5f2bedc-1251-4aaa-9e71-5ff456453d5f" />
+
+
+### Delivery Performance
+<img width="1301" height="778" alt="image" src="https://github.com/user-attachments/assets/6740f9c7-c23c-46ef-b262-dece20bc5b09" />
+
+
+
+
 
 
