@@ -73,7 +73,7 @@
 UPDATE p
 SET p.product_category = ct.product_category_name_english
 FROM products p
-JOIN category_translation ct ON p.product_category = ct.product_category_name
+INNER JOIN category_translation ct ON p.product_category = ct.product_category_name
 WHERE p.product_category IS NOT NULL;
 ```
 
