@@ -50,6 +50,38 @@
 
 ## Insights 
 
+**Product Performance:** Health & Beauty and Watches & Gifts are the top revenue-generating categories, contributing approximately 20% of total revenue combined. Customer satisfaction in both categories is notably high, with 80% of Health & Beauty reviewers leaving a positive rating and approximately 76% for Watches & Gifts.
+
+**Geographic Concentration:** São Paulo and Rio de Janeiro together account for nearly half of total revenue, making them the two most critical markets in the dataset.
+
+**Seasonality:** November is the highest revenue month across the entire period, driven by Black Friday demand.
+
+**Delivery Performance:** Approximately 93% of delivered orders arrived on time or ahead of schedule. However, a clear inverse relationship exists between delivery delays and review scores. Orders delivered on time or early averaged a score of 4.29, while orders delayed by more than a week dropped to an average of 1.69.
+
+**Customer Loyalty:** Only 3.12% of customers made a repeat purchase, indicating that the vast majority of Olist's customer base is one-time buyers.
+
+**At-Risk Segment:** At-risk customers represent 15% of the customer base yet contribute approximately 20% of total revenue, making their retention a high-priority business concern.
+
+---
+
+## Code Highlights
+
+### Cleaning
+
+```{sql}
+-- Update product categories to use English names
+UPDATE p
+SET p.product_category = ct.product_category_name_english
+FROM products p
+JOIN category_translation ct ON p.product_category = ct.product_category_name
+WHERE p.product_category IS NOT NULL;
+```
+```{sql}
+-- Set order_delivered_carrier_date to NULL if it is earlier than order_purchase_timestamp
+UPDATE orders
+SET order_delivered_carrier_date = NULL
+WHERE order_delivered_carrier_date < order_purchase_timestamp;
+```
 
 
 
