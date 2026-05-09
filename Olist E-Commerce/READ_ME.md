@@ -76,12 +76,70 @@ FROM products p
 JOIN category_translation ct ON p.product_category = ct.product_category_name
 WHERE p.product_category IS NOT NULL;
 ```
+
 ```{sql}
 -- Set order_delivered_carrier_date to NULL if it is earlier than order_purchase_timestamp
 UPDATE orders
 SET order_delivered_carrier_date = NULL
 WHERE order_delivered_carrier_date < order_purchase_timestamp;
 ```
+### Create high_value_low_rating Table
+```{sql}
+WITH customer_spending AS (
+    SELECT 
+        c.customer_id,
+        c.customer_city,
+        c.customer_state,
+        COUNT(DISTINCT o.order_id)                 AS total_orders,
+        ROUND(SUM(oi.price + oi.freight_value), 2) AS total_spent,
+        ROUND(AVG(r.review_score), 2)              AS review_score,
+        MAX(o.order_purchase_timestamp)            AS last_order_date
+    FROM customers c
+    INNER JOIN orders o  
+        ON c.customer_id = o.customer_id
+    INNER JOIN order_items oi 
+        ON o.order_id = oi.order_id
+    INNER JOIN order_reviews r  
+        ON o.order_id = r.order_id
+    WHERE o.order_status = 'delivered'
+    GROUP BY c.customer_id, c.customer_city, c.customer_state
+),
+ranked AS (
+    SELECT 
+        *,
+        NTILE(100) OVER (ORDER BY total_spent DESC) AS spending_percentile
+    FROM customer_spending
+)
+```
+### Create PKs & FKs
+
+#### order_id PK
+```{sql}
+-- orders: order_id
+ALTER TABLE orders
+    ADD CONSTRAINT PK_orders
+    PRIMARY KEY (order_id);
+```
+#### order_id FK
+```{sql}
+-- order_items.order_id → orders.order_id
+ALTER TABLE order_items
+    ADD CONSTRAINT FK_order_items_orders
+    FOREIGN KEY (order_id) REFERENCES orders (order_id);
+```
+#### Add INDEXES
+```{sql}
+-- orders: 
+CREATE NONCLUSTERED INDEX IX_orders_status
+    ON orders (order_status);
+ 
+CREATE NONCLUSTERED INDEX IX_orders_purchase_date
+    ON orders (order_purchase_timestamp);
+ 
+CREATE NONCLUSTERED INDEX IX_orders_customer_id
+    ON orders (customer_id);
+```
+
 
 
 
