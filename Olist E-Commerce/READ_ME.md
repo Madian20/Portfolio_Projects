@@ -140,6 +140,37 @@ CREATE NONCLUSTERED INDEX IX_orders_customer_id
     ON orders (customer_id);
 ```
 
+### DAX Calculeted Columns 
+
+#### Delivery Delay Days
+```{DAX}
+Delivery Delay Days = 
+DATEDIFF(
+    orders[order_estimated_delivery_date],
+    orders[order_delivered_customer_date],
+    DAY
+)
+```
+#### Delivery Status
+```{DAX}
+Delivery Status = 
+IF(
+    ISBLANK(orders[order_delivered_customer_date]),
+    "Not Delivered",
+    IF(
+        orders[Delivery Delay Days] <= 0,
+        "On Time",
+        IF(
+            orders[Delivery Delay Days] <= 7,
+            "Late",
+            "Very Late"
+        )
+    )
+)
+```
+
+
+
 
 
 
