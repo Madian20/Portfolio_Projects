@@ -44,7 +44,8 @@
 <img width="1304" height="792" alt="image" src="https://github.com/user-attachments/assets/bed06e2c-a144-4fc0-9e3e-6b4d697ad369" />
 
 ### Customer Intelligence
-<img width="1306" height="789" alt="image" src="https://github.com/user-attachments/assets/63ca60ae-a2c8-4d99-aa09-523038f27069" />
+<img width="1307" height="785" alt="image" src="https://github.com/user-attachments/assets/dd8e71ee-cc6e-4192-9a3e-e5eb15c05870" />
+
 
 ---
 
