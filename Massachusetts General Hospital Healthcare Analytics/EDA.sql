@@ -132,6 +132,3 @@ INNER JOIN payers p
 GROUP BY p.Name
 ORDER BY AvgInsuranceCoverage_Pct DESC;
 GO
-
-
-
