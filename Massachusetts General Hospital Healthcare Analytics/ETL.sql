@@ -356,13 +356,3 @@ FROM procedures pr
 LEFT JOIN vw_encounter_enriched e ON pr.Encounter = e.EncounterId
 LEFT JOIN vw_patient_base       p ON pr.Patient   = p.Id;
 GO
-
- 
- 
-
-
- 
-
- 
-
-
