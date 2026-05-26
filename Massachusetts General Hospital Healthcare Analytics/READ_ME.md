@@ -16,6 +16,7 @@
 ### Patient Overview
 <img width="1300" height="732" alt="image" src="https://github.com/user-attachments/assets/737efc11-f5e2-4610-9b26-a538d435cefa" />
 
+
 <img width="1304" height="736" alt="image" src="https://github.com/user-attachments/assets/7d66159b-d19a-43d9-b523-e06dda62edb5" />
 
 ### Encounters 
