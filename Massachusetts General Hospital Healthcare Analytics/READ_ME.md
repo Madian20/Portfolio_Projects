@@ -30,6 +30,22 @@
 
 ---
 
+## Key Insights
+ 
+- **~31% of patients have no insurance coverage.** The 50–64 age group has the highest insured rate at 23.3%, while the 65+ group is the least insured. Notably,     around 30% of younger patients also lack coverage, highlighting a cross-generational gap in insurance access.
+  
+- **Anthem presents a clear trade-off.** It records the lowest readmission rate among all insurers at 32% and one of the lowest mortality rates at 3.94%. However,   its patients carry the highest out-of-pocket costs after the uninsured, suggesting that lower clinical risk comes at a higher financial burden to the patient.
+  
+- **The overall mortality rate of ~15.81% is heavily skewed by the 65+ age group**, which alone accounts for a 23.5% mortality rate. All other age groups fall       between 4–5%, and no deaths were recorded for patients under 18.
+  
+- **Encounter volume spiked notably in 2014 and 2021**, yet both years showed lower average costs
+  
+- **Inpatient encounters have the highest average length of stay**, while urgentcare sits at the opposite end. Paradoxically, urgentcare also has the highest        readmission rate at 74%, raising questions about care continuity and whether patients are being discharged prematurely or without adequate follow-up.
+  
+- **Mortality is influenced not just by age but also by insurance type.** Medicaid patients stand out with one of the highest mortality rates across all age         groups, suggesting that insurance type may be a proxy for access to care quality, care continuity, or socioeconomic factors that affect health outcomes.
+
+---
+
 
 
 
