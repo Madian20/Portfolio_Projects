@@ -123,8 +123,30 @@ ALTER TABLE encounters
         ELSE ROUND(e.Payer_Coverage / e.Total_Claim_Cost * 100, 2)
     END                                             AS InsuranceCoverage_Pct
 ```
+### DAX Measures 
 
-
-
-
-
+#### Create Mortality rate Measure 
+```{DAX}
+% Mortality Rate = 
+DIVIDE(
+    CALCULATE(
+        DISTINCTCOUNT( vw_encounter_enriched[Patient] ),
+        vw_encounter_enriched[Patient] IN
+            CALCULATETABLE(
+                VALUES( vw_patient_base[Id] ),
+                vw_patient_base[IsDead] = 1
+            )
+    ),
+    DISTINCTCOUNT( vw_encounter_enriched[Patient] ),
+    0
+) 
+```
+#### Create Readmission Rate Measure
+```{DAX}
+Readmission Rate % = 
+DIVIDE(
+    SUMX( vw_readmission, vw_readmission[IsReadmitted] ),
+    COUNTROWS( vw_readmission ),
+    0
+)
+```
