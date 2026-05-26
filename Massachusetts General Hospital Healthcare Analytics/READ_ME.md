@@ -13,7 +13,7 @@
 3. **ETL Process** — ETL process mainly using SQL and loading the data via Python.
 4. **Exploratory Data Analysis (EDA)** — EDA in SQL.
 5. **Dashboard** — Final dashboard in Power BI.
-6. 
+
 ---
 
 ## Data Model & Relationships
@@ -55,6 +55,74 @@
 - **Mortality is influenced not just by age but also by insurance type.** Medicaid patients stand out with one of the highest mortality rates across all age         groups, suggesting that insurance type may be a proxy for access to care quality, care continuity, or socioeconomic factors that affect health outcomes.
 
 ---
+
+## Code Highlights
+
+### Cleaning
+
+#### Delete encounters that started after the patient's death
+```{SQL}
+DELETE e
+FROM encounters e
+INNER JOIN patients p ON p.Id = e.Patient
+WHERE p.DeathDate IS NOT NULL AND e.Start > p.DeathDate;
+GO
+```
+#### Delete procedures that started before their encounter
+```{SQL}
+DELETE FROM procedures
+WHERE Encounter IN (
+    SELECT pr.Encounter
+    FROM procedures pr
+    JOIN encounters e ON e.Id = pr.Encounter
+    WHERE pr.Start < e.Start
+);
+GO
+```
+### Create PKs & FKs
+
+#### encounters PK
+```{SQL}
+ALTER TABLE encounters    ADD CONSTRAINT PK_encounters     PRIMARY KEY (Id);
+GO
+```
+#### encounters FKs
+```{SQL}
+-- encounters → patients
+ALTER TABLE encounters
+    ADD CONSTRAINT FK_encounters_patients
+    FOREIGN KEY (Patient) REFERENCES patients(Id);
+ 
+-- encounters → organizations
+ALTER TABLE encounters
+    ADD CONSTRAINT FK_encounters_organizations
+    FOREIGN KEY (Organization) REFERENCES organizations(Id);
+ 
+-- encounters → payers
+ALTER TABLE encounters
+    ADD CONSTRAINT FK_encounters_payers
+    FOREIGN KEY (Payer) REFERENCES payers(Id);
+```
+### Calculeted Columns 
+
+#### Create Age & Age group Columns
+```{sql}
+    DATEDIFF(YEAR, BirthDate, (SELECT MAX(Stop) FROM encounters)) AS Age,
+    CASE
+        WHEN DATEDIFF(YEAR, BirthDate, (SELECT MAX(Stop) FROM encounters)) < 18 THEN 'Under 18'
+        WHEN DATEDIFF(YEAR, BirthDate, (SELECT MAX(Stop) FROM encounters)) < 35 THEN '18-34'
+        WHEN DATEDIFF(YEAR, BirthDate, (SELECT MAX(Stop) FROM encounters)) < 50 THEN '35-49'
+        WHEN DATEDIFF(YEAR, BirthDate, (SELECT MAX(Stop) FROM encounters)) < 65 THEN '50-64'
+        ELSE '65+'
+    END AS AgeGroup
+```
+#### create InsuranceCoverage_Pct Column 
+```{sql}
+    CASE
+        WHEN e.Total_Claim_Cost = 0 THEN 0
+        ELSE ROUND(e.Payer_Coverage / e.Total_Claim_Cost * 100, 2)
+    END                                             AS InsuranceCoverage_Pct
+```
 
 
 
