@@ -6,6 +6,16 @@
 
 ---
 
+## Project Phases
+ 
+1. **Data Search** — Searched for the appropriate data.
+2. **Initial Data Checking** 
+3. **ETL Process** — ETL process mainly using SQL and loading the data via Python.
+4. **Exploratory Data Analysis (EDA)** — EDA in SQL.
+5. **Dashboard** — Final dashboard in Power BI.
+6. 
+---
+
 ## Data Model & Relationships
 <img width="1540" height="1492" alt="image" src="https://github.com/user-attachments/assets/1237a7ec-071f-44fb-84c6-6170dfc8881d" />
 
